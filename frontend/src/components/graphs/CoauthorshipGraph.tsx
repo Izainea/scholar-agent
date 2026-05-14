@@ -150,7 +150,7 @@ export function CoauthorshipGraph({ data, loading, height = 560 }: Props) {
 
 function nodeRadius(n: { size?: number }): number {
   const s = Math.max(0, n.size ?? 0);
-  return 3 + Math.log1p(s) * 2;
+  return 2 + Math.log1p(s) * 1.2;
 }
 
 function truncate(s: string, n: number): string {

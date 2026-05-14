@@ -246,13 +246,12 @@ export function QuiverGraph({ data, loading, height = 620 }: Props) {
 }
 
 /**
- * Logarithmic radius: a polygon with 30 refs is only ~2× bigger than
- * one with 5 refs, instead of 6× under linear scaling. Keeps the big
- * papers visible without obscuring the rest of the graph.
+ * Logarithmic radius. Tuned so a 30-ref polygon is ~2× a 5-ref one
+ * but stays small in absolute terms (the canvas can hold 100+ nodes).
  */
 function nodeRadius(n: { size?: number }): number {
   const s = Math.max(0, n.size ?? 0);
-  return 3 + Math.log1p(s) * 2.5;
+  return 2 + Math.log1p(s) * 1.2;
 }
 
 function colorForSize(size: number): string {
