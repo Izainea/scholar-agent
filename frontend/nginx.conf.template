@@ -26,19 +26,26 @@ server {
     # API proxy → FastAPI backend.
     # BACKEND_URL is baked in at build time (see frontend/Dockerfile),
     # eg. "https://backend-production-15b0.up.railway.app".
+    #
+    # Note: with `proxy_pass $variable`, nginx does NOT automatically
+    # append the matched URI. We have to construct the upstream URL
+    # ourselves, stripping the /api/ prefix in the process.
     location /api/ {
-        # Strip the /api/ prefix when forwarding to the backend.
-        rewrite ^/api/(.*)$ /$1 break;
-
-        # Storing the upstream in a variable forces nginx to perform DNS
-        # resolution at request time (using the `resolver` directive above)
-        # rather than caching the IP at startup.
+        # Capture the path after /api/ into $1 (everything that follows
+        # /api/) and stash it; nginx uses this when building the URL.
         set $upstream "${BACKEND_URL}";
-        proxy_pass $upstream;
 
-        # The upstream is an external Railway service; it needs to see its
-        # own hostname (not the frontend's) so its edge routes the request
-        # to the right service.
+        # `proxy_pass $upstream$path_no_api` (where $path_no_api comes
+        # from a regex on $uri) gives full control over the final URL
+        # and re-resolves DNS per request (using the `resolver` above).
+        set $path_no_api "";
+        if ($uri ~ ^/api/(.*)$) {
+            set $path_no_api "/$1";
+        }
+        proxy_pass $upstream$path_no_api$is_args$args;
+
+        # External Railway upstream: edge needs SNI + matching Host
+        # header so it can route to the right service.
         proxy_ssl_server_name on;
         proxy_set_header Host $proxy_host;
         proxy_set_header X-Real-IP $remote_addr;
