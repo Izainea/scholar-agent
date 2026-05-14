@@ -33,11 +33,16 @@ RUN pip install --no-cache-dir \
 COPY backend/app /app/app
 COPY scienti_sample /app/scienti_sample
 
+# Copy the preprocessed author datasets that ship with the repo
+# (Ringel, Schroll, Green, ... — see backend/data/*.json). `_raw.json`
+# (OpenAlex cache) and `registry.json` (per-instance state) are kept
+# out of git on purpose, so only the slim preprocessed files are bundled.
+COPY backend/data /app/data
+
 # Persistent locations.
-ENV SCHOLAR_DATA_DIR=/data \
+ENV SCHOLAR_DATA_DIR=/app/data \
     SCIENTI_DATA_DIR=/app/scienti_sample \
     PYTHONPATH=/app
-RUN mkdir -p /data
 
 EXPOSE 8000
 
