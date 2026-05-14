@@ -45,14 +45,11 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
       args:
-        VITE_API_BASE: /api
-        # BACKEND_URL is resolved at build time and baked into the
-        # nginx config inside the image (see frontend/Dockerfile).
-        BACKEND_URL: http://backend:8000
+        # In dev the frontend talks to the backend at localhost:8000.
+        # Production builds default to the public Railway backend URL.
+        VITE_API_BASE: http://localhost:8000
     image: scholar-agent-frontend:0.1.0
     environment:
-      # Only NGINX_PORT is read at runtime; BACKEND_URL is already
-      # substituted inside the config.
       NGINX_PORT: "80"
     depends_on:
       backend:
