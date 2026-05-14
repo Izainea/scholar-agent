@@ -1,3 +1,10 @@
+# Public DNS resolver for runtime upstream resolution. Required so that
+# `proxy_pass` to an external Railway URL re-resolves the host on every
+# request (otherwise nginx caches the IP at startup and 502s when it
+# rotates behind Railway's edge).
+resolver 1.1.1.1 8.8.8.8 ipv6=off valid=30s;
+resolver_timeout 5s;
+
 server {
     listen ${NGINX_PORT};
     server_name _;
@@ -17,11 +24,23 @@ server {
     }
 
     # API proxy → FastAPI backend.
-    # BACKEND_URL is the upstream (eg. http://backend:8000 for compose,
-    # https://<your-backend>.up.railway.app for Railway).
+    # BACKEND_URL is baked in at build time (see frontend/Dockerfile),
+    # eg. "https://backend-production-15b0.up.railway.app".
     location /api/ {
-        proxy_pass ${BACKEND_URL}/;
-        proxy_set_header Host $host;
+        # Strip the /api/ prefix when forwarding to the backend.
+        rewrite ^/api/(.*)$ /$1 break;
+
+        # Storing the upstream in a variable forces nginx to perform DNS
+        # resolution at request time (using the `resolver` directive above)
+        # rather than caching the IP at startup.
+        set $upstream "${BACKEND_URL}";
+        proxy_pass $upstream;
+
+        # The upstream is an external Railway service; it needs to see its
+        # own hostname (not the frontend's) so its edge routes the request
+        # to the right service.
+        proxy_ssl_server_name on;
+        proxy_set_header Host $proxy_host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
