@@ -36,6 +36,7 @@ export interface OpenAlexHit {
   works_count: number;
   cited_by_count: number;
   institution: string;
+  top_concept?: string;
 }
 
 export interface ReferenceRow {

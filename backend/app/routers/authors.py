@@ -84,7 +84,7 @@ def job_status(key: str):
 
 
 @router.get("/openalex/search")
-def openalex_search(q: str = Query(..., min_length=2), limit: int = 5):
+def openalex_search(q: str = Query(..., min_length=2), limit: int = 15):
     try:
         return collector.search_authors(q, max_results=limit)
     except Exception as e:

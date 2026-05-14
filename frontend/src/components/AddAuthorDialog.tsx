@@ -123,6 +123,11 @@ export function AddAuthorDialog({ open, onOpenChange }: Props) {
                 <div className="truncate text-xs text-muted-foreground">
                   {hit.institution || "—"} · {hit.works_count} works · {hit.cited_by_count} citas
                 </div>
+                {hit.top_concept && (
+                  <div className="truncate text-[10px] uppercase tracking-wide text-primary/80">
+                    {hit.top_concept}
+                  </div>
+                )}
               </div>
               <Button size="sm" onClick={() => handleSelect(hit)} disabled={register.isPending}>
                 Añadir

@@ -22,19 +22,33 @@ pyalex.config.email = config.OPENALEX_EMAIL
 
 # ── OpenAlex search & fetch ──────────────────────────────
 
-def search_authors(name: str, max_results: int = 5) -> list[dict]:
-    """Top OpenAlex matches for an author name."""
-    results = Authors().search_filter(display_name=name).get()
+def search_authors(name: str, max_results: int = 15) -> list[dict]:
+    """Top OpenAlex matches for an author name.
+
+    Returns more results by default (15 instead of 5) because a query
+    like "Ringel" matches dozens of homonyms and the mathematician of
+    interest is rarely in the top 5 (OpenAlex ranks by citation
+    volume, which favours medical authors).
+    """
+    results = Authors().search_filter(display_name=name).get(per_page=max(max_results, 25))
     out = []
     for r in (results or [])[:max_results]:
         institutions = r.get("last_known_institutions") or []
         last_inst = institutions[0].get("display_name", "") if institutions else ""
+        # Top OpenAlex concept (when available) helps users disambiguate
+        # mathematicians vs. medics vs. CS folk with the same surname.
+        top_concept = ""
+        for c in r.get("x_concepts") or r.get("topics") or []:
+            top_concept = c.get("display_name") or c.get("name") or ""
+            if top_concept:
+                break
         out.append({
             "id": r["id"],
             "display_name": r["display_name"],
             "works_count": r.get("works_count", 0),
             "cited_by_count": r.get("cited_by_count", 0),
             "institution": last_inst,
+            "top_concept": top_concept,
         })
     return out
 
