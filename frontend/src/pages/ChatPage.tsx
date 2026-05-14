@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import remarkMath from "remark-math";
-import rehypeKatex from "rehype-katex";
 import { Loader2, Send, Wrench } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -244,10 +242,7 @@ function MessageBubble({ message }: { message: Message }) {
               Pensando…
             </div>
           ) : (
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm, remarkMath]}
-              rehypePlugins={[rehypeKatex]}
-            >
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>
               {message.content || "*(sin respuesta)*"}
             </ReactMarkdown>
           )}
