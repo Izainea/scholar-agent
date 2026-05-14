@@ -35,7 +35,7 @@ export function ScientiPage() {
   }
 
   return (
-    <div className="container space-y-6 py-6">
+    <div className="w-full max-w-[1600px] mx-auto space-y-6 px-6 py-6">
       <header>
         <h1 className="text-2xl font-semibold">Scienti — Minciencias</h1>
         <p className="text-sm text-muted-foreground">

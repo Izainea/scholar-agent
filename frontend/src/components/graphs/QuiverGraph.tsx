@@ -77,27 +77,27 @@ export function QuiverGraph({ data, loading, height = 620 }: Props) {
     return { nodes, links };
   }, [data]);
 
-  // Tune the d3-force simulation so nodes spread out evenly across the
-  // canvas instead of clumping in the middle. Repulsion scales with the
-  // node radius so big polygons push others further away. Centering and
-  // collision are added so node circles never overlap.
+  // Tune the d3-force simulation so nodes fill the canvas evenly.
+  //
+  // Strategy: aggressive repulsion (charge) makes the graph expand to
+  // the viewport edges; a moderate `forceX`/`forceY` keeps it centred
+  // without collapsing inward; collision prevents overlap.
   useEffect(() => {
     if (!fgRef.current || graphData.nodes.length === 0) return;
-    fgRef.current
-      .d3Force("charge")
-      ?.strength((n: any) => -120 - nodeRadius(n) * 8)
-      .distanceMax(600);
-    fgRef.current.d3Force("link")?.distance((l: any) => 50 + (l.weight ?? 1) * 3);
-    // Collision force prevents node overlap. Available on react-force-graph
-    // when 'd3-force' is imported, which it is via the lib.
     import("d3-force").then((d3) => {
-      fgRef.current?.d3Force(
-        "collide",
-        d3.forceCollide((n: any) => nodeRadius(n) + 2),
-      );
+      const fg = fgRef.current;
+      if (!fg) return;
+      fg.d3Force("charge")
+        ?.strength((n: any) => -500 - nodeRadius(n) * 20)
+        .distanceMax(Math.max(size.w, size.h));
+      fg.d3Force("link")?.distance((l: any) => 80 + (l.weight ?? 1) * 4);
+      fg.d3Force("collide", d3.forceCollide((n: any) => nodeRadius(n) + 6));
+      // Gentle centring keeps the cloud from drifting off-canvas.
+      fg.d3Force("x", d3.forceX().strength(0.03));
+      fg.d3Force("y", d3.forceY().strength(0.03));
+      fg.d3ReheatSimulation();
     });
-    fgRef.current.d3ReheatSimulation();
-  }, [graphData]);
+  }, [graphData, size.w, size.h]);
 
   if (loading || !data) {
     return (
@@ -219,9 +219,9 @@ export function QuiverGraph({ data, loading, height = 620 }: Props) {
                 containerRef.current.style.cursor = n ? "pointer" : "default";
               }
             }}
-            cooldownTicks={200}
-            warmupTicks={60}
-            onEngineStop={() => fgRef.current?.zoomToFit(400, 40)}
+            cooldownTicks={300}
+            warmupTicks={80}
+            onEngineStop={() => fgRef.current?.zoomToFit(600, 60)}
           />
         </Suspense>
       </div>

@@ -51,19 +51,19 @@ export function CoauthorshipGraph({ data, loading, height = 560 }: Props) {
 
   useEffect(() => {
     if (!fgRef.current || graphData.nodes.length === 0) return;
-    fgRef.current
-      .d3Force("charge")
-      ?.strength((n: any) => -80 - nodeRadius(n) * 6)
-      .distanceMax(500);
-    fgRef.current.d3Force("link")?.distance(40);
     import("d3-force").then((d3) => {
-      fgRef.current?.d3Force(
-        "collide",
-        d3.forceCollide((n: any) => nodeRadius(n) + 2),
-      );
+      const fg = fgRef.current;
+      if (!fg) return;
+      fg.d3Force("charge")
+        ?.strength((n: any) => -300 - nodeRadius(n) * 15)
+        .distanceMax(Math.max(size.w, size.h));
+      fg.d3Force("link")?.distance(60);
+      fg.d3Force("collide", d3.forceCollide((n: any) => nodeRadius(n) + 4));
+      fg.d3Force("x", d3.forceX().strength(0.03));
+      fg.d3Force("y", d3.forceY().strength(0.03));
+      fg.d3ReheatSimulation();
     });
-    fgRef.current.d3ReheatSimulation();
-  }, [graphData]);
+  }, [graphData, size.w, size.h]);
 
   if (loading || !data) {
     return (
@@ -138,9 +138,9 @@ export function CoauthorshipGraph({ data, loading, height = 560 }: Props) {
             nodeCanvasObjectMode={() => "replace"}
             linkColor={() => "rgba(100,116,139,0.3)"}
             linkWidth={0.6}
-            cooldownTicks={200}
-            warmupTicks={60}
-            onEngineStop={() => fgRef.current?.zoomToFit(400, 40)}
+            cooldownTicks={300}
+            warmupTicks={80}
+            onEngineStop={() => fgRef.current?.zoomToFit(600, 60)}
           />
         </Suspense>
       </div>
