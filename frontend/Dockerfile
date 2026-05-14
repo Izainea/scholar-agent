@@ -1,6 +1,7 @@
 ###########################################################
 # Scholar Agent frontend — Vite + React + TypeScript
 # Multi-stage: Node build → nginx static serve.
+# Deploy revision: 2 (post nginx.conf.template + entrypoint script)
 ###########################################################
 
 # ── Stage 1: build ───────────────────────────────────────
