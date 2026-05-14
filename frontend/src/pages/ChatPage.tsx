@@ -218,13 +218,28 @@ function MessageBubble({ message }: { message: Message }) {
       )}
       <Card
         className={cn(
-          "max-w-2xl",
-          message.role === "user" ? "bg-primary text-primary-foreground" : "",
+          "max-w-3xl",
+          message.role === "user"
+            ? "bg-primary text-primary-foreground"
+            : "bg-card",
         )}
       >
-        <CardContent className="prose prose-sm max-w-none px-4 py-3 dark:prose-invert">
+        <CardContent
+          className={cn(
+            "px-4 py-3",
+            message.role === "user"
+              ? "prose prose-sm prose-invert max-w-none"
+              : "prose prose-sm max-w-none",
+            // Tighten the default spacing a bit so tables and lists feel
+            // at home inside a chat bubble.
+            "prose-headings:mb-2 prose-headings:mt-3 prose-headings:font-semibold",
+            "prose-p:my-2 prose-li:my-0.5",
+            "prose-table:my-2 prose-th:bg-muted prose-th:px-2 prose-th:py-1 prose-td:px-2 prose-td:py-1",
+            "prose-code:rounded prose-code:bg-muted prose-code:px-1 prose-code:py-0.5 prose-code:text-[0.85em] prose-code:before:content-none prose-code:after:content-none",
+          )}
+        >
           {message.content === "" && message.pending ? (
-            <div className="flex items-center gap-2 text-xs text-muted-foreground">
+            <div className="flex items-center gap-2 text-xs opacity-70">
               <Loader2 className="h-3 w-3 animate-spin" />
               Pensando…
             </div>
