@@ -1,6 +1,7 @@
 ###########################################################
 # Scholar Agent frontend — Vite + React + TypeScript
 # Multi-stage: Node build → nginx static serve.
+# Rev: 3 (build-time envsubst, no runtime entrypoint)
 #
 # Strategy:
 # - BACKEND_URL is a build-arg. envsubst resolves it during build,
