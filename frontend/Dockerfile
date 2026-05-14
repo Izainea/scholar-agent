@@ -26,29 +26,16 @@ FROM nginx:1.27-alpine AS serve
 COPY nginx.conf.template /etc/nginx/templates/default.conf.template
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# Sensible defaults that work for docker-compose. Railway / Render etc.
-# override these via environment. `PORT` is the de-facto PaaS convention;
-# we honour it transparently so the same image works everywhere.
+# Sensible defaults that work for docker-compose. PaaS targets (Railway,
+# Render, Fly) override these via environment.
 ENV NGINX_PORT=80 \
     BACKEND_URL=http://backend:8000
 
-# Wrapper script: if the platform set $PORT (Railway, Render, Fly, …)
-# use it; otherwise fall back to $NGINX_PORT (or 80). `envsubst` then
-# materialises the final nginx config and we hand off to nginx.
-RUN printf '%s\n' \
-    '#!/bin/sh' \
-    'set -eu' \
-    'export NGINX_PORT="${PORT:-${NGINX_PORT:-80}}"' \
-    'export BACKEND_URL="${BACKEND_URL:-http://backend:8000}"' \
-    'echo "[entrypoint] NGINX_PORT=$NGINX_PORT BACKEND_URL=$BACKEND_URL"' \
-    'envsubst "\$NGINX_PORT \$BACKEND_URL" \\' \
-    '  < /etc/nginx/templates/default.conf.template \\' \
-    '  > /etc/nginx/conf.d/default.conf' \
-    'echo "[entrypoint] generated config:"' \
-    'head -3 /etc/nginx/conf.d/default.conf' \
-    'exec nginx -g "daemon off;"' \
-    > /docker-entrypoint-custom.sh \
-    && chmod +x /docker-entrypoint-custom.sh
+# Custom entrypoint: resolves $PORT / $NGINX_PORT, runs envsubst, then
+# exec nginx. Doing it in a real .sh file (rather than inline) keeps
+# shell quoting sane and makes the script easy to debug.
+COPY docker-entrypoint.sh /docker-entrypoint-custom.sh
+RUN chmod +x /docker-entrypoint-custom.sh
 
 EXPOSE 80
 
