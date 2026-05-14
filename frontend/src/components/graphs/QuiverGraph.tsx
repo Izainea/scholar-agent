@@ -1,15 +1,32 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import cytoscape, { type Core, type ElementDefinition, type LayoutOptions } from "cytoscape";
-import dagre from "cytoscape-dagre";
-import coseBilkent from "cytoscape-cose-bilkent";
+import { useEffect, useMemo, useRef, useState, lazy, Suspense } from "react";
 import type { QuiverData } from "@/lib/api-types";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 
-cytoscape.use(dagre);
-cytoscape.use(coseBilkent);
+// react-force-graph-2d pulls in d3-force at import time; lazy-load so the
+// initial bundle stays small.
+const ForceGraph2D = lazy(() => import("react-force-graph-2d"));
 
-type LayoutKind = "dagre" | "cose-bilkent" | "circle" | "concentric";
+interface Node {
+  id: string;
+  label: string;
+  size: number;
+  n_refs: number;
+  year: number | null;
+  authors: string[];
+  journal: string;
+  loops: number;
+  // d3 mutates these:
+  x?: number;
+  y?: number;
+  vx?: number;
+  vy?: number;
+}
+
+interface Link {
+  source: string;
+  target: string;
+  weight: number;
+}
 
 interface Props {
   data?: QuiverData;
@@ -17,178 +34,56 @@ interface Props {
   height?: number | string;
 }
 
-const LAYOUTS: Record<LayoutKind, LayoutOptions> = {
-  dagre: {
-    name: "dagre",
-    rankDir: "LR",
-    nodeSep: 40,
-    rankSep: 80,
-    padding: 30,
-    animate: true,
-    animationDuration: 400,
-  } as LayoutOptions,
-  "cose-bilkent": {
-    name: "cose-bilkent",
-    animate: false,
-    nodeRepulsion: 8000,
-    idealEdgeLength: 90,
-    edgeElasticity: 0.45,
-    gravity: 0.25,
-    numIter: 2500,
-    tile: true,
-    padding: 30,
-  } as LayoutOptions,
-  circle: { name: "circle", padding: 30, animate: true, animationDuration: 400 },
-  concentric: {
-    name: "concentric",
-    padding: 30,
-    minNodeSpacing: 30,
-    animate: true,
-    animationDuration: 400,
-  } as LayoutOptions,
-};
-
 export function QuiverGraph({ data, loading, height = 620 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const cyRef = useRef<Core | null>(null);
-  const [layout, setLayout] = useState<LayoutKind>("dagre");
-  const [hover, setHover] = useState<string | null>(null);
+  const fgRef = useRef<any>(null);
+  const [size, setSize] = useState({ w: 800, h: typeof height === "number" ? height : 620 });
+  const [hover, setHover] = useState<Node | null>(null);
 
-  // Build elements once per data change. Cytoscape supports loops natively
-  // (an edge with source==target). For visual loops we encode them by
-  // adding self-edges flagged with `loop: true` so the stylesheet renders
-  // them with a label of count and a curved bezier.
-  const elements = useMemo<ElementDefinition[]>(() => {
-    if (!data) return [];
-    const els: ElementDefinition[] = [];
-    for (const n of data.nodes) {
-      els.push({
-        data: {
-          id: n.id,
-          label: n.label,
-          year: n.year,
-          size: n.size,
-          n_refs: n.n_refs,
-          authors: n.authors.join(", "),
-          journal: n.journal,
-        },
-      });
-    }
-    for (const e of data.edges) {
-      els.push({
-        data: {
-          id: e.id,
-          source: e.source,
-          target: e.target,
-          weight: e.weight,
-        },
-      });
-    }
-    for (const l of data.loops) {
-      els.push({
-        data: {
-          id: `loop_${l.id}`,
-          source: l.id,
-          target: l.id,
-          weight: l.count,
-          loop: true,
-        },
-      });
-    }
-    return els;
+  // Responsive sizing
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const observer = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        setSize({
+          w: entry.contentRect.width,
+          h: typeof height === "number" ? height : entry.contentRect.height || 620,
+        });
+      }
+    });
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, [height]);
+
+  const graphData = useMemo(() => {
+    if (!data) return { nodes: [] as Node[], links: [] as Link[] };
+    const loopMap = new Map<string, number>();
+    for (const l of data.loops) loopMap.set(l.id, l.count);
+    const nodes: Node[] = data.nodes.map((n) => ({
+      id: n.id,
+      label: n.label,
+      size: n.size,
+      n_refs: n.n_refs,
+      year: n.year,
+      authors: n.authors,
+      journal: n.journal,
+      loops: loopMap.get(n.id) ?? 0,
+    }));
+    const links: Link[] = data.edges.map((e) => ({
+      source: e.source,
+      target: e.target,
+      weight: e.weight,
+    }));
+    return { nodes, links };
   }, [data]);
 
-  // Initialize / re-initialize Cytoscape when elements change.
+  // Once data is in, give the simulation a friendly seed and then let it run.
   useEffect(() => {
-    if (!containerRef.current || elements.length === 0) return;
-    const cy = cytoscape({
-      container: containerRef.current,
-      elements,
-      wheelSensitivity: 0.2,
-      minZoom: 0.1,
-      maxZoom: 4,
-      style: [
-        {
-          selector: "node",
-          style: {
-            "background-color": "#3b82f6",
-            "background-opacity": 0.85,
-            "border-color": "#1e3a8a",
-            "border-width": 1,
-            label: "data(label)",
-            color: "#0f172a",
-            "font-size": 9,
-            "text-valign": "bottom",
-            "text-halign": "center",
-            "text-margin-y": 4,
-            "text-wrap": "ellipsis",
-            "text-max-width": "120px",
-            width: "mapData(size, 0, 30, 14, 56)",
-            height: "mapData(size, 0, 30, 14, 56)",
-          },
-        },
-        {
-          selector: "node:selected",
-          style: { "border-color": "#dc2626", "border-width": 3 },
-        },
-        {
-          selector: "edge",
-          style: {
-            width: "mapData(weight, 1, 8, 1, 5)",
-            "line-color": "#94a3b8",
-            "line-opacity": 0.55,
-            "curve-style": "bezier",
-            "control-point-step-size": 30,
-            "target-arrow-shape": "triangle",
-            "target-arrow-color": "#94a3b8",
-            "arrow-scale": 0.9,
-            label: "data(weight)",
-            "font-size": 8,
-            "text-background-color": "#fff",
-            "text-background-opacity": 0.85,
-            "text-background-padding": "1px",
-            color: "#475569",
-          },
-        },
-        {
-          selector: "edge[weight = 1]",
-          style: { label: "" }, // no label when there's only one parallel arrow
-        },
-        {
-          selector: "edge[?loop]",
-          style: {
-            "curve-style": "bezier",
-            "loop-direction": "-90deg",
-            "loop-sweep": "45deg",
-            "control-point-step-size": 25,
-            "line-color": "#a855f7",
-            "target-arrow-color": "#a855f7",
-            "line-style": "dashed",
-            label: "↻×data(weight)",
-            "font-size": 9,
-            color: "#7e22ce",
-          },
-        },
-      ],
-      layout: LAYOUTS[layout],
-    });
-    cyRef.current = cy;
-
-    cy.on("mouseover", "node", (evt) => setHover(evt.target.id()));
-    cy.on("mouseout", "node", () => setHover(null));
-
-    return () => {
-      cy.destroy();
-      cyRef.current = null;
-    };
-  }, [elements, layout]);
-
-  // Re-run layout when the user picks a different one (without rebuilding cy).
-  useEffect(() => {
-    if (cyRef.current) {
-      cyRef.current.layout(LAYOUTS[layout]).run();
-    }
-  }, [layout]);
+    if (!fgRef.current || graphData.nodes.length === 0) return;
+    // Stronger repulsion for clearer clusters
+    fgRef.current.d3Force("charge")?.strength(-180);
+    fgRef.current.d3Force("link")?.distance(60);
+  }, [graphData]);
 
   if (loading || !data) {
     return (
@@ -213,51 +108,144 @@ export function QuiverGraph({ data, loading, height = 620 }: Props) {
   }
 
   const truncated = data.n_total_polygons > data.n_shown;
-  const hovered = hover ? data.nodes.find((n) => n.id === hover) : null;
 
   return (
     <div className="space-y-2">
-      <div className="flex flex-wrap items-center gap-2">
-        <span className="text-xs text-muted-foreground">Layout:</span>
-        {(Object.keys(LAYOUTS) as LayoutKind[]).map((l) => (
-          <Button
-            key={l}
-            size="sm"
-            variant={layout === l ? "default" : "outline"}
-            onClick={() => setLayout(l)}
-            className="h-7 text-xs"
-          >
-            {l}
-          </Button>
-        ))}
-        <span className="ml-auto text-xs text-muted-foreground">
+      <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground">
+        <span>
           {data.n_shown} / {data.n_total_polygons} nodos
           {data.loops.length > 0 && ` · ${data.loops.length} loops`}
-          {truncated && " (truncado por densidad)"}
+          {truncated && " · truncado por densidad"}
         </span>
+        <div className="flex gap-2">
+          <Button
+            size="sm"
+            variant="outline"
+            className="h-7 text-xs"
+            onClick={() => fgRef.current?.zoomToFit(400, 40)}
+          >
+            Fit
+          </Button>
+          <Button
+            size="sm"
+            variant="outline"
+            className="h-7 text-xs"
+            onClick={() => fgRef.current?.d3ReheatSimulation()}
+          >
+            Reheat
+          </Button>
+        </div>
       </div>
 
       <div
         ref={containerRef}
         style={{ height }}
-        className="rounded-md border bg-white"
-      />
+        className="relative overflow-hidden rounded-md border bg-white"
+      >
+        <Suspense
+          fallback={
+            <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
+              Inicializando motor físico…
+            </div>
+          }
+        >
+          <ForceGraph2D
+            ref={fgRef}
+            graphData={graphData}
+            width={size.w}
+            height={size.h}
+            backgroundColor="#ffffff"
+            nodeLabel={(n: any) =>
+              `<div style="background:#0f172a;color:#fff;padding:6px 8px;border-radius:4px;font-size:12px;max-width:280px;">
+                <div style="font-weight:600">${escapeHtml(n.label)}</div>
+                <div style="opacity:0.7;margin-top:2px">${n.year ?? "—"} · ${n.n_refs} refs${n.loops ? ` · ${n.loops} loops` : ""}</div>
+                ${n.authors.length ? `<div style="opacity:0.6;margin-top:2px;font-size:11px">${escapeHtml(n.authors.join(", "))}</div>` : ""}
+              </div>`
+            }
+            nodeVal={(n: any) => 2 + n.size * 0.6}
+            nodeRelSize={4}
+            nodeColor={(n: any) => colorForSize(n.size)}
+            nodeCanvasObject={(node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
+              const r = Math.max(2, 2 + node.size * 0.6);
+              ctx.beginPath();
+              ctx.arc(node.x!, node.y!, r, 0, 2 * Math.PI);
+              ctx.fillStyle = colorForSize(node.size);
+              ctx.globalAlpha = 0.85;
+              ctx.fill();
+              ctx.globalAlpha = 1;
+              ctx.lineWidth = 1 / globalScale;
+              ctx.strokeStyle = "#1e3a8a";
+              ctx.stroke();
+              // Loop badge
+              if (node.loops > 0) {
+                ctx.fillStyle = "#a855f7";
+                ctx.font = `${10 / globalScale}px sans-serif`;
+                ctx.textAlign = "center";
+                ctx.fillText(`↻${node.loops}`, node.x!, node.y! - r - 2 / globalScale);
+              }
+              // Label on hover/zoom-in
+              if (globalScale > 1.6) {
+                ctx.fillStyle = "#0f172a";
+                ctx.font = `${9 / globalScale}px sans-serif`;
+                ctx.textAlign = "center";
+                ctx.textBaseline = "top";
+                ctx.fillText(truncate(node.label, 26), node.x!, node.y! + r + 2 / globalScale);
+              }
+            }}
+            nodeCanvasObjectMode={() => "replace"}
+            linkColor={() => "rgba(100,116,139,0.4)"}
+            linkWidth={(l: any) => Math.min(0.5 + l.weight * 0.4, 4)}
+            linkDirectionalArrowLength={4}
+            linkDirectionalArrowRelPos={1}
+            linkDirectionalArrowColor={() => "rgba(100,116,139,0.6)"}
+            linkLabel={(l: any) => (l.weight > 1 ? `${l.weight} flechas` : "")}
+            onNodeHover={(n: any) => {
+              setHover(n);
+              if (containerRef.current) {
+                containerRef.current.style.cursor = n ? "pointer" : "default";
+              }
+            }}
+            cooldownTicks={120}
+            warmupTicks={20}
+          />
+        </Suspense>
+      </div>
 
-      {hovered && (
-        <div className={cn("rounded-md border bg-card px-3 py-2 text-xs")}>
-          <div className="font-semibold">{hovered.label}</div>
+      {hover && (
+        <div className="rounded-md border bg-card px-3 py-2 text-xs">
+          <div className="font-semibold">{hover.label}</div>
           <div className="text-muted-foreground">
-            {hovered.year ? `${hovered.year} · ` : ""}
-            {hovered.n_refs} referencias
-            {hovered.journal ? ` · ${hovered.journal}` : ""}
+            {hover.year ? `${hover.year} · ` : ""}{hover.n_refs} referencias
+            {hover.loops ? ` · ${hover.loops} loops` : ""}
+            {hover.journal ? ` · ${hover.journal}` : ""}
           </div>
-          {hovered.authors.length > 0 && (
+          {hover.authors.length > 0 && (
             <div className="mt-1 truncate text-muted-foreground">
-              {hovered.authors.join(", ")}
+              {hover.authors.join(", ")}
             </div>
           )}
         </div>
       )}
     </div>
   );
+}
+
+function colorForSize(size: number): string {
+  // Blue → purple scale by polygon size (# refs)
+  const ratio = Math.min(size / 30, 1);
+  const hue = 220 - ratio * 60; // 220 (blue) → 160 (teal-ish)
+  return `hsl(${hue}, 65%, 55%)`;
+}
+
+function truncate(s: string, n: number): string {
+  return s.length > n ? s.slice(0, n - 1) + "…" : s;
+}
+
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }

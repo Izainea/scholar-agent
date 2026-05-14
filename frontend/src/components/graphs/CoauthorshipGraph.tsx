@@ -1,9 +1,20 @@
-import { useEffect, useMemo, useRef } from "react";
-import cytoscape, { type Core, type ElementDefinition } from "cytoscape";
-import coseBilkent from "cytoscape-cose-bilkent";
+import { useEffect, useMemo, useRef, useState, lazy, Suspense } from "react";
 import type { CoauthorshipGraph as Graph } from "@/lib/api-types";
 
-cytoscape.use(coseBilkent);
+const ForceGraph2D = lazy(() => import("react-force-graph-2d"));
+
+interface Node {
+  id: string;
+  label: string;
+  size: number;
+  x?: number;
+  y?: number;
+}
+
+interface Link {
+  source: string;
+  target: string;
+}
 
 interface Props {
   data?: Graph;
@@ -13,79 +24,36 @@ interface Props {
 
 export function CoauthorshipGraph({ data, loading, height = 560 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const cyRef = useRef<Core | null>(null);
+  const fgRef = useRef<any>(null);
+  const [size, setSize] = useState({ w: 800, h: typeof height === "number" ? height : 560 });
 
-  const elements = useMemo<ElementDefinition[]>(() => {
-    if (!data) return [];
-    const els: ElementDefinition[] = [];
-    for (const n of data.nodes) {
-      els.push({ data: { id: n.id, label: n.label, size: n.size } });
-    }
-    for (let i = 0; i < data.edges.length; i++) {
-      const e = data.edges[i];
-      els.push({
-        data: { id: `e_${i}`, source: e.source, target: e.target },
-      });
-    }
-    return els;
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const observer = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        setSize({
+          w: entry.contentRect.width,
+          h: typeof height === "number" ? height : entry.contentRect.height || 560,
+        });
+      }
+    });
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, [height]);
+
+  const graphData = useMemo(() => {
+    if (!data) return { nodes: [] as Node[], links: [] as Link[] };
+    return {
+      nodes: data.nodes.map((n) => ({ id: n.id, label: n.label, size: n.size })),
+      links: data.edges.map((e) => ({ source: e.source, target: e.target })),
+    };
   }, [data]);
 
   useEffect(() => {
-    if (!containerRef.current || elements.length === 0) return;
-    const cy = cytoscape({
-      container: containerRef.current,
-      elements,
-      wheelSensitivity: 0.2,
-      minZoom: 0.1,
-      maxZoom: 4,
-      style: [
-        {
-          selector: "node",
-          style: {
-            "background-color": "#10b981",
-            "background-opacity": 0.85,
-            "border-color": "#065f46",
-            "border-width": 1,
-            label: "data(label)",
-            color: "#0f172a",
-            "font-size": 7,
-            "text-valign": "bottom",
-            "text-halign": "center",
-            "text-margin-y": 3,
-            "text-wrap": "ellipsis",
-            "text-max-width": "100px",
-            width: "mapData(size, 1, 50, 10, 44)",
-            height: "mapData(size, 1, 50, 10, 44)",
-          },
-        },
-        {
-          selector: "edge",
-          style: {
-            width: 1,
-            "line-color": "#94a3b8",
-            "line-opacity": 0.4,
-            "curve-style": "haystack",
-          },
-        },
-      ],
-      layout: {
-        name: "cose-bilkent",
-        animate: false,
-        nodeRepulsion: 6000,
-        idealEdgeLength: 70,
-        edgeElasticity: 0.45,
-        gravity: 0.35,
-        numIter: 2500,
-        tile: true,
-        padding: 30,
-      } as cytoscape.LayoutOptions,
-    });
-    cyRef.current = cy;
-    return () => {
-      cy.destroy();
-      cyRef.current = null;
-    };
-  }, [elements]);
+    if (!fgRef.current || graphData.nodes.length === 0) return;
+    fgRef.current.d3Force("charge")?.strength(-120);
+    fgRef.current.d3Force("link")?.distance(50);
+  }, [graphData]);
 
   if (loading || !data) {
     return (
@@ -111,17 +79,64 @@ export function CoauthorshipGraph({ data, loading, height = 560 }: Props) {
 
   return (
     <div className="space-y-2">
-      <div className="flex items-center text-xs text-muted-foreground">
-        <span>
-          {data.nodes.length} nodos · {data.edges.length} aristas
-        </span>
-        {data.n_total_authors !== undefined && (
-          <span className="ml-2">
-            (de {data.n_total_authors} autores totales)
-          </span>
-        )}
+      <div className="text-xs text-muted-foreground">
+        {data.nodes.length} nodos · {data.edges.length} aristas
+        {data.n_total_authors !== undefined && ` (de ${data.n_total_authors} autores totales)`}
       </div>
-      <div ref={containerRef} style={{ height }} className="rounded-md border bg-white" />
+
+      <div
+        ref={containerRef}
+        style={{ height }}
+        className="overflow-hidden rounded-md border bg-white"
+      >
+        <Suspense
+          fallback={
+            <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
+              Inicializando motor físico…
+            </div>
+          }
+        >
+          <ForceGraph2D
+            ref={fgRef}
+            graphData={graphData}
+            width={size.w}
+            height={size.h}
+            backgroundColor="#ffffff"
+            nodeLabel={(n: any) => n.label}
+            nodeVal={(n: any) => 1 + n.size * 0.4}
+            nodeRelSize={4}
+            nodeColor={() => "#10b981"}
+            nodeCanvasObject={(node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
+              const r = Math.max(2, 1 + node.size * 0.4);
+              ctx.beginPath();
+              ctx.arc(node.x!, node.y!, r, 0, 2 * Math.PI);
+              ctx.fillStyle = "#10b981";
+              ctx.globalAlpha = 0.85;
+              ctx.fill();
+              ctx.globalAlpha = 1;
+              ctx.lineWidth = 1 / globalScale;
+              ctx.strokeStyle = "#065f46";
+              ctx.stroke();
+              if (globalScale > 2) {
+                ctx.fillStyle = "#0f172a";
+                ctx.font = `${8 / globalScale}px sans-serif`;
+                ctx.textAlign = "center";
+                ctx.textBaseline = "top";
+                ctx.fillText(truncate(node.label, 18), node.x!, node.y! + r + 2 / globalScale);
+              }
+            }}
+            nodeCanvasObjectMode={() => "replace"}
+            linkColor={() => "rgba(100,116,139,0.3)"}
+            linkWidth={0.6}
+            cooldownTicks={120}
+            warmupTicks={20}
+          />
+        </Suspense>
+      </div>
     </div>
   );
+}
+
+function truncate(s: string, n: number): string {
+  return s.length > n ? s.slice(0, n - 1) + "…" : s;
 }
