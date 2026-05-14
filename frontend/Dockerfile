@@ -46,6 +46,7 @@ COPY nginx.conf.template /tmp/default.conf.template
 # nginx:alpine's stock envsubst entrypoint can fill it in at startup
 # using whatever $PORT/NGINX_PORT the host provides.
 RUN apk add --no-cache gettext \
+    && mkdir -p /etc/nginx/templates \
     && envsubst '$BACKEND_URL' < /tmp/default.conf.template \
         > /etc/nginx/templates/default.conf.template \
     && rm /tmp/default.conf.template
