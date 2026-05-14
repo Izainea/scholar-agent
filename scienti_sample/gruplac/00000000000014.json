@@ -1,0 +1,79 @@
+{
+  "codigo_input": "COL0000014",
+  "nro_gruplac": "00000000000014",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000014",
+  "nombre": "Grupo de Combinatoria — EAFIT",
+  "fecha_formacion": "2013-06",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "CASTILLO DELGADO, JORGE LUCÍA",
+  "pagina_web": "",
+  "email": "grupo.combinatoria@eafit.edu.co",
+  "clasificacion": "C",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Combinatoria",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "plan_estrategico": "Promover la investigación en combinatoria, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "CASTILLO DELGADO, JORGE LUCÍA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010085",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010085"
+    },
+    {
+      "nombre": "ORTEGA AGUILAR, ALEJANDRA NATALIA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010086",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010086"
+    },
+    {
+      "nombre": "MEDINA MORALES, MAURICIO NATALIA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010087",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010087"
+    },
+    {
+      "nombre": "NAVARRO AGUILAR, CAMILA BEATRIZ",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010088",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010088"
+    },
+    {
+      "nombre": "NAVARRO JIMÉNEZ, ANDRÉS MAURICIO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010089",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010089"
+    }
+  ],
+  "total_integrantes": 5,
+  "ids_cvlac": [
+    "0000010085",
+    "0000010086",
+    "0000010087",
+    "0000010088",
+    "0000010089"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

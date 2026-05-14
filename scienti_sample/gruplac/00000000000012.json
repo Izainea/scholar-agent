@@ -1,0 +1,71 @@
+{
+  "codigo_input": "COL0000012",
+  "nro_gruplac": "00000000000012",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000012",
+  "nombre": "Grupo de Algebra — DEL ROSARIO",
+  "fecha_formacion": "2010-02",
+  "departamento_ciudad": "BARRANQUILLA",
+  "lider": "PÉREZ JIMÉNEZ, DIANA ANDREA",
+  "pagina_web": "",
+  "email": "grupo.algebra@rosario.edu.co",
+  "clasificacion": "B",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "PÉREZ JIMÉNEZ, DIANA ANDREA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010078",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010078"
+    },
+    {
+      "nombre": "ALVAREZ MOLINA, ANA ESTEBAN",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010079",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010079"
+    },
+    {
+      "nombre": "GARCÍA REYES, MAURICIO DANIELA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010080",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010080"
+    },
+    {
+      "nombre": "ROJAS RUIZ, MARÍA ANDREA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010081",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010081"
+    }
+  ],
+  "total_integrantes": 4,
+  "ids_cvlac": [
+    "0000010078",
+    "0000010079",
+    "0000010080",
+    "0000010081"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

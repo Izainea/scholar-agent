@@ -1,0 +1,126 @@
+{
+  "cod_rh": "0000010113",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010113",
+  "nombre": "MUÑOZ HERRERA, CAMILA OSCAR",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado PONTIFICIA UNIVERSIDAD JAVERIANA Computacion",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "anio_inicio": "1996",
+      "anio_fin": "2021"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "areas_actuacion": [
+    "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+    "Ciencias Naturales -- Ciencia de la Computación"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 3,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MUÑOZ HERRERA, CAMILA OSCAR, MEDINA GÓMEZ, CARLOS LUCÍA, \"Graph neural networks for molecular property prediction\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.72 p.237 - 830 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GARCÍA ALVAREZ, VALENTINA MAURICIO, ESPINOSA REYES, ISABELLA GUSTAVO, DELGADO GARCÍA, PABLO ANDREA, MUÑOZ HERRERA, CAMILA OSCAR, \"Graph neural networks for molecular property prediction\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.28 p.325 - 646 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MUÑOZ HERRERA, CAMILA OSCAR, AGUILAR MOLINA, PABLO ANDRÉS, SÁNCHEZ CRUZ, PAULA MÓNICA, \"Deep learning on citation networks\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.75 p.134 - 924 ,2017, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 3,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

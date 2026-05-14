@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010143",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010143",
+  "nombre": "MARTÍNEZ ESPINOSA, VALENTINA FELIPE",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DE ANTIOQUIA Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+      "anio_inicio": "2004",
+      "anio_fin": "2010"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo CASTRO GÓMEZ, OSCAR CAMILA, RUIZ DÍAZ, PAULA FERNANDO, MARTÍNEZ ESPINOSA, VALENTINA FELIPE, SÁNCHEZ CRUZ, PAULA MÓNICA, PARRA SÁNCHEZ, ESTEBAN DIEGO, \"Magnetic ordering in frustrated lattices\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.59 p.11 - 807 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES AGUILAR, ALEJANDRO SEBASTIÁN, MARTÍNEZ ESPINOSA, VALENTINA FELIPE, JIMÉNEZ LÓPEZ, CAMILA JAVIER, \"Quantum entanglement in photonic systems\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.48 p.268 - 901 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ SÁNCHEZ, DIEGO JORGE, HERRERA DÍAZ, ANDREA NATALIA, NAVARRO ALVAREZ, EDUARDO BEATRIZ, MARTÍNEZ ESPINOSA, VALENTINA FELIPE, CASTRO PÉREZ, MAURICIO MÓNICA, \"Magnetic ordering in frustrated lattices\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.25 p.185 - 515 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ ESPINOSA, VALENTINA FELIPE, \"Superconducting order parameters\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.37 p.255 - 674 ,2019, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

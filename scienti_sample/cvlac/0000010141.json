@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010141",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010141",
+  "nombre": "TORRES RODRÍGUEZ, DANIELA CAROLINA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+      "anio_inicio": "2008",
+      "anio_fin": "2018"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL VALLE"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo NAVARRO JIMÉNEZ, ANDRÉS MAURICIO, FLORES RAMÍREZ, RICARDO DIANA, ROJAS GARCÍA, EDUARDO MIGUEL, TORRES RODRÍGUEZ, DANIELA CAROLINA, \"Spanning trees in random graphs\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.59 p.120 - 637 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES DELGADO, PAULA ALEJANDRO, TORRES RODRÍGUEZ, DANIELA CAROLINA, \"Generating functions for integer partitions\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.21 p.388 - 960 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES RODRÍGUEZ, DANIELA CAROLINA, DÍAZ MORENO, NATALIA ANDRÉS, \"Tableaux and the RSK correspondence\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.60 p.274 - 618 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES RODRÍGUEZ, DANIELA CAROLINA, TORRES HERRERA, SEBASTIÁN ALEJANDRA, GONZÁLEZ AGUILAR, JULIANA PABLO, \"Graph colorings and chromatic polynomials\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.34 p.123 - 792 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO ORTEGA, PAULA FELIPE, GONZÁLEZ AGUILAR, JULIANA PABLO, FLORES DELGADO, PAULA ALEJANDRO, TORRES RODRÍGUEZ, DANIELA CAROLINA, \"Tableaux and the RSK correspondence\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.69 p.186 - 971 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES RODRÍGUEZ, DANIELA CAROLINA, RODRÍGUEZ MORENO, DIANA CAROLINA, ROMERO MENDOZA, MÓNICA LUCÍA, RAMÍREZ ESPINOSA, ANDRÉS OSCAR, CASTRO OSPINA, PABLO DIANA, \"Graph colorings and chromatic polynomials\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.39 p.261 - 774 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MOLINA HERRERA, PATRICIA SEBASTIÁN, TORRES RODRÍGUEZ, DANIELA CAROLINA, MORALES FLORES, VALENTINA JULIANA, CASTILLO DELGADO, JORGE LUCÍA, \"Symmetric functions and Schur polynomials\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.30 p.49 - 843 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ NAVARRO, PABLO ANA, TORRES RODRÍGUEZ, DANIELA CAROLINA, \"Symmetric functions and Schur polynomials\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.13 p.268 - 868 ,2011, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

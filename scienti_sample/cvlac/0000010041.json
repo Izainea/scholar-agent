@@ -1,0 +1,130 @@
+{
+  "cod_rh": "0000010041",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010041",
+  "nombre": "TORRES TORRES, JAVIER PABLO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Fisica",
+      "nivel": "Doctorado",
+      "institucion": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "anio_inicio": "2006",
+      "anio_fin": "2020"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 7,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo PARRA MORALES, FELIPE JUAN, TORRES TORRES, JAVIER PABLO, \"Topological insulators and edge states\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.66 p.377 - 726 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES TORRES, JAVIER PABLO, GARCÍA ALVAREZ, VALENTINA MAURICIO, \"Quantum entanglement in photonic systems\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.31 p.215 - 522 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ TORRES, DIEGO JUAN, TORRES TORRES, JAVIER PABLO, DELGADO GONZÁLEZ, DIEGO ALEJANDRO, CASTILLO MUÑOZ, PATRICIA JULIANA, \"Magnetic ordering in frustrated lattices\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.50 p.78 - 548 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ALVAREZ MOLINA, ANA ESTEBAN, MARTÍNEZ VEGA, ESTEBAN DANIELA, MUÑOZ DELGADO, DANIELA RODRIGO, TORRES TORRES, JAVIER PABLO, \"Superconducting order parameters\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.17 p.358 - 858 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES TORRES, JAVIER PABLO, ESPINOSA TORRES, MARÍA DAVID, MORALES CASTILLO, DANIELA MARÍA, GARCÍA REYES, MAURICIO DANIELA, TORRES GARCÍA, JORGE CAROLINA, \"Quantum entanglement in photonic systems\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.64 p.357 - 931 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES TORRES, JAVIER PABLO, FLORES AGUILAR, ALEJANDRO SEBASTIÁN, \"Superconducting order parameters\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.66 p.194 - 570 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES TORRES, JAVIER PABLO, \"Topological insulators and edge states\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.10 p.440 - 819 ,2017, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 7,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

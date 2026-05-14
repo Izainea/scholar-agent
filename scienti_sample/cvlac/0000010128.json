@@ -1,0 +1,129 @@
+{
+  "cod_rh": "0000010128",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010128",
+  "nombre": "GÓMEZ REYES, ALEJANDRA ALEJANDRO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL ROSARIO",
+      "anio_inicio": "2011",
+      "anio_fin": "2014"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 5,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MORALES CASTILLO, DANIELA MARÍA, GÓMEZ REYES, ALEJANDRA ALEJANDRO, AGUILAR MOLINA, PABLO ANDRÉS, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.76 p.256 - 605 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO OSPINA, PABLO DIANA, GÓMEZ REYES, ALEJANDRA ALEJANDRO, \"Gröbner basis methods for path algebras\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.57 p.90 - 646 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO ALVAREZ, EDUARDO BEATRIZ, GÓMEZ REYES, ALEJANDRA ALEJANDRO, PARRA JIMÉNEZ, CLAUDIA BEATRIZ, CRUZ ORTEGA, EDUARDO CAROLINA, NAVARRO ORTEGA, PAULA FELIPE, \"Tilting modules and t-structures\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.62 p.388 - 578 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO PARRA, RODRIGO CLAUDIA, GÓMEZ REYES, ALEJANDRA ALEJANDRO, REYES MORALES, DANIELA ALEJANDRO, \"Quivers of tame representation type\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.46 p.384 - 993 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO GÓMEZ, OSCAR CAMILA, GÓMEZ REYES, ALEJANDRA ALEJANDRO, RODRÍGUEZ TORRES, DIEGO JUAN, \"Mutation of derived equivalences\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.11 p.241 - 672 ,2023, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 5,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010129",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010129",
+  "nombre": "REYES MENDOZA, CLAUDIA PAULA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD NACIONAL DE COLOMBIA Fisica",
+      "nivel": "Doctorado",
+      "institucion": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "anio_inicio": "1996",
+      "anio_fin": "2016"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo LÓPEZ MOLINA, CARLOS DIEGO, REYES MENDOZA, CLAUDIA PAULA, ROJAS NAVARRO, JAVIER DIEGO, VEGA TORRES, ISABELLA JORGE, ROJAS MOLINA, NATALIA ALEJANDRA, \"Magnetic ordering in frustrated lattices\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.45 p.2 - 576 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo REYES MENDOZA, CLAUDIA PAULA, MEDINA OSPINA, CARLOS CAROLINA, TORRES VARGAS, VALENTINA MÓNICA, ALVAREZ MARTÍNEZ, DAVID ANDRÉS, \"Quantum entanglement in photonic systems\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.76 p.208 - 532 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROMERO MENDOZA, MÓNICA LUCÍA, REYES MENDOZA, CLAUDIA PAULA, LÓPEZ MOLINA, CARLOS DIEGO, ROMERO MORALES, DANIELA VALENTINA, SÁNCHEZ AGUILAR, CAMILA SEBASTIÁN, \"Superconducting order parameters\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.25 p.277 - 665 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS GARCÍA, EDUARDO MIGUEL, REYES MENDOZA, CLAUDIA PAULA, JIMÉNEZ LÓPEZ, CAMILA JAVIER, \"Magnetic ordering in frustrated lattices\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.32 p.85 - 531 ,2021, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

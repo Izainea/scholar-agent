@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010002",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010002",
+  "nombre": "MARTÍNEZ VEGA, ESTEBAN DANIELA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD NACIONAL DE COLOMBIA Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE ANTIOQUIA",
+      "anio_inicio": "1998",
+      "anio_fin": "2024"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 7,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ VEGA, ESTEBAN DANIELA, \"Quivers of tame representation type\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.13 p.307 - 671 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo AGUILAR MOLINA, PABLO ANDRÉS, GARCÍA ALVAREZ, VALENTINA MAURICIO, AGUILAR MEDINA, DAVID CAMILA, MARTÍNEZ VEGA, ESTEBAN DANIELA, OSPINA PARRA, FERNANDO DIEGO, \"Mutation of derived equivalences\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.48 p.102 - 983 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO PÉREZ, MAURICIO MÓNICA, DELGADO GARCÍA, PABLO ANDREA, LÓPEZ MOLINA, CARLOS DIEGO, MARTÍNEZ VEGA, ESTEBAN DANIELA, MENDOZA MENDOZA, LUCÍA RICARDO, \"Tilting modules and t-structures\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.44 p.13 - 720 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO ALVAREZ, EDUARDO BEATRIZ, VEGA SÁNCHEZ, MIGUEL CLAUDIA, MUÑOZ OSPINA, PAULA SOFÍA, CRUZ MOLINA, RODRIGO ESTEBAN, MARTÍNEZ VEGA, ESTEBAN DANIELA, \"Mutation of derived equivalences\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.33 p.83 - 726 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS REYES, MAURICIO DIANA, CRUZ VALENCIA, MÓNICA DIEGO, MARTÍNEZ VEGA, ESTEBAN DANIELA, JIMÉNEZ CRUZ, JAVIER ANDREA, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.65 p.304 - 917 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ VEGA, ESTEBAN DANIELA, LÓPEZ ALVAREZ, JULIANA RICARDO, VEGA SÁNCHEZ, MIGUEL CLAUDIA, \"Path algebras over finite quivers\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.66 p.84 - 857 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ VEGA, ESTEBAN DANIELA, PARRA MORALES, FELIPE JUAN, VEGA SÁNCHEZ, MIGUEL CLAUDIA, FLORES RAMÍREZ, RICARDO DIANA, \"Path algebras over finite quivers\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.67 p.11 - 780 ,2014, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 7,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

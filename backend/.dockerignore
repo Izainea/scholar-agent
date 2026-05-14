@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Tests are not needed in the container
+tests/
+
+# Local data — provided via volume mount
+data/
+
+# Wheel staging IS needed during build (do not exclude `wheels/`).
+!wheels/
+!wheels/*.whl
+
+# Tooling
+.git/
+.github/
+.idea/
+.vscode/
+*.md
+!app/**/*.md
+
+# Build artefacts
+dist/
+build/
+*.log

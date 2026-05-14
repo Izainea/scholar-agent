@@ -1,0 +1,62 @@
+{
+  "codigo_input": "COL0000018",
+  "nro_gruplac": "00000000000018",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000018",
+  "nombre": "Grupo de Algebra — EAFIT",
+  "fecha_formacion": "2007-03",
+  "departamento_ciudad": "CALI",
+  "lider": "TORRES ROJAS, JORGE CAMILA",
+  "pagina_web": "",
+  "email": "grupo.algebra@eafit.edu.co",
+  "clasificacion": "",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "TORRES ROJAS, JORGE CAMILA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010102",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010102"
+    },
+    {
+      "nombre": "CRUZ ORTEGA, EDUARDO CAROLINA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010103",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010103"
+    },
+    {
+      "nombre": "MENDOZA ESPINOSA, OSCAR MAURICIO",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010104",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010104"
+    }
+  ],
+  "total_integrantes": 3,
+  "ids_cvlac": [
+    "0000010102",
+    "0000010103",
+    "0000010104"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

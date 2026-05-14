@@ -1,0 +1,126 @@
+{
+  "cod_rh": "0000010132",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010132",
+  "nombre": "MUÑOZ DELGADO, ALEJANDRO MAURICIO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+      "anio_inicio": "2001",
+      "anio_fin": "2021"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EXTERNADO DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 3,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo RUIZ RIVERA, ALEJANDRO ALEJANDRA, MUÑOZ DELGADO, ALEJANDRO MAURICIO, \"Superconducting order parameters\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.22 p.417 - 948 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GONZÁLEZ MORALES, ALEJANDRA BEATRIZ, MUÑOZ DELGADO, ALEJANDRO MAURICIO, AGUILAR RAMÍREZ, DIEGO PAULA, \"Topological insulators and edge states\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.76 p.20 - 908 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA MORALES, MAURICIO NATALIA, MUÑOZ DELGADO, ALEJANDRO MAURICIO, \"Topological insulators and edge states\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.80 p.179 - 570 ,2016, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 3,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

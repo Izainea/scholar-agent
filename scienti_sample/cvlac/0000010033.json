@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010033",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010033",
+  "nombre": "RODRÍGUEZ GÓMEZ, CLAUDIA GUSTAVO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado PONTIFICIA UNIVERSIDAD JAVERIANA Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL ROSARIO",
+      "anio_inicio": "2000",
+      "anio_fin": "2017"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ GÓMEZ, CLAUDIA GUSTAVO, \"Generating functions for integer partitions\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.43 p.234 - 753 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ESPINOSA VARGAS, JAVIER CLAUDIA, ROJAS ALVAREZ, MARGARITA GUSTAVO, TORRES HERRERA, SEBASTIÁN ALEJANDRA, RODRÍGUEZ GÓMEZ, CLAUDIA GUSTAVO, VEGA TORRES, ISABELLA JORGE, \"Posets and lattice paths\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.47 p.234 - 973 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ GÓMEZ, CLAUDIA GUSTAVO, GARCÍA ALVAREZ, VALENTINA MAURICIO, LÓPEZ MOLINA, CARLOS DIEGO, \"Posets and lattice paths\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.16 p.444 - 573 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ MOLINA, RODRIGO ESTEBAN, RODRÍGUEZ GÓMEZ, CLAUDIA GUSTAVO, GONZÁLEZ RODRÍGUEZ, DIEGO JULIANA, \"Tableaux and the RSK correspondence\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.79 p.259 - 807 ,2015, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

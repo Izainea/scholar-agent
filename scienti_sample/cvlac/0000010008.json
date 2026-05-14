@@ -1,0 +1,130 @@
+{
+  "cod_rh": "0000010008",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010008",
+  "nombre": "REYES CRUZ, MÓNICA JULIANA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL VALLE Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "anio_inicio": "1995",
+      "anio_fin": "2019"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 6,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo LÓPEZ MARTÍNEZ, MARGARITA DIANA, REYES CRUZ, MÓNICA JULIANA, RAMÍREZ NAVARRO, PABLO ANA, FLORES ESPINOSA, MARGARITA RICARDO, \"Quivers of tame representation type\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.77 p.231 - 584 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES HERRERA, SEBASTIÁN ALEJANDRA, VEGA SÁNCHEZ, MIGUEL CLAUDIA, REYES CRUZ, MÓNICA JULIANA, \"Tilting modules and t-structures\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.52 p.489 - 728 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GARCÍA REYES, MAURICIO DANIELA, CRUZ VALENCIA, MÓNICA DIEGO, CASTILLO GÓMEZ, ANDREA GUSTAVO, MOLINA HERRERA, PATRICIA SEBASTIÁN, REYES CRUZ, MÓNICA JULIANA, \"Mutation of derived equivalences\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.65 p.338 - 609 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo VEGA GÓMEZ, MARGARITA OSCAR, FLORES LÓPEZ, GUSTAVO JUAN, DÍAZ JIMÉNEZ, LUCÍA MÓNICA, RUIZ RUIZ, PAULA MARGARITA, REYES CRUZ, MÓNICA JULIANA, \"Quivers of tame representation type\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.79 p.286 - 749 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GONZÁLEZ MORALES, ALEJANDRA BEATRIZ, REYES CRUZ, MÓNICA JULIANA, \"Tilting modules and t-structures\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.29 p.290 - 538 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo REYES CRUZ, MÓNICA JULIANA, \"Tilting modules and t-structures\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.75 p.488 - 753 ,2023, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 6,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

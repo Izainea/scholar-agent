@@ -1,0 +1,129 @@
+{
+  "cod_rh": "0000010091",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010091",
+  "nombre": "MEDINA GÓMEZ, CARLOS LUCÍA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL ROSARIO Biologia",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2011",
+      "anio_fin": "2004"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD INDUSTRIAL DE SANTANDER"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Biológicas -- Ecología",
+    "Ciencias Naturales -- Ciencias Biológicas -- Zoología"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Ecología de comunidades",
+    "Biodiversidad neotropical",
+    "Conservación de especies amenazadas",
+    "Insectos sociales"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 6,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MEDINA GÓMEZ, CARLOS LUCÍA, \"Patrones de nidificación de abejas sin aguijón\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.45 p.472 - 597 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA GÓMEZ, CARLOS LUCÍA, CASTRO ESPINOSA, ESTEBAN CLAUDIA, \"Conservación de la ballena jorobada en Gorgona\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.46 p.179 - 535 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ORTEGA TORRES, MARGARITA ANA, DÍAZ JIMÉNEZ, LUCÍA MÓNICA, MEDINA GÓMEZ, CARLOS LUCÍA, \"Insectos polinizadores en ecosistemas alterados\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.10 p.415 - 797 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA GÓMEZ, CARLOS LUCÍA, CASTRO PÉREZ, MAURICIO MÓNICA, TORRES VEGA, MARÍA CARLOS, \"Patrones de nidificación de abejas sin aguijón\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.73 p.374 - 638 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA GÓMEZ, CARLOS LUCÍA, ROMERO MORALES, DANIELA VALENTINA, \"Conservación de la ballena jorobada en Gorgona\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.66 p.360 - 635 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ VALENCIA, MÓNICA DIEGO, MEDINA GÓMEZ, CARLOS LUCÍA, MARTÍNEZ RIVERA, PATRICIA BEATRIZ, RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, JIMÉNEZ MARTÍNEZ, VALENTINA MARÍA, \"Distribución de aves migratorias en el neotrópico\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.57 p.175 - 729 ,2017, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 6,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

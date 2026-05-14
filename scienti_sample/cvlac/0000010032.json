@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010032",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010032",
+  "nombre": "ROMERO MORALES, DANIELA VALENTINA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EAFIT Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "anio_inicio": "1996",
+      "anio_fin": "2008"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD INDUSTRIAL DE SANTANDER"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo ROMERO MORALES, DANIELA VALENTINA, \"Tableaux and the RSK correspondence\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.64 p.136 - 790 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ORTEGA TORRES, MARGARITA ANA, RODRÍGUEZ TORRES, DIEGO JUAN, SÁNCHEZ AGUILAR, CAMILA SEBASTIÁN, ROMERO MORALES, DANIELA VALENTINA, \"Generating functions for integer partitions\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.21 p.458 - 911 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo AGUILAR PARRA, JORGE MARGARITA, ROMERO MORALES, DANIELA VALENTINA, ROMERO TORRES, DIANA SEBASTIÁN, RIVERA PÉREZ, EDUARDO MARÍA, \"Posets and lattice paths\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.70 p.312 - 658 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROMERO MORALES, DANIELA VALENTINA, \"Spanning trees in random graphs\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.80 p.145 - 675 ,2013, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

@@ -1,0 +1,126 @@
+{
+  "cod_rh": "0000010111",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010111",
+  "nombre": "RODRÍGUEZ MORENO, DIANA CAROLINA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "anio_inicio": "2012",
+      "anio_fin": "2002"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD INDUSTRIAL DE SANTANDER"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 3,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ VEGA, ESTEBAN DANIELA, RODRÍGUEZ MORENO, DIANA CAROLINA, CASTRO ESPINOSA, ESTEBAN CLAUDIA, RIVERA PÉREZ, EDUARDO MARÍA, \"Tableaux and the RSK correspondence\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.21 p.399 - 897 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO PARRA, RODRIGO CLAUDIA, RODRÍGUEZ MORENO, DIANA CAROLINA, RIVERA PÉREZ, EDUARDO MARÍA, NAVARRO CASTRO, DIANA MARÍA, \"Posets and lattice paths\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.29 p.465 - 534 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ MORENO, DIANA CAROLINA, \"Posets and lattice paths\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.11 p.465 - 664 ,2019, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 3,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

@@ -1,0 +1,80 @@
+{
+  "codigo_input": "COL0000019",
+  "nro_gruplac": "00000000000019",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000019",
+  "nombre": "Grupo de Algebra — DEL ROSARIO",
+  "fecha_formacion": "2002-10",
+  "departamento_ciudad": "BARRANQUILLA",
+  "lider": "RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN",
+  "pagina_web": "",
+  "email": "grupo.algebra@rosario.edu.co",
+  "clasificacion": "A",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010105",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010105"
+    },
+    {
+      "nombre": "ROJAS NAVARRO, ESTEBAN CLAUDIA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010106",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010106"
+    },
+    {
+      "nombre": "ORTEGA TORRES, MARGARITA ANA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010107",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010107"
+    },
+    {
+      "nombre": "CASTRO PÉREZ, MAURICIO MÓNICA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010108",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010108"
+    },
+    {
+      "nombre": "RUIZ RUIZ, PAULA MARGARITA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010109",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010109"
+    }
+  ],
+  "total_integrantes": 5,
+  "ids_cvlac": [
+    "0000010105",
+    "0000010106",
+    "0000010107",
+    "0000010108",
+    "0000010109"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

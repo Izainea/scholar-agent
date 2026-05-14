@@ -1,0 +1,132 @@
+{
+  "cod_rh": "0000010016",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010016",
+  "nombre": "NAVARRO ALVAREZ, EDUARDO BEATRIZ",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Algebra",
+      "nivel": "Doctorado",
+      "institucion": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "anio_inicio": "1996",
+      "anio_fin": "2010"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo NAVARRO ALVAREZ, EDUARDO BEATRIZ, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.46 p.57 - 897 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO ALVAREZ, JULIANA JORGE, NAVARRO ALVAREZ, EDUARDO BEATRIZ, ROMERO PARRA, ISABELLA ALEJANDRO, \"Path algebras over finite quivers\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.15 p.247 - 841 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO ALVAREZ, EDUARDO BEATRIZ, TORRES TORRES, FELIPE ISABELLA, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.72 p.264 - 618 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO ALVAREZ, EDUARDO BEATRIZ, RIVERA MOLINA, ANA MARÍA, TORRES FLORES, MIGUEL JUAN, MEDINA DELGADO, PAULA FERNANDO, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.61 p.313 - 770 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO OSPINA, PABLO DIANA, NAVARRO ALVAREZ, EDUARDO BEATRIZ, FLORES RAMÍREZ, RICARDO DIANA, \"Hopf algebras associated to quivers\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.46 p.40 - 606 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO ALVAREZ, EDUARDO BEATRIZ, DELGADO GONZÁLEZ, DIEGO ALEJANDRO, RAMÍREZ FLORES, ANDREA PATRICIA, TORRES RIVERA, CAMILA MARGARITA, TORRES FLORES, MIGUEL JUAN, \"Mutation of derived equivalences\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.70 p.48 - 904 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo LÓPEZ MOLINA, CARLOS DIEGO, VEGA GÓMEZ, MARGARITA OSCAR, NAVARRO ALVAREZ, EDUARDO BEATRIZ, MEDINA DELGADO, PAULA FERNANDO, MEDINA GÓMEZ, CARLOS LUCÍA, \"Hopf algebras associated to quivers\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.78 p.21 - 598 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ FLORES, ANDREA PATRICIA, NAVARRO ALVAREZ, EDUARDO BEATRIZ, PARRA JIMÉNEZ, CLAUDIA BEATRIZ, CRUZ VALENCIA, MÓNICA DIEGO, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.73 p.360 - 593 ,2013, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

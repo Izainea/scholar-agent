@@ -1,0 +1,125 @@
+{
+  "cod_rh": "0000010023",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010023",
+  "nombre": "LÓPEZ MARTÍNEZ, MARGARITA DIANA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Computacion",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL ROSARIO",
+      "anio_inicio": "2008",
+      "anio_fin": "2007"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD INDUSTRIAL DE SANTANDER"
+  ],
+  "areas_actuacion": [
+    "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+    "Ciencias Naturales -- Ciencia de la Computación"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 2,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo LÓPEZ MARTÍNEZ, MARGARITA DIANA, \"Spectral methods for community detection\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.58 p.307 - 698 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo LÓPEZ MARTÍNEZ, MARGARITA DIANA, FLORES RAMÍREZ, RICARDO DIANA, CASTILLO MUÑOZ, PATRICIA JULIANA, \"Graph neural networks for molecular property prediction\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.23 p.55 - 622 ,2017, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 2,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

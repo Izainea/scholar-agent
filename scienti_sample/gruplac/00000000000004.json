@@ -1,0 +1,124 @@
+{
+  "codigo_input": "COL0000004",
+  "nro_gruplac": "00000000000004",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000004",
+  "nombre": "Grupo de Combinatoria — DE LOS ANDES",
+  "fecha_formacion": "2007-12",
+  "departamento_ciudad": "CALI",
+  "lider": "AGUILAR MOLINA, PABLO ANDRÉS",
+  "pagina_web": "",
+  "email": "grupo.combinatoria@andes.edu.co",
+  "clasificacion": "A",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Combinatoria",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "plan_estrategico": "Promover la investigación en combinatoria, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "AGUILAR MOLINA, PABLO ANDRÉS",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010031",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010031"
+    },
+    {
+      "nombre": "ROMERO MORALES, DANIELA VALENTINA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010032",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010032"
+    },
+    {
+      "nombre": "RODRÍGUEZ GÓMEZ, CLAUDIA GUSTAVO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010033",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010033"
+    },
+    {
+      "nombre": "GONZÁLEZ MARTÍNEZ, ANDRÉS CAMILA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010034",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010034"
+    },
+    {
+      "nombre": "ROJAS NAVARRO, JAVIER DIEGO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010035",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010035"
+    },
+    {
+      "nombre": "CASTILLO TORRES, ANDRÉS DANIELA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010036",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010036"
+    },
+    {
+      "nombre": "TORRES HERRERA, SEBASTIÁN ALEJANDRA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010037",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010037"
+    },
+    {
+      "nombre": "PARRA SÁNCHEZ, ESTEBAN DIEGO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010038",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010038"
+    },
+    {
+      "nombre": "MEDINA OSPINA, CARLOS CAROLINA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010039",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010039"
+    },
+    {
+      "nombre": "MOLINA HERRERA, PATRICIA SEBASTIÁN",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010040",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010040"
+    }
+  ],
+  "total_integrantes": 10,
+  "ids_cvlac": [
+    "0000010031",
+    "0000010032",
+    "0000010033",
+    "0000010034",
+    "0000010035",
+    "0000010036",
+    "0000010037",
+    "0000010038",
+    "0000010039",
+    "0000010040"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

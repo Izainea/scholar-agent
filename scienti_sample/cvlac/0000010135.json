@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010135",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010135",
+  "nombre": "CRUZ MOLINA, RODRIGO ESTEBAN",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL NORTE Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "anio_inicio": "2005",
+      "anio_fin": "2018"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 5,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo NAVARRO AGUILAR, CAMILA BEATRIZ, JIMÉNEZ MORENO, LUCÍA DAVID, CRUZ MOLINA, RODRIGO ESTEBAN, \"Posets and lattice paths\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.67 p.345 - 870 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MOLINA HERRERA, PATRICIA SEBASTIÁN, CRUZ VALENCIA, MÓNICA DIEGO, NAVARRO ALVAREZ, EDUARDO BEATRIZ, CRUZ MOLINA, RODRIGO ESTEBAN, \"Symmetric functions and Schur polynomials\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.66 p.24 - 979 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ MOLINA, RODRIGO ESTEBAN, RAMÍREZ NAVARRO, PABLO ANA, RIVERA PÉREZ, EDUARDO MARÍA, ROMERO PARRA, ISABELLA ALEJANDRO, \"Tableaux and the RSK correspondence\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.73 p.393 - 755 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ MOLINA, RODRIGO ESTEBAN, HERRERA RODRÍGUEZ, PABLO CAROLINA, \"Generating functions for integer partitions\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.78 p.200 - 928 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ORTEGA TORRES, MARGARITA ANA, RAMÍREZ NAVARRO, PABLO ANA, CRUZ MOLINA, RODRIGO ESTEBAN, \"Generating functions for integer partitions\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.70 p.29 - 676 ,2024, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 5,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

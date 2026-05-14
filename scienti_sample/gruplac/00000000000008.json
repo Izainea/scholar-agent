@@ -1,0 +1,70 @@
+{
+  "codigo_input": "COL0000008",
+  "nro_gruplac": "00000000000008",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000008",
+  "nombre": "Grupo de Combinatoria — DEL ROSARIO",
+  "fecha_formacion": "2014-04",
+  "departamento_ciudad": "BARRANQUILLA",
+  "lider": "AGUILAR RAMÍREZ, DIEGO PAULA",
+  "pagina_web": "",
+  "email": "grupo.combinatoria@rosario.edu.co",
+  "clasificacion": "B",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Combinatoria",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "plan_estrategico": "Promover la investigación en combinatoria, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "AGUILAR RAMÍREZ, DIEGO PAULA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010064",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010064"
+    },
+    {
+      "nombre": "MOLINA GARCÍA, ALEJANDRO ANA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010065",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010065"
+    },
+    {
+      "nombre": "PÉREZ CASTRO, ESTEBAN CLAUDIA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010066",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010066"
+    },
+    {
+      "nombre": "RIVERA PÉREZ, EDUARDO MARÍA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010067",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010067"
+    }
+  ],
+  "total_integrantes": 4,
+  "ids_cvlac": [
+    "0000010064",
+    "0000010065",
+    "0000010066",
+    "0000010067"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

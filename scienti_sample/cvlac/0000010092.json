@@ -1,0 +1,130 @@
+{
+  "cod_rh": "0000010092",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010092",
+  "nombre": "OSPINA PARRA, FERNANDO DIEGO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD NACIONAL DE COLOMBIA Biologia",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+      "anio_inicio": "2017",
+      "anio_fin": "2023"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD NACIONAL DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Biológicas -- Ecología",
+    "Ciencias Naturales -- Ciencias Biológicas -- Zoología"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Ecología de comunidades",
+    "Biodiversidad neotropical",
+    "Conservación de especies amenazadas",
+    "Insectos sociales"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 7,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MEDINA GÓMEZ, CARLOS LUCÍA, AGUILAR PARRA, JORGE MARGARITA, SÁNCHEZ AGUILAR, CAMILA SEBASTIÁN, OSPINA PARRA, FERNANDO DIEGO, \"Distribución de aves migratorias en el neotrópico\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.48 p.43 - 878 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo OSPINA PARRA, FERNANDO DIEGO, \"Insectos polinizadores en ecosistemas alterados\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.33 p.50 - 932 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo OSPINA PARRA, FERNANDO DIEGO, LÓPEZ MOLINA, CARLOS DIEGO, TORRES VARGAS, VALENTINA MÓNICA, PARRA PÉREZ, RICARDO DANIELA, MUÑOZ DELGADO, DANIELA RODRIGO, \"Insectos polinizadores en ecosistemas alterados\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.61 p.480 - 538 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GARCÍA REYES, MAURICIO DANIELA, PARRA JIMÉNEZ, CLAUDIA BEATRIZ, PARRA MORALES, FELIPE JUAN, OSPINA PARRA, FERNANDO DIEGO, NAVARRO ORTEGA, PAULA FELIPE, \"Conservación de la ballena jorobada en Gorgona\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.77 p.321 - 589 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GONZÁLEZ RODRÍGUEZ, DIEGO JULIANA, NAVARRO ALVAREZ, EDUARDO BEATRIZ, TORRES ROJAS, JORGE CAMILA, OSPINA PARRA, FERNANDO DIEGO, RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, \"Distribución de aves migratorias en el neotrópico\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.22 p.380 - 690 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO ORTEGA, PAULA FELIPE, JIMÉNEZ MORENO, LUCÍA DAVID, OSPINA PARRA, FERNANDO DIEGO, RIVERA PÉREZ, EDUARDO MARÍA, PARRA JIMÉNEZ, CLAUDIA BEATRIZ, \"Insectos polinizadores en ecosistemas alterados\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.74 p.319 - 836 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO PARRA, RODRIGO CLAUDIA, OSPINA PARRA, FERNANDO DIEGO, HERRERA DÍAZ, ANDREA NATALIA, AGUILAR PARRA, JORGE MARGARITA, MEDINA GÓMEZ, CARLOS LUCÍA, \"Patrones de nidificación de abejas sin aguijón\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.13 p.106 - 603 ,2014, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 7,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

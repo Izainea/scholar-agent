@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010035",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010035",
+  "nombre": "ROJAS NAVARRO, JAVIER DIEGO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL NORTE Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL VALLE",
+      "anio_inicio": "2000",
+      "anio_fin": "2024"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD NACIONAL DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ FLORES, ANDREA PATRICIA, MORALES CASTILLO, DANIELA MARÍA, ROJAS NAVARRO, JAVIER DIEGO, CASTRO GÓMEZ, OSCAR CAMILA, ORTEGA TORRES, MARGARITA ANA, \"Posets and lattice paths\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.29 p.447 - 958 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ VEGA, ESTEBAN DANIELA, ROJAS NAVARRO, JAVIER DIEGO, RUIZ DELGADO, MARÍA DAVID, AGUILAR MOLINA, PABLO ANDRÉS, \"Generating functions for integer partitions\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.72 p.490 - 911 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS NAVARRO, JAVIER DIEGO, MUÑOZ GARCÍA, ANDREA CARLOS, ALVAREZ MARTÍNEZ, DAVID ANDRÉS, MORALES FLORES, VALENTINA JULIANA, \"Posets and lattice paths\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.65 p.36 - 958 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RIVERA MOLINA, ANA MARÍA, MEDINA OSPINA, CARLOS CAROLINA, ROJAS NAVARRO, JAVIER DIEGO, CASTILLO MUÑOZ, PATRICIA JULIANA, PARRA SÁNCHEZ, ESTEBAN DIEGO, \"Graph colorings and chromatic polynomials\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.23 p.469 - 543 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA OSPINA, CARLOS CAROLINA, ROJAS NAVARRO, JAVIER DIEGO, CASTILLO TORRES, ANDRÉS DANIELA, ROMERO PARRA, ISABELLA ALEJANDRO, \"Spanning trees in random graphs\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.41 p.8 - 686 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS NAVARRO, JAVIER DIEGO, \"Generating functions for integer partitions\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.10 p.229 - 751 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS NAVARRO, JAVIER DIEGO, \"Graph colorings and chromatic polynomials\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.65 p.278 - 584 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PARRA MORALES, FELIPE JUAN, ROJAS NAVARRO, JAVIER DIEGO, \"Spanning trees in random graphs\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.10 p.364 - 513 ,2016, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

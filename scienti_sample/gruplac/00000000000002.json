@@ -1,0 +1,134 @@
+{
+  "codigo_input": "COL0000002",
+  "nro_gruplac": "00000000000002",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000002",
+  "nombre": "Grupo de Algebra — DEL ROSARIO",
+  "fecha_formacion": "2010-05",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "VALENCIA ROMERO, ANDREA SEBASTIÁN",
+  "pagina_web": "",
+  "email": "grupo.algebra@rosario.edu.co",
+  "clasificacion": "C",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "VALENCIA ROMERO, ANDREA SEBASTIÁN",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010009",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010009"
+    },
+    {
+      "nombre": "ROJAS ALVAREZ, MARGARITA GUSTAVO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010010",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010010"
+    },
+    {
+      "nombre": "TORRES FLORES, MIGUEL JUAN",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010011",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010011"
+    },
+    {
+      "nombre": "FLORES AGUILAR, ALEJANDRO SEBASTIÁN",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010012",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010012"
+    },
+    {
+      "nombre": "GONZÁLEZ RODRÍGUEZ, DIEGO JULIANA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010013",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010013"
+    },
+    {
+      "nombre": "MEDINA DELGADO, PAULA FERNANDO",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010014",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010014"
+    },
+    {
+      "nombre": "RAMÍREZ FLORES, ANDREA PATRICIA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010015",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010015"
+    },
+    {
+      "nombre": "NAVARRO ALVAREZ, EDUARDO BEATRIZ",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010016",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010016"
+    },
+    {
+      "nombre": "VEGA GÓMEZ, MARGARITA OSCAR",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010017",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010017"
+    },
+    {
+      "nombre": "RAMÍREZ ESPINOSA, ANDRÉS OSCAR",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010018",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010018"
+    },
+    {
+      "nombre": "CASTRO ESPINOSA, ESTEBAN CLAUDIA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010019",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010019"
+    }
+  ],
+  "total_integrantes": 11,
+  "ids_cvlac": [
+    "0000010009",
+    "0000010010",
+    "0000010011",
+    "0000010012",
+    "0000010013",
+    "0000010014",
+    "0000010015",
+    "0000010016",
+    "0000010017",
+    "0000010018",
+    "0000010019"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

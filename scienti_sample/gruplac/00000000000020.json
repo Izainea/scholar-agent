@@ -1,0 +1,61 @@
+{
+  "codigo_input": "COL0000020",
+  "nro_gruplac": "00000000000020",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000020",
+  "nombre": "Grupo de Combinatoria — DEL NORTE",
+  "fecha_formacion": "2009-07",
+  "departamento_ciudad": "CALI",
+  "lider": "FLORES DELGADO, PAULA ALEJANDRO",
+  "pagina_web": "",
+  "email": "grupo.combinatoria@norte.edu.co",
+  "clasificacion": "A",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Combinatoria",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DEL NORTE"
+  ],
+  "plan_estrategico": "Promover la investigación en combinatoria, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "FLORES DELGADO, PAULA ALEJANDRO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010110",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010110"
+    },
+    {
+      "nombre": "RODRÍGUEZ MORENO, DIANA CAROLINA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010111",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010111"
+    },
+    {
+      "nombre": "VEGA SÁNCHEZ, MIGUEL CLAUDIA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010112",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010112"
+    }
+  ],
+  "total_integrantes": 3,
+  "ids_cvlac": [
+    "0000010110",
+    "0000010111",
+    "0000010112"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

@@ -1,0 +1,130 @@
+{
+  "cod_rh": "0000010105",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010105",
+  "nombre": "RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL ROSARIO",
+      "anio_inicio": "1998",
+      "anio_fin": "2016"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 6,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, PARRA JIMÉNEZ, CLAUDIA BEATRIZ, \"Hopf algebras associated to quivers\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.14 p.111 - 537 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, CASTILLO VARGAS, MAURICIO MAURICIO, \"Path algebras over finite quivers\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.52 p.250 - 709 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES ESPINOSA, MARGARITA RICARDO, RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, \"Gröbner basis methods for path algebras\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.77 p.202 - 847 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, \"On Brauer configuration algebras and their representations\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.50 p.483 - 739 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO ALVAREZ, JULIANA JORGE, TORRES TORRES, JAVIER PABLO, RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, CASTRO PÉREZ, MAURICIO MÓNICA, \"On Brauer configuration algebras and their representations\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.60 p.213 - 991 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROMERO TORRES, DIANA SEBASTIÁN, SÁNCHEZ AGUILAR, CAMILA SEBASTIÁN, GONZÁLEZ MORALES, ALEJANDRA BEATRIZ, TORRES FLORES, MIGUEL JUAN, RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, \"On Brauer configuration algebras and their representations\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.71 p.257 - 699 ,2017, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 6,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

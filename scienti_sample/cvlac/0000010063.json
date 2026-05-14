@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010063",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010063",
+  "nombre": "DÍAZ JIMÉNEZ, LUCÍA MÓNICA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL ROSARIO Computacion",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2004",
+      "anio_fin": "2014"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+    "Ciencias Naturales -- Ciencia de la Computación"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 5,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo DÍAZ JIMÉNEZ, LUCÍA MÓNICA, \"Convolutional architectures for image segmentation\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.17 p.455 - 837 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO DELGADO, JORGE LUCÍA, DÍAZ JIMÉNEZ, LUCÍA MÓNICA, \"Convolutional architectures for image segmentation\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.25 p.81 - 759 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo DÍAZ JIMÉNEZ, LUCÍA MÓNICA, ORTEGA VARGAS, ESTEBAN JORGE, VALENCIA ROMERO, ANDREA SEBASTIÁN, \"Graph neural networks for molecular property prediction\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.72 p.261 - 689 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo DÍAZ JIMÉNEZ, LUCÍA MÓNICA, \"Spectral methods for community detection\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.65 p.298 - 835 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo DÍAZ JIMÉNEZ, LUCÍA MÓNICA, JIMÉNEZ CRUZ, JAVIER ANDREA, REYES RAMÍREZ, SOFÍA ANDRÉS, TORRES ROJAS, JORGE CAMILA, \"Deep learning on citation networks\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.71 p.165 - 993 ,2014, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 5,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

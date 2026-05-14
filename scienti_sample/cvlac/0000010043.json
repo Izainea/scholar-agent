@@ -1,0 +1,125 @@
+{
+  "cod_rh": "0000010043",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010043",
+  "nombre": "MORALES CASTILLO, DANIELA MARÍA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL VALLE Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2013",
+      "anio_fin": "2014"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 2,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MORALES CASTILLO, DANIELA MARÍA, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, CASTILLO TORRES, ANDRÉS DANIELA, RIVERA MOLINA, ANA MARÍA, \"Superconducting order parameters\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.57 p.287 - 690 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MORALES CASTILLO, DANIELA MARÍA, CASTILLO ALVAREZ, JULIANA JORGE, \"Magnetic ordering in frustrated lattices\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.36 p.435 - 977 ,2015, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 2,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

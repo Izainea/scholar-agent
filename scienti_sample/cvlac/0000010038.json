@@ -1,0 +1,129 @@
+{
+  "cod_rh": "0000010038",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010038",
+  "nombre": "PARRA SÁNCHEZ, ESTEBAN DIEGO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DE LOS ANDES Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "anio_inicio": "2005",
+      "anio_fin": "2009"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 6,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo AGUILAR RAMÍREZ, DIEGO PAULA, CASTILLO TORRES, ANDRÉS DANIELA, ROMERO MENDOZA, MÓNICA LUCÍA, PARRA SÁNCHEZ, ESTEBAN DIEGO, MEDINA OSPINA, CARLOS CAROLINA, \"Posets and lattice paths\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.17 p.74 - 815 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS ALVAREZ, MARGARITA GUSTAVO, PARRA SÁNCHEZ, ESTEBAN DIEGO, ROJAS REYES, MAURICIO DIANA, \"Posets and lattice paths\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.33 p.430 - 683 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PARRA SÁNCHEZ, ESTEBAN DIEGO, GARCÍA REYES, MAURICIO DANIELA, AGUILAR MOLINA, PABLO ANDRÉS, ROJAS NAVARRO, JAVIER DIEGO, \"Graph colorings and chromatic polynomials\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.32 p.301 - 764 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PARRA SÁNCHEZ, ESTEBAN DIEGO, MEDINA OSPINA, CARLOS CAROLINA, MOLINA HERRERA, PATRICIA SEBASTIÁN, \"Tableaux and the RSK correspondence\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.38 p.8 - 706 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo VEGA SÁNCHEZ, MIGUEL CLAUDIA, PARRA SÁNCHEZ, ESTEBAN DIEGO, GONZÁLEZ MARTÍNEZ, ANDRÉS CAMILA, MUÑOZ HERRERA, CAMILA OSCAR, \"Spanning trees in random graphs\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.65 p.92 - 720 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PARRA SÁNCHEZ, ESTEBAN DIEGO, \"Graph colorings and chromatic polynomials\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.34 p.419 - 756 ,2020, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 6,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

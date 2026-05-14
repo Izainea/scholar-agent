@@ -1,0 +1,79 @@
+{
+  "codigo_input": "COL0000009",
+  "nro_gruplac": "00000000000009",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000009",
+  "nombre": "Grupo de Humanidades — DE ANTIOQUIA",
+  "fecha_formacion": "2010-03",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "MUÑOZ TORRES, JULIANA MIGUEL",
+  "pagina_web": "",
+  "email": "grupo.humanidades@antioquia.edu.co",
+  "clasificacion": "B",
+  "area_conocimiento": "Humanidades -- Historia -- Historia de las Ciencias",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "plan_estrategico": "Promover la investigación en humanidades, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Filosofía de la ciencia",
+    "Historia de las matemáticas",
+    "Lógica simbólica",
+    "Epistemología contemporánea"
+  ],
+  "integrantes": [
+    {
+      "nombre": "MUÑOZ TORRES, JULIANA MIGUEL",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010068",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010068"
+    },
+    {
+      "nombre": "HERRERA RODRÍGUEZ, PABLO CAROLINA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010069",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010069"
+    },
+    {
+      "nombre": "CRUZ DELGADO, PAULA BEATRIZ",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010070",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010070"
+    },
+    {
+      "nombre": "NAVARRO HERRERA, RODRIGO PATRICIA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010071",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010071"
+    },
+    {
+      "nombre": "MARTÍNEZ RIVERA, PATRICIA BEATRIZ",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010072",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010072"
+    }
+  ],
+  "total_integrantes": 5,
+  "ids_cvlac": [
+    "0000010068",
+    "0000010069",
+    "0000010070",
+    "0000010071",
+    "0000010072"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

@@ -1,0 +1,436 @@
+{
+  "metadata": {
+    "description": "Citation network of Alexander Grothendieck from OpenAlex",
+    "author_focus": "Alexander Grothendieck",
+    "author_key": "grothendieck",
+    "source": "OpenAlex API",
+    "brauer_interpretation": {
+      "vertices_Gamma0": "Reference pool (33 distinct references)",
+      "polygons_Gamma1": "5 papers by Alexander Grothendieck",
+      "orientation_O": "Chronological order by publication year",
+      "multiplicity_mu": "MNTI: mu(m)=2 if val(m)=1, mu(m)=1 if val(m)>=2"
+    },
+    "stats": {
+      "total_works_in_openalex": 62,
+      "papers_included": 5,
+      "dropped_no_references": 53,
+      "dropped_few_references": 4,
+      "unique_references": 33
+    }
+  },
+  "papers": [
+    {
+      "id": "grothendieck_1957_sur_W1858045093",
+      "openalex_id": "W1858045093",
+      "title": "Sur quelques points d'algèbre homologique, II",
+      "authors": [
+        "Alexander Grothendieck"
+      ],
+      "year": 1957,
+      "journal": "Tohoku Mathematical Journal",
+      "doi": "https://doi.org/10.2748/tmj/1178244774",
+      "references": [
+        "W1486693848",
+        "W1993468549",
+        "W2002405231",
+        "W2023876595",
+        "W2028590532",
+        "W2044409636",
+        "W2067251977",
+        "W2092940386",
+        "W2312551561",
+        "W2312994954",
+        "W2526605305",
+        "W2653641131",
+        "W4231281925",
+        "W4244949466",
+        "W4245691205"
+      ]
+    },
+    {
+      "id": "grothendieck_1966_groupe_W25405095",
+      "openalex_id": "W25405095",
+      "title": "Le groupe de Brauer : II. Théories cohomologiques",
+      "authors": [
+        "Alexander Grothendieck"
+      ],
+      "year": 1966,
+      "journal": "Séminaire Bourbaki",
+      "doi": "https://doi.org/10.5312/wjo.v5.i5.660",
+      "references": [
+        "W267705977",
+        "W1932485567",
+        "W2398005014"
+      ]
+    },
+    {
+      "id": "grothendieck_1970_representations_W2077356252",
+      "openalex_id": "W2077356252",
+      "title": "Representations lineaires et compactification profinie des groupes discrets",
+      "authors": [
+        "Alexander Grothendieck"
+      ],
+      "year": 1970,
+      "journal": "manuscripta mathematica",
+      "doi": "https://doi.org/10.1007/bf01719593",
+      "references": [
+        "W611164176",
+        "W1533846756",
+        "W2089163333",
+        "W2524278865"
+      ]
+    },
+    {
+      "id": "grothendieck_1971_exemples_W2511795521",
+      "openalex_id": "W2511795521",
+      "title": "Exemples et Complements",
+      "authors": [
+        "Alexander Grothendieck"
+      ],
+      "year": 1971,
+      "journal": "Lecture notes in mathematics",
+      "doi": "https://doi.org/10.1007/bfb0058666",
+      "references": [
+        "W1486693848",
+        "W2044154537",
+        "W2219207673",
+        "W2278295652",
+        "W2330811908",
+        "W3188138339"
+      ]
+    },
+    {
+      "id": "grothendieck_1971_theorie_W2509538190",
+      "openalex_id": "W2509538190",
+      "title": "Theorie De La Specialisation Du Groupe Fondamental",
+      "authors": [
+        "Alexander Grothendieck"
+      ],
+      "year": 1971,
+      "journal": "Lecture notes in mathematics",
+      "doi": "https://doi.org/10.1007/bfb0058665",
+      "references": [
+        "W1502429236",
+        "W1981796790",
+        "W2018964148",
+        "W2324411660",
+        "W4239679748",
+        "W4252373191"
+      ]
+    }
+  ],
+  "reference_pool": {
+    "W611164176": {
+      "title": "Die De Rham Kohomologie algebraischer Mannigfaltigkeiten über einem bewerteten Körper (p.5 à 20) . Singularities of differentiable maps (p.21 à 57) . Solution of the congruence subgroup problem for SLn (n≧3) and Sp2n (n≧2) (p.59 à 137) . Algebraic equations for nonsmoothable 8-manifolds",
+      "authors": [
+        "Reinhardt Kiehl",
+        "J. M. Boardman",
+        "Hyman Bass",
+        "John Milnor",
+        "Jean Pierre Serre"
+      ],
+      "year": 1967,
+      "journal": "Institut des hautes études scientifiques eBooks",
+      "doi": null
+    },
+    "W1533846756": {
+      "title": "Theory of Lie Groups",
+      "authors": [
+        "Claude Chevalley"
+      ],
+      "year": 1946,
+      "journal": "",
+      "doi": "https://doi.org/10.1515/9781400883851?locatt=mode:legacy"
+    },
+    "W2089163333": {
+      "title": "Solution of the congruence subgroup problem for <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:msub> <mml:mi>L</mml:mi> <mml:mi>n</mml:mi> </mml:msub> <mml:mrow> <mml:mo>(</mml:mo> <mml:mi>n</mml:mi> <mml:mo>≥</mml:mo> <mml:mn>3</mml:mn> <mml:mo>)</mml:mo> </mml:mrow> </mml:mrow> </mml:math> and <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:mrow> <mml:mi>S</mml:mi> <mml:msub> <mml:mi>p</mml:mi> <mml:mrow> <mml:mn>2</mml:mn> <mml:mi>n</mml:mi> </mml:mrow> </mml:msub> <mml:mrow> <mml:mo>(</mml:mo> <mml:mi>n</mml:mi> <mml:mo>≥</mml:mo> <mml:mn>2</mml:mn> <mml:mo>)</mml:mo> </mml:mrow> </mml:mrow> </mml:math>",
+      "authors": [
+        "Hyman Bass",
+        "John Milnor",
+        "Jean-Pierre Serre"
+      ],
+      "year": 1967,
+      "journal": "Publications mathématiques de l IHÉS",
+      "doi": "https://doi.org/10.1007/bf02684586"
+    },
+    "W2524278865": {
+      "title": "Theory of Lie Groups (PMS-8)",
+      "authors": [
+        "Claude Chevalley"
+      ],
+      "year": 1946,
+      "journal": "Princeton University Press eBooks",
+      "doi": "https://doi.org/10.1515/9781400883851"
+    },
+    "W1486693848": {
+      "title": "A general theory of fibre spaces with structure sheaf",
+      "authors": [
+        "Alexandre Grothendieck"
+      ],
+      "year": 1955,
+      "journal": "Medical Entomology and Zoology",
+      "doi": null
+    },
+    "W1993468549": {
+      "title": "Duality for groups",
+      "authors": [
+        "Saunders MacLane"
+      ],
+      "year": 1950,
+      "journal": "Bulletin of the American Mathematical Society",
+      "doi": "https://doi.org/10.1090/s0002-9904-1950-09427-0"
+    },
+    "W2002405231": {
+      "title": "Exact categories and duality",
+      "authors": [
+        "David A. Buchsbaum"
+      ],
+      "year": 1955,
+      "journal": "Transactions of the American Mathematical Society",
+      "doi": "https://doi.org/10.1090/s0002-9947-1955-0074407-6"
+    },
+    "W2023876595": {
+      "title": "Groupes D'Homotopie Et Classes De Groupes Abeliens",
+      "authors": [
+        "Jean-Pierre Serre"
+      ],
+      "year": 1953,
+      "journal": "Annals of Mathematics",
+      "doi": "https://doi.org/10.2307/1969789"
+    },
+    "W2028590532": {
+      "title": "Faisceaux Algebriques Coherents",
+      "authors": [
+        "Jean-Pierre Serre"
+      ],
+      "year": 1955,
+      "journal": "Annals of Mathematics",
+      "doi": "https://doi.org/10.2307/1969915"
+    },
+    "W2044409636": {
+      "title": "Complex analytic connections in fibre bundles",
+      "authors": [
+        "Michael Atiyah"
+      ],
+      "year": 1957,
+      "journal": "Transactions of the American Mathematical Society",
+      "doi": "https://doi.org/10.1090/s0002-9947-1957-0086359-5"
+    },
+    "W2067251977": {
+      "title": "Group Extensions of Lie Groups",
+      "authors": [
+        "G. Hochschild"
+      ],
+      "year": 1951,
+      "journal": "Annals of Mathematics",
+      "doi": "https://doi.org/10.2307/1969314"
+    },
+    "W2092940386": {
+      "title": "Géométrie algébrique et géométrie analytique",
+      "authors": [
+        "Jean-Pierre Serre"
+      ],
+      "year": 1956,
+      "journal": "Annales de l’institut Fourier",
+      "doi": "https://doi.org/10.5802/aif.59"
+    },
+    "W2312551561": {
+      "title": "Group Extensions of Compact Lie Groups",
+      "authors": [
+        "ARNOLD SHAPIRO"
+      ],
+      "year": 1949,
+      "journal": "Annals of Mathematics",
+      "doi": "https://doi.org/10.2307/1969551"
+    },
+    "W2312994954": {
+      "title": "Nouvelle démonstration d’un théorème de P. A. Smith",
+      "authors": [
+        "Armand Borel"
+      ],
+      "year": 1955,
+      "journal": "Commentarii Mathematici Helvetici",
+      "doi": "https://doi.org/10.1007/bf02564269"
+    },
+    "W2526605305": {
+      "title": "Homological Algebra (PMS-19)",
+      "authors": [
+        "Henry Cartan",
+        "Samuel Eilenberg"
+      ],
+      "year": 1956,
+      "journal": "Princeton University Press eBooks",
+      "doi": "https://doi.org/10.1515/9781400883844"
+    },
+    "W2653641131": {
+      "title": "Cohomologie des groupes discontinus",
+      "authors": [
+        "Roger Godement"
+      ],
+      "year": 1954,
+      "journal": "French digital mathematics library (Numdam)",
+      "doi": null
+    },
+    "W4231281925": {
+      "title": "Group Extensions of Lie Groups II",
+      "authors": [
+        "G. Hochschild"
+      ],
+      "year": 1951,
+      "journal": "Annals of Mathematics",
+      "doi": "https://doi.org/10.2307/1969488"
+    },
+    "W4244949466": {
+      "title": "Exact Categories and Duality",
+      "authors": [
+        "David A. Buchsbaum"
+      ],
+      "year": 1955,
+      "journal": "Transactions of the American Mathematical Society",
+      "doi": "https://doi.org/10.2307/1993003"
+    },
+    "W4245691205": {
+      "title": "Complex Analytic Connections in Fibre Bundles",
+      "authors": [
+        "M. F. Atiyah"
+      ],
+      "year": 1957,
+      "journal": "Transactions of the American Mathematical Society",
+      "doi": "https://doi.org/10.2307/1992969"
+    },
+    "W2044154537": {
+      "title": "On the Fundamental Group of a Unirational Variety",
+      "authors": [
+        "Jean-Pierre Serre"
+      ],
+      "year": 1959,
+      "journal": "Journal of the London Mathematical Society",
+      "doi": "https://doi.org/10.1112/jlms/s1-34.4.481"
+    },
+    "W2219207673": {
+      "title": "Espaces fibrés algébriques",
+      "authors": [
+        "Jean-Pierre Serre"
+      ],
+      "year": 1954,
+      "journal": "French digital mathematics library (Numdam)",
+      "doi": null
+    },
+    "W2278295652": {
+      "title": "Torsion homologique et sections rationnelles",
+      "authors": [
+        "Alexandre Grothendieck"
+      ],
+      "year": 1958,
+      "journal": "French digital mathematics library (Numdam)",
+      "doi": null
+    },
+    "W2330811908": {
+      "title": "Quelques Proprietes des Varietes Abeliennes en Caracteristique p",
+      "authors": [
+        "Jean-Pierre Serre"
+      ],
+      "year": 1958,
+      "journal": "American Journal of Mathematics",
+      "doi": "https://doi.org/10.2307/2372780"
+    },
+    "W3188138339": {
+      "title": "Groupes proalgébriques",
+      "authors": [
+        "Jean-Pierre Serre"
+      ],
+      "year": 1960,
+      "journal": "Publications mathématiques de l IHÉS",
+      "doi": "https://doi.org/10.1007/bf02699186"
+    },
+    "W1502429236": {
+      "title": "On the purity of branch loci in regular local rings",
+      "authors": [
+        "Masayoshi Nagata"
+      ],
+      "year": 1959,
+      "journal": "Illinois Journal of Mathematics",
+      "doi": "https://doi.org/10.1215/ijm/1255455255"
+    },
+    "W1981796790": {
+      "title": "ON THE PURITY OF THE BRANCH LOCUS OF ALGEBRAIC FUNCTIONS",
+      "authors": [
+        "Oscar Zariski"
+      ],
+      "year": 1958,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "https://doi.org/10.1073/pnas.44.8.791"
+    },
+    "W2018964148": {
+      "title": "On Compact Analytic Surfaces",
+      "authors": [
+        "Kunihiko Kodaira"
+      ],
+      "year": 2015,
+      "journal": "Princeton University Press eBooks",
+      "doi": "https://doi.org/10.1515/9781400869879-002"
+    },
+    "W2324411660": {
+      "title": "Sur Les Revetements Non Ramifies des Varietes Algebriques",
+      "authors": [
+        "Serge Lang",
+        "Jean-Pierre Serre"
+      ],
+      "year": 1957,
+      "journal": "American Journal of Mathematics",
+      "doi": "https://doi.org/10.2307/2372685"
+    },
+    "W4239679748": {
+      "title": "Algebraic Surfaces",
+      "authors": [
+        "O. Zariski"
+      ],
+      "year": 1948,
+      "journal": "",
+      "doi": "https://doi.org/10.1007/978-3-642-92450-7"
+    },
+    "W4252373191": {
+      "title": "On Compact Analytic Surfaces",
+      "authors": [
+        "Kunihiko Kodaira"
+      ],
+      "year": 1960,
+      "journal": "Princeton University Press eBooks",
+      "doi": "https://doi.org/10.1515/9781400876709-007"
+    },
+    "W267705977": {
+      "title": "Hip resurfacing: indications, results, and conclusions.",
+      "authors": [
+        "Caroline Hing",
+        "Diane Back",
+        "Andrew Shimmin"
+      ],
+      "year": 2007,
+      "journal": "PubMed",
+      "doi": null
+    },
+    "W1932485567": {
+      "title": "Nanotoxicology of metal wear particles in total joint arthroplasty: a review of current concepts.",
+      "authors": [
+        "Fabrizio Billi",
+        "Pat Campbell"
+      ],
+      "year": 2010,
+      "journal": "PubMed",
+      "doi": null
+    },
+    "W2398005014": {
+      "title": "Blockade of vascular endothelial growth factor activity suppresses wear debris-induced inflammatory osteolysis.",
+      "authors": [
+        "Weiping Ren",
+        "Renwen Zhang",
+        "David C. Markel",
+        "Bin Wu",
+        "Xin Peng"
+      ],
+      "year": 2007,
+      "journal": "PubMed",
+      "doi": null
+    }
+  }
+}

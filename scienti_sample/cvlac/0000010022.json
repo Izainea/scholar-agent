@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010022",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010022",
+  "nombre": "FLORES RAMÍREZ, RICARDO DIANA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD NACIONAL DE COLOMBIA Computacion",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL NORTE",
+      "anio_inicio": "1997",
+      "anio_fin": "2019"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "areas_actuacion": [
+    "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+    "Ciencias Naturales -- Ciencia de la Computación"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo FLORES ESPINOSA, MARGARITA RICARDO, FLORES RAMÍREZ, RICARDO DIANA, \"Spectral methods for community detection\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.66 p.382 - 720 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GONZÁLEZ LÓPEZ, CLAUDIA EDUARDO, CASTRO MEDINA, ALEJANDRA VALENTINA, FLORES RAMÍREZ, RICARDO DIANA, JIMÉNEZ MARTÍNEZ, VALENTINA MARÍA, \"Graph neural networks for molecular property prediction\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.18 p.83 - 951 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES RAMÍREZ, RICARDO DIANA, \"Spectral methods for community detection\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.24 p.397 - 632 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo JIMÉNEZ CRUZ, JAVIER ANDREA, REYES MORALES, DANIELA ALEJANDRO, RUIZ DÍAZ, PAULA FERNANDO, RAMÍREZ SÁNCHEZ, DIEGO JORGE, FLORES RAMÍREZ, RICARDO DIANA, \"Spectral methods for community detection\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.56 p.364 - 868 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RUIZ DÍAZ, PAULA FERNANDO, LÓPEZ MARTÍNEZ, MARGARITA DIANA, FLORES RAMÍREZ, RICARDO DIANA, \"Graph neural networks for molecular property prediction\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.31 p.412 - 878 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES RAMÍREZ, RICARDO DIANA, CASTILLO MUÑOZ, PATRICIA JULIANA, \"Spectral methods for community detection\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.18 p.341 - 883 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RIVERA MOLINA, ANA MARÍA, CASTRO PÉREZ, MAURICIO MÓNICA, FLORES RAMÍREZ, RICARDO DIANA, ORTEGA AGUILAR, ALEJANDRA NATALIA, \"Convolutional architectures for image segmentation\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.13 p.106 - 923 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES RAMÍREZ, RICARDO DIANA, GONZÁLEZ MARTÍNEZ, ANDRÉS CAMILA, MARTÍNEZ VEGA, ESTEBAN DANIELA, ROJAS GARCÍA, EDUARDO MIGUEL, \"Spectral methods for community detection\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.17 p.213 - 933 ,2017, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

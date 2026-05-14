@@ -1,0 +1,80 @@
+{
+  "codigo_input": "COL0000006",
+  "nro_gruplac": "00000000000006",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000006",
+  "nombre": "Grupo de Algebra — EXTERNADO DE COLOMBIA",
+  "fecha_formacion": "1998-10",
+  "departamento_ciudad": "BOGOTÁ",
+  "lider": "ROMERO MENDOZA, MÓNICA LUCÍA",
+  "pagina_web": "",
+  "email": "grupo.algebra@colombia.edu.co",
+  "clasificacion": "C",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Álgebra",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD EXTERNADO DE COLOMBIA"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "ROMERO MENDOZA, MÓNICA LUCÍA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010055",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010055"
+    },
+    {
+      "nombre": "AGUILAR MEDINA, DAVID CAMILA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010056",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010056"
+    },
+    {
+      "nombre": "JIMÉNEZ MORENO, LUCÍA DAVID",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010057",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010057"
+    },
+    {
+      "nombre": "TORRES RODRÍGUEZ, PAULA CARLOS",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010058",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010058"
+    },
+    {
+      "nombre": "DELGADO GARCÍA, PABLO ANDREA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010059",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010059"
+    }
+  ],
+  "total_integrantes": 5,
+  "ids_cvlac": [
+    "0000010055",
+    "0000010056",
+    "0000010057",
+    "0000010058",
+    "0000010059"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

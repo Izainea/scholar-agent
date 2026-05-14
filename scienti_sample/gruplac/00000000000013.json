@@ -1,0 +1,62 @@
+{
+  "codigo_input": "COL0000013",
+  "nro_gruplac": "00000000000013",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000013",
+  "nombre": "Grupo de Algebra — EXTERNADO DE COLOMBIA",
+  "fecha_formacion": "2016-06",
+  "departamento_ciudad": "BARRANQUILLA",
+  "lider": "ROMERO TORRES, DIANA SEBASTIÁN",
+  "pagina_web": "",
+  "email": "grupo.algebra@colombia.edu.co",
+  "clasificacion": "C",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Álgebra",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD EXTERNADO DE COLOMBIA"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "ROMERO TORRES, DIANA SEBASTIÁN",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010082",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010082"
+    },
+    {
+      "nombre": "ROMERO MUÑOZ, PAULA RODRIGO",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010083",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010083"
+    },
+    {
+      "nombre": "SÁNCHEZ PÉREZ, JULIANA CAMILA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010084",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010084"
+    }
+  ],
+  "total_integrantes": 3,
+  "ids_cvlac": [
+    "0000010082",
+    "0000010083",
+    "0000010084"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

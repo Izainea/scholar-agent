@@ -1,0 +1,130 @@
+{
+  "cod_rh": "0000010110",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010110",
+  "nombre": "FLORES DELGADO, PAULA ALEJANDRO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL ROSARIO Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "anio_inicio": "2012",
+      "anio_fin": "2010"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL NORTE"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 7,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ RIVERA, PATRICIA BEATRIZ, FLORES DELGADO, PAULA ALEJANDRO, VEGA TORRES, ISABELLA JORGE, \"Posets and lattice paths\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.42 p.354 - 922 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES DELGADO, PAULA ALEJANDRO, AGUILAR MOLINA, PABLO ANDRÉS, NAVARRO HERRERA, RODRIGO PATRICIA, FLORES LÓPEZ, GUSTAVO JUAN, \"Spanning trees in random graphs\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.19 p.130 - 939 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MORALES LÓPEZ, CARLOS RICARDO, LÓPEZ MOLINA, CARLOS DIEGO, RODRÍGUEZ MORENO, DIANA CAROLINA, FLORES DELGADO, PAULA ALEJANDRO, GÓMEZ REYES, ALEJANDRA ALEJANDRO, \"Posets and lattice paths\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.56 p.108 - 834 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES DELGADO, PAULA ALEJANDRO, NAVARRO HERRERA, RODRIGO PATRICIA, HERRERA DÍAZ, ANDREA NATALIA, \"Generating functions for integer partitions\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.57 p.233 - 773 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES DELGADO, PAULA ALEJANDRO, \"Graph colorings and chromatic polynomials\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.18 p.211 - 546 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES DELGADO, PAULA ALEJANDRO, RUIZ DÍAZ, PAULA FERNANDO, \"Tableaux and the RSK correspondence\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.22 p.220 - 842 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO OSPINA, PABLO DIANA, MORALES CASTILLO, DANIELA MARÍA, DÍAZ MORENO, NATALIA ANDRÉS, NAVARRO ALVAREZ, EDUARDO BEATRIZ, FLORES DELGADO, PAULA ALEJANDRO, \"Posets and lattice paths\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.26 p.232 - 827 ,2014, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 7,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

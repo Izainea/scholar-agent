@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010080",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010080",
+  "nombre": "GARCÍA REYES, MAURICIO DANIELA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD NACIONAL DE COLOMBIA Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL VALLE",
+      "anio_inicio": "1999",
+      "anio_fin": "2010"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo ROMERO TORRES, DIANA SEBASTIÁN, TORRES TORRES, FELIPE ISABELLA, GARCÍA REYES, MAURICIO DANIELA, \"Hopf algebras associated to quivers\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.35 p.172 - 580 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MUÑOZ OSPINA, PAULA SOFÍA, ROJAS RUIZ, MARÍA ANDREA, GARCÍA REYES, MAURICIO DANIELA, DELGADO GONZÁLEZ, DIEGO ALEJANDRO, MENDOZA ESPINOSA, OSCAR MAURICIO, \"Gröbner basis methods for path algebras\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.46 p.336 - 585 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GARCÍA REYES, MAURICIO DANIELA, SÁNCHEZ ROJAS, DIEGO ISABELLA, \"Quivers of tame representation type\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.13 p.369 - 993 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ RIVERA, PATRICIA BEATRIZ, RAMÍREZ NAVARRO, PABLO ANA, PÉREZ JIMÉNEZ, DIANA ANDREA, MEDINA GÓMEZ, CARLOS LUCÍA, GARCÍA REYES, MAURICIO DANIELA, \"Tilting modules and t-structures\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.67 p.272 - 889 ,2024, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

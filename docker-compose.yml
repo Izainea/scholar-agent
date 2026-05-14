@@ -1,0 +1,58 @@
+# Scholar Agent — full stack for local development.
+#
+# Usage:
+#   cd scholar_agent_app
+#   cp .env.example .env   # then fill ANTHROPIC_API_KEY
+#   docker compose up --build
+#
+# - Frontend → http://localhost:8080
+# - Backend  → http://localhost:8000 directly, or via /api on the frontend.
+#
+# Note: build context for the backend is the WHOLE scholar_agent_app/
+# directory because the Dockerfile copies both `backend/` and the
+# bundled `scienti_sample/`.
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: scholar-agent-backend:0.1.0
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      CLAUDE_MODEL: ${CLAUDE_MODEL:-claude-sonnet-4-5}
+      OPENALEX_EMAIL: ${OPENALEX_EMAIL:-scholar-agent@example.org}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8080,http://localhost:5173,http://localhost:4173}
+      SCHOLAR_DATA_DIR: /data
+      # Scienti sample is baked into the image at /app/scienti_sample.
+      # Uncomment + adjust to mount the full 4 GB scrape if you have it:
+      # SCIENTI_DATA_DIR: /scienti_full
+    volumes:
+      - ./backend/data:/data
+      # - ../scraper_scienti/data:/scienti_full:ro
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE: /api
+    image: scholar-agent-frontend:0.1.0
+    environment:
+      NGINX_PORT: "80"
+      BACKEND_URL: http://backend:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+    restart: unless-stopped

@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010017",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010017",
+  "nombre": "VEGA GÓMEZ, MARGARITA OSCAR",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EAFIT Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2009",
+      "anio_fin": "2013"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD NACIONAL DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo VEGA GÓMEZ, MARGARITA OSCAR, RAMÍREZ FLORES, ANDREA PATRICIA, \"Gröbner basis methods for path algebras\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.28 p.200 - 733 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo VEGA GÓMEZ, MARGARITA OSCAR, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, \"Path algebras over finite quivers\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.20 p.485 - 618 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo VEGA GÓMEZ, MARGARITA OSCAR, \"On Brauer configuration algebras and their representations\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.15 p.191 - 616 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES RIVERA, CAMILA MARGARITA, TORRES VEGA, MARÍA CARLOS, ROMERO PARRA, ISABELLA ALEJANDRO, NAVARRO PARRA, RODRIGO CLAUDIA, VEGA GÓMEZ, MARGARITA OSCAR, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.58 p.461 - 595 ,2019, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

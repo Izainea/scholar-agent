@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010077",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010077",
+  "nombre": "NAVARRO CASTRO, DIANA MARÍA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD NACIONAL DE COLOMBIA Computacion",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "anio_inicio": "2004",
+      "anio_fin": "2002"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL NORTE"
+  ],
+  "areas_actuacion": [
+    "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+    "Ciencias Naturales -- Ciencia de la Computación"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo SÁNCHEZ CRUZ, PAULA MÓNICA, GONZÁLEZ LÓPEZ, CLAUDIA EDUARDO, NAVARRO CASTRO, DIANA MARÍA, NAVARRO ALVAREZ, EDUARDO BEATRIZ, RODRÍGUEZ TORRES, DIEGO JUAN, \"Spectral methods for community detection\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.62 p.290 - 864 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO CASTRO, DIANA MARÍA, \"Convolutional architectures for image segmentation\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.17 p.12 - 868 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo HERRERA RODRÍGUEZ, PABLO CAROLINA, ORTEGA TORRES, MARGARITA ANA, NAVARRO CASTRO, DIANA MARÍA, \"Spectral methods for community detection\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.71 p.403 - 506 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROMERO MUÑOZ, PAULA RODRIGO, ORTEGA VARGAS, ESTEBAN JORGE, NAVARRO CASTRO, DIANA MARÍA, \"Graph neural networks for molecular property prediction\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.27 p.448 - 699 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo SÁNCHEZ ROJAS, DIEGO ISABELLA, ROMERO TORRES, DIANA SEBASTIÁN, NAVARRO CASTRO, DIANA MARÍA, DELGADO GONZÁLEZ, DIEGO ALEJANDRO, \"Convolutional architectures for image segmentation\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.49 p.15 - 542 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO CASTRO, DIANA MARÍA, HERRERA ALVAREZ, JAVIER FERNANDO, \"Spectral methods for community detection\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.66 p.346 - 744 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO CASTRO, DIANA MARÍA, TORRES HERRERA, SEBASTIÁN ALEJANDRA, PÉREZ JIMÉNEZ, DIANA ANDREA, \"Convolutional architectures for image segmentation\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.56 p.76 - 898 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO CASTRO, DIANA MARÍA, ESPINOSA REYES, ISABELLA GUSTAVO, MORALES CASTILLO, DANIELA MARÍA, SÁNCHEZ PÉREZ, JULIANA CAMILA, \"Graph neural networks for molecular property prediction\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.65 p.344 - 748 ,2020, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

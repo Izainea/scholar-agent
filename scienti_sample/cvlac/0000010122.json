@@ -1,0 +1,132 @@
+{
+  "cod_rh": "0000010122",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010122",
+  "nombre": "MORALES FLORES, VALENTINA JULIANA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EAFIT Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL VALLE",
+      "anio_inicio": "2009",
+      "anio_fin": "2012"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL VALLE"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MORALES FLORES, VALENTINA JULIANA, GARCÍA ALVAREZ, VALENTINA MAURICIO, \"On Brauer configuration algebras and their representations\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.16 p.44 - 747 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO OSPINA, PABLO DIANA, MENDOZA ESPINOSA, OSCAR MAURICIO, MORALES FLORES, VALENTINA JULIANA, RUIZ RIVERA, ALEJANDRO ALEJANDRA, TORRES TORRES, JAVIER PABLO, \"Mutation of derived equivalences\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.45 p.207 - 594 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MORALES FLORES, VALENTINA JULIANA, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.42 p.174 - 613 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MORALES FLORES, VALENTINA JULIANA, GONZÁLEZ MARTÍNEZ, ANDRÉS CAMILA, \"Mutation of derived equivalences\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.35 p.216 - 940 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO OSPINA, PABLO DIANA, MORALES FLORES, VALENTINA JULIANA, CASTILLO GÓMEZ, ANDREA GUSTAVO, REYES CRUZ, MÓNICA JULIANA, CRUZ DELGADO, PAULA BEATRIZ, \"On Brauer configuration algebras and their representations\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.68 p.170 - 899 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ORTEGA AGUILAR, ALEJANDRA NATALIA, NAVARRO AGUILAR, CAMILA BEATRIZ, MORALES FLORES, VALENTINA JULIANA, \"Gröbner basis methods for path algebras\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.64 p.187 - 765 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MORALES FLORES, VALENTINA JULIANA, RUIZ DELGADO, MARÍA DAVID, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.19 p.49 - 955 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MORALES FLORES, VALENTINA JULIANA, \"Tilting modules and t-structures\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.29 p.122 - 589 ,2020, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

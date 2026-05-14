@@ -1,0 +1,62 @@
+{
+  "codigo_input": "COL0000010",
+  "nro_gruplac": "00000000000010",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000010",
+  "nombre": "Grupo de Algebra — DE LOS ANDES",
+  "fecha_formacion": "1995-03",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "SÁNCHEZ AGUILAR, CAMILA SEBASTIÁN",
+  "pagina_web": "",
+  "email": "grupo.algebra@andes.edu.co",
+  "clasificacion": "C",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Álgebra",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "SÁNCHEZ AGUILAR, CAMILA SEBASTIÁN",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010073",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010073"
+    },
+    {
+      "nombre": "REYES MORALES, DANIELA ALEJANDRO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010074",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010074"
+    },
+    {
+      "nombre": "ROJAS MOLINA, NATALIA ALEJANDRA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010075",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010075"
+    }
+  ],
+  "total_integrantes": 3,
+  "ids_cvlac": [
+    "0000010073",
+    "0000010074",
+    "0000010075"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

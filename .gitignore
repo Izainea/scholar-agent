@@ -1,0 +1,53 @@
+# ── Secrets ────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg
+
+# ── Node / Vite ────────────────────────────────────────
+node_modules/
+*.tsbuildinfo
+.vite/
+frontend/dist/
+
+# ── Backend runtime state ──────────────────────────────
+# Datasets generated at runtime (raw OpenAlex caches + per-instance
+# registry). Pre-committed preprocessed datasets stay tracked.
+backend/data/*_raw.json
+backend/data/registry.json
+backend/wheels/*.whl
+
+# ── Docker ─────────────────────────────────────────────
+*.pid
+docker-compose.override.yml
+
+# ── OS / editor ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs ───────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

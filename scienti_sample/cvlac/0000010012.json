@@ -1,0 +1,132 @@
+{
+  "cod_rh": "0000010012",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010012",
+  "nombre": "FLORES AGUILAR, ALEJANDRO SEBASTIÁN",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL VALLE Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE ANTIOQUIA",
+      "anio_inicio": "2003",
+      "anio_fin": "2010"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo FLORES AGUILAR, ALEJANDRO SEBASTIÁN, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.67 p.152 - 954 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES AGUILAR, ALEJANDRO SEBASTIÁN, MEDINA MORALES, MAURICIO NATALIA, CASTILLO ALVAREZ, JULIANA JORGE, \"Hopf algebras associated to quivers\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.79 p.431 - 890 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES AGUILAR, ALEJANDRO SEBASTIÁN, ROMERO MORALES, DANIELA VALENTINA, \"On Brauer configuration algebras and their representations\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.41 p.63 - 722 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO GÓMEZ, ANDREA GUSTAVO, FLORES AGUILAR, ALEJANDRO SEBASTIÁN, CASTILLO MUÑOZ, PATRICIA JULIANA, NAVARRO ALVAREZ, EDUARDO BEATRIZ, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.58 p.83 - 884 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROMERO PARRA, ISABELLA ALEJANDRO, TORRES VARGAS, VALENTINA MÓNICA, MORALES LÓPEZ, CARLOS RICARDO, FLORES AGUILAR, ALEJANDRO SEBASTIÁN, \"Path algebras over finite quivers\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.54 p.191 - 770 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES AGUILAR, ALEJANDRO SEBASTIÁN, VEGA GÓMEZ, MARGARITA OSCAR, RUIZ RIVERA, ALEJANDRO ALEJANDRA, \"Hopf algebras associated to quivers\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.55 p.120 - 574 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO PÉREZ, MAURICIO MÓNICA, SÁNCHEZ CRUZ, PAULA MÓNICA, CASTILLO DELGADO, JORGE LUCÍA, MEDINA DELGADO, PAULA FERNANDO, FLORES AGUILAR, ALEJANDRO SEBASTIÁN, \"Hopf algebras associated to quivers\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.12 p.492 - 666 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES AGUILAR, ALEJANDRO SEBASTIÁN, GONZÁLEZ RODRÍGUEZ, DIEGO JULIANA, OSPINA PARRA, FERNANDO DIEGO, \"Gröbner basis methods for path algebras\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.64 p.198 - 758 ,2024, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

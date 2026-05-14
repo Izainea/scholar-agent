@@ -1,0 +1,160 @@
+{
+  "codigo_input": "COL0000005",
+  "nro_gruplac": "00000000000005",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000005",
+  "nombre": "Grupo de Fisica — DEL NORTE",
+  "fecha_formacion": "2002-09",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "TORRES TORRES, JAVIER PABLO",
+  "pagina_web": "",
+  "email": "grupo.fisica@norte.edu.co",
+  "clasificacion": "C",
+  "area_conocimiento": "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DEL NORTE"
+  ],
+  "plan_estrategico": "Promover la investigación en fisica, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "TORRES TORRES, JAVIER PABLO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010041",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010041"
+    },
+    {
+      "nombre": "ESPINOSA TORRES, MARÍA DAVID",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010042",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010042"
+    },
+    {
+      "nombre": "MORALES CASTILLO, DANIELA MARÍA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010043",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010043"
+    },
+    {
+      "nombre": "ORTEGA VARGAS, ESTEBAN JORGE",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010044",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010044"
+    },
+    {
+      "nombre": "MUÑOZ DELGADO, DANIELA RODRIGO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010045",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010045"
+    },
+    {
+      "nombre": "TORRES TORRES, FELIPE ISABELLA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010046",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010046"
+    },
+    {
+      "nombre": "VEGA TORRES, ISABELLA JORGE",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010047",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010047"
+    },
+    {
+      "nombre": "TORRES GARCÍA, JORGE CAROLINA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010048",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010048"
+    },
+    {
+      "nombre": "TORRES VARGAS, VALENTINA MÓNICA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010049",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010049"
+    },
+    {
+      "nombre": "DELGADO GONZÁLEZ, DIEGO ALEJANDRO",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010050",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010050"
+    },
+    {
+      "nombre": "ROJAS REYES, MAURICIO DIANA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010051",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010051"
+    },
+    {
+      "nombre": "CASTILLO ALVAREZ, JULIANA JORGE",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010052",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010052"
+    },
+    {
+      "nombre": "MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010053",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010053"
+    },
+    {
+      "nombre": "CASTILLO GÓMEZ, ANDREA GUSTAVO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010054",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010054"
+    }
+  ],
+  "total_integrantes": 14,
+  "ids_cvlac": [
+    "0000010041",
+    "0000010042",
+    "0000010043",
+    "0000010044",
+    "0000010045",
+    "0000010046",
+    "0000010047",
+    "0000010048",
+    "0000010049",
+    "0000010050",
+    "0000010051",
+    "0000010052",
+    "0000010053",
+    "0000010054"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

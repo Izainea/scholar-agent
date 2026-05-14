@@ -1,0 +1,133 @@
+{
+  "codigo_input": "COL0000003",
+  "nro_gruplac": "00000000000003",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000003",
+  "nombre": "Grupo de Computacion — DE LOS ANDES",
+  "fecha_formacion": "2008-06",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "MENDOZA MENDOZA, LUCÍA RICARDO",
+  "pagina_web": "",
+  "email": "grupo.computacion@andes.edu.co",
+  "clasificacion": "C",
+  "area_conocimiento": "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "plan_estrategico": "Promover la investigación en computacion, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "integrantes": [
+    {
+      "nombre": "MENDOZA MENDOZA, LUCÍA RICARDO",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010020",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010020"
+    },
+    {
+      "nombre": "MUÑOZ GARCÍA, ANDREA CARLOS",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010021",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010021"
+    },
+    {
+      "nombre": "FLORES RAMÍREZ, RICARDO DIANA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010022",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010022"
+    },
+    {
+      "nombre": "LÓPEZ MARTÍNEZ, MARGARITA DIANA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010023",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010023"
+    },
+    {
+      "nombre": "GONZÁLEZ LÓPEZ, CLAUDIA EDUARDO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010024",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010024"
+    },
+    {
+      "nombre": "RIVERA MOLINA, ANA MARÍA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010025",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010025"
+    },
+    {
+      "nombre": "PARRA MORALES, FELIPE JUAN",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010026",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010026"
+    },
+    {
+      "nombre": "RUIZ RIVERA, ALEJANDRO ALEJANDRA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010027",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010027"
+    },
+    {
+      "nombre": "LÓPEZ ALVAREZ, JULIANA RICARDO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010028",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010028"
+    },
+    {
+      "nombre": "RUIZ DÍAZ, PAULA FERNANDO",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010029",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010029"
+    },
+    {
+      "nombre": "CASTILLO MUÑOZ, PATRICIA JULIANA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010030",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010030"
+    }
+  ],
+  "total_integrantes": 11,
+  "ids_cvlac": [
+    "0000010020",
+    "0000010021",
+    "0000010022",
+    "0000010023",
+    "0000010024",
+    "0000010025",
+    "0000010026",
+    "0000010027",
+    "0000010028",
+    "0000010029",
+    "0000010030"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

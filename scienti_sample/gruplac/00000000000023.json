@@ -1,0 +1,71 @@
+{
+  "codigo_input": "COL0000023",
+  "nro_gruplac": "00000000000023",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000023",
+  "nombre": "Grupo de Algebra — DE ANTIOQUIA",
+  "fecha_formacion": "2016-05",
+  "departamento_ciudad": "CALI",
+  "lider": "CASTRO OSPINA, PABLO DIANA",
+  "pagina_web": "",
+  "email": "grupo.algebra@antioquia.edu.co",
+  "clasificacion": "A",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Álgebra",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "CASTRO OSPINA, PABLO DIANA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010119",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010119"
+    },
+    {
+      "nombre": "CRUZ GONZÁLEZ, ISABELLA RODRIGO",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010120",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010120"
+    },
+    {
+      "nombre": "PARRA PÉREZ, RICARDO DANIELA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010121",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010121"
+    },
+    {
+      "nombre": "MORALES FLORES, VALENTINA JULIANA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010122",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010122"
+    }
+  ],
+  "total_integrantes": 4,
+  "ids_cvlac": [
+    "0000010119",
+    "0000010120",
+    "0000010121",
+    "0000010122"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

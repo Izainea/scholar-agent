@@ -1,0 +1,126 @@
+{
+  "cod_rh": "0000010115",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010115",
+  "nombre": "RAMÍREZ SÁNCHEZ, DIEGO JORGE",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL ROSARIO Computacion",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EAFIT",
+      "anio_inicio": "2009",
+      "anio_fin": "2008"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "areas_actuacion": [
+    "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+    "Ciencias Naturales -- Ciencia de la Computación"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 3,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MEDINA MORALES, MAURICIO NATALIA, JIMÉNEZ MORENO, LUCÍA DAVID, RAMÍREZ SÁNCHEZ, DIEGO JORGE, \"Convolutional architectures for image segmentation\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.35 p.500 - 679 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES VARGAS, VALENTINA MÓNICA, RAMÍREZ SÁNCHEZ, DIEGO JORGE, AGUILAR RAMÍREZ, DIEGO PAULA, TORRES TORRES, JAVIER PABLO, \"Spectral methods for community detection\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.56 p.480 - 919 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ESPINOSA REYES, ISABELLA GUSTAVO, CASTILLO GÓMEZ, ANDREA GUSTAVO, ESPINOSA VARGAS, JAVIER CLAUDIA, ROMERO PARRA, ISABELLA ALEJANDRO, RAMÍREZ SÁNCHEZ, DIEGO JORGE, \"Graph neural networks for molecular property prediction\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.69 p.24 - 549 ,2012, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 3,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010015",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010015",
+  "nombre": "RAMÍREZ FLORES, ANDREA PATRICIA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL VALLE",
+      "anio_inicio": "1997",
+      "anio_fin": "2020"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 7,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo GONZÁLEZ LÓPEZ, CLAUDIA EDUARDO, AGUILAR PARRA, JORGE MARGARITA, RAMÍREZ FLORES, ANDREA PATRICIA, \"Path algebras over finite quivers\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.11 p.21 - 996 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ FLORES, ANDREA PATRICIA, DELGADO GARCÍA, PABLO ANDREA, MORALES CASTILLO, DANIELA MARÍA, \"Tilting modules and t-structures\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.23 p.100 - 649 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ FLORES, ANDREA PATRICIA, TORRES ROJAS, JORGE CAMILA, GONZÁLEZ MARTÍNEZ, ANDRÉS CAMILA, \"Hopf algebras associated to quivers\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.45 p.243 - 751 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ MOLINA, RODRIGO ESTEBAN, ROJAS MOLINA, NATALIA ALEJANDRA, RAMÍREZ FLORES, ANDREA PATRICIA, TORRES ROJAS, JORGE CAMILA, ROMERO MUÑOZ, PAULA RODRIGO, \"Quivers of tame representation type\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.43 p.485 - 655 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ FLORES, ANDREA PATRICIA, ESPINOSA TORRES, MARÍA DAVID, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.72 p.308 - 866 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ FLORES, ANDREA PATRICIA, MENDOZA MENDOZA, LUCÍA RICARDO, RAMÍREZ ESPINOSA, ANDRÉS OSCAR, \"Gröbner basis methods for path algebras\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.66 p.301 - 576 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ FLORES, ANDREA PATRICIA, \"Gröbner basis methods for path algebras\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.42 p.133 - 865 ,2014, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 7,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

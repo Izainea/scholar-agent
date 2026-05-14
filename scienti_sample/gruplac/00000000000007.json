@@ -1,0 +1,70 @@
+{
+  "codigo_input": "COL0000007",
+  "nro_gruplac": "00000000000007",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000007",
+  "nombre": "Grupo de Computacion — DE LOS ANDES",
+  "fecha_formacion": "2000-10",
+  "departamento_ciudad": "BOGOTÁ",
+  "lider": "MENDOZA VALENCIA, JULIANA BEATRIZ",
+  "pagina_web": "",
+  "email": "grupo.computacion@andes.edu.co",
+  "clasificacion": "C",
+  "area_conocimiento": "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "plan_estrategico": "Promover la investigación en computacion, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "integrantes": [
+    {
+      "nombre": "MENDOZA VALENCIA, JULIANA BEATRIZ",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010060",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010060"
+    },
+    {
+      "nombre": "ROJAS GARCÍA, EDUARDO MIGUEL",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010061",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010061"
+    },
+    {
+      "nombre": "RUIZ DELGADO, MARÍA DAVID",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010062",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010062"
+    },
+    {
+      "nombre": "DÍAZ JIMÉNEZ, LUCÍA MÓNICA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010063",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010063"
+    }
+  ],
+  "total_integrantes": 4,
+  "ids_cvlac": [
+    "0000010060",
+    "0000010061",
+    "0000010062",
+    "0000010063"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

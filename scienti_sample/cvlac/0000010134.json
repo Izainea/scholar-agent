@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010134",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010134",
+  "nombre": "NAVARRO PARRA, RODRIGO CLAUDIA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EAFIT",
+      "anio_inicio": "1996",
+      "anio_fin": "2008"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo NAVARRO PARRA, RODRIGO CLAUDIA, \"Posets and lattice paths\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.77 p.322 - 906 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PÉREZ JIMÉNEZ, DIANA ANDREA, ESPINOSA VARGAS, JAVIER CLAUDIA, NAVARRO PARRA, RODRIGO CLAUDIA, ROJAS MOLINA, NATALIA ALEJANDRA, \"Graph colorings and chromatic polynomials\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.31 p.393 - 779 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO GÓMEZ, OSCAR CAMILA, MEDINA MORALES, MAURICIO NATALIA, NAVARRO PARRA, RODRIGO CLAUDIA, \"Posets and lattice paths\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.64 p.27 - 738 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MOLINA HERRERA, PATRICIA SEBASTIÁN, HERRERA RODRÍGUEZ, PABLO CAROLINA, PARRA MORALES, FELIPE JUAN, NAVARRO PARRA, RODRIGO CLAUDIA, \"Posets and lattice paths\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.22 p.172 - 889 ,2018, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

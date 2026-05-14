@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010039",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010039",
+  "nombre": "MEDINA OSPINA, CARLOS CAROLINA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL VALLE Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL ROSARIO",
+      "anio_inicio": "2003",
+      "anio_fin": "2024"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MEDINA OSPINA, CARLOS CAROLINA, \"Posets and lattice paths\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.73 p.117 - 598 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA OSPINA, CARLOS CAROLINA, \"Tableaux and the RSK correspondence\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.54 p.386 - 905 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ GÓMEZ, CLAUDIA GUSTAVO, ROJAS NAVARRO, JAVIER DIEGO, MEDINA OSPINA, CARLOS CAROLINA, RUIZ RUIZ, PAULA MARGARITA, \"Graph colorings and chromatic polynomials\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.37 p.471 - 631 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GONZÁLEZ MARTÍNEZ, ANDRÉS CAMILA, MENDOZA MENDOZA, LUCÍA RICARDO, ORTEGA AGUILAR, ALEJANDRA NATALIA, MEDINA OSPINA, CARLOS CAROLINA, VARGAS ORTEGA, JULIANA ALEJANDRO, \"Spanning trees in random graphs\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.27 p.96 - 544 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ORTEGA TORRES, MARGARITA ANA, MENDOZA VALENCIA, JULIANA BEATRIZ, ROJAS NAVARRO, JAVIER DIEGO, MEDINA OSPINA, CARLOS CAROLINA, GONZÁLEZ MARTÍNEZ, ANDRÉS CAMILA, \"Tableaux and the RSK correspondence\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.62 p.449 - 564 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA OSPINA, CARLOS CAROLINA, RODRÍGUEZ MORENO, DIANA CAROLINA, \"Spanning trees in random graphs\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.35 p.388 - 793 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ESPINOSA REYES, ISABELLA GUSTAVO, MEDINA OSPINA, CARLOS CAROLINA, \"Symmetric functions and Schur polynomials\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.37 p.33 - 896 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROMERO PARRA, ISABELLA ALEJANDRO, CASTILLO DELGADO, JORGE LUCÍA, MEDINA OSPINA, CARLOS CAROLINA, RAMÍREZ FLORES, ANDREA PATRICIA, \"Graph colorings and chromatic polynomials\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.32 p.424 - 815 ,2012, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

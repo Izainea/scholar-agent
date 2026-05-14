@@ -1,0 +1,71 @@
+{
+  "codigo_input": "COL0000028",
+  "nro_gruplac": "00000000000028",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000028",
+  "nombre": "Grupo de Algebra — DEL ROSARIO",
+  "fecha_formacion": "2015-06",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "MORALES VALENCIA, ANDREA DIEGO",
+  "pagina_web": "",
+  "email": "grupo.algebra@rosario.edu.co",
+  "clasificacion": "A1",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "MORALES VALENCIA, ANDREA DIEGO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010137",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010137"
+    },
+    {
+      "nombre": "HERRERA RUIZ, MÓNICA FELIPE",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010138",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010138"
+    },
+    {
+      "nombre": "JIMÉNEZ MARTÍNEZ, VALENTINA MARÍA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010139",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010139"
+    },
+    {
+      "nombre": "CASTRO GÓMEZ, OSCAR CAMILA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010140",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010140"
+    }
+  ],
+  "total_integrantes": 4,
+  "ids_cvlac": [
+    "0000010137",
+    "0000010138",
+    "0000010139",
+    "0000010140"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

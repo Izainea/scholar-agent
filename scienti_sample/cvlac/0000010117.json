@@ -1,0 +1,132 @@
+{
+  "cod_rh": "0000010117",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010117",
+  "nombre": "VARGAS ORTEGA, JULIANA ALEJANDRO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DE ANTIOQUIA Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL NORTE",
+      "anio_inicio": "2014",
+      "anio_fin": "2020"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EXTERNADO DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo AGUILAR RAMÍREZ, DIEGO PAULA, VARGAS ORTEGA, JULIANA ALEJANDRO, \"Gröbner basis methods for path algebras\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.24 p.147 - 654 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS RUIZ, MARÍA ANDREA, DÍAZ MORENO, NATALIA ANDRÉS, VARGAS ORTEGA, JULIANA ALEJANDRO, PARRA PÉREZ, RICARDO DANIELA, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.64 p.311 - 689 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo VARGAS ORTEGA, JULIANA ALEJANDRO, \"Path algebras over finite quivers\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.54 p.35 - 911 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo JIMÉNEZ LÓPEZ, CAMILA JAVIER, CASTILLO ALVAREZ, JULIANA JORGE, VARGAS ORTEGA, JULIANA ALEJANDRO, \"On Brauer configuration algebras and their representations\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.43 p.4 - 625 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo VARGAS ORTEGA, JULIANA ALEJANDRO, \"Path algebras over finite quivers\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.14 p.32 - 706 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA OSPINA, CARLOS CAROLINA, VARGAS ORTEGA, JULIANA ALEJANDRO, RAMÍREZ SÁNCHEZ, DIEGO JORGE, REYES RAMÍREZ, SOFÍA ANDRÉS, \"Mutation of derived equivalences\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.45 p.96 - 743 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO HERRERA, RODRIGO PATRICIA, MARTÍNEZ ESPINOSA, VALENTINA FELIPE, VARGAS ORTEGA, JULIANA ALEJANDRO, \"On Brauer configuration algebras and their representations\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.72 p.460 - 602 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo JIMÉNEZ MARTÍNEZ, VALENTINA MARÍA, TORRES VEGA, MARÍA CARLOS, NAVARRO HERRERA, RODRIGO PATRICIA, VARGAS ORTEGA, JULIANA ALEJANDRO, \"Hopf algebras associated to quivers\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.56 p.414 - 611 ,2019, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010029",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010029",
+  "nombre": "RUIZ DÍAZ, PAULA FERNANDO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Computacion",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE ANTIOQUIA",
+      "anio_inicio": "2016",
+      "anio_fin": "2000"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "areas_actuacion": [
+    "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+    "Ciencias Naturales -- Ciencia de la Computación"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 5,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo RUIZ RIVERA, ALEJANDRO ALEJANDRA, RUIZ DÍAZ, PAULA FERNANDO, MENDOZA VALENCIA, JULIANA BEATRIZ, CASTILLO ALVAREZ, JULIANA JORGE, \"Spectral methods for community detection\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.11 p.298 - 544 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RUIZ DÍAZ, PAULA FERNANDO, RUIZ DELGADO, MARÍA DAVID, MENDOZA MENDOZA, LUCÍA RICARDO, \"Deep learning on citation networks\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.59 p.286 - 690 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GONZÁLEZ LÓPEZ, CLAUDIA EDUARDO, RUIZ DÍAZ, PAULA FERNANDO, RUIZ RIVERA, ALEJANDRO ALEJANDRA, RUIZ DELGADO, MARÍA DAVID, ESPINOSA TORRES, MARÍA DAVID, \"Spectral methods for community detection\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.51 p.299 - 980 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RUIZ DÍAZ, PAULA FERNANDO, \"Graph neural networks for molecular property prediction\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.55 p.133 - 547 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo GÓMEZ REYES, ALEJANDRA ALEJANDRO, OSPINA PARRA, FERNANDO DIEGO, TORRES RODRÍGUEZ, PAULA CARLOS, RUIZ DÍAZ, PAULA FERNANDO, \"Graph neural networks for molecular property prediction\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.71 p.215 - 546 ,2015, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 5,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

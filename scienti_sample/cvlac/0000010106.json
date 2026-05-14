@@ -1,0 +1,130 @@
+{
+  "cod_rh": "0000010106",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010106",
+  "nombre": "ROJAS NAVARRO, ESTEBAN CLAUDIA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EAFIT Algebra",
+      "nivel": "Doctorado",
+      "institucion": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "anio_inicio": "2013",
+      "anio_fin": "2012"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 6,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo CASTRO PÉREZ, MAURICIO MÓNICA, ROJAS NAVARRO, ESTEBAN CLAUDIA, \"Mutation of derived equivalences\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.10 p.221 - 753 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS NAVARRO, ESTEBAN CLAUDIA, \"Gröbner basis methods for path algebras\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.28 p.306 - 513 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS NAVARRO, ESTEBAN CLAUDIA, DELGADO GARCÍA, PABLO ANDREA, NAVARRO JIMÉNEZ, ANDRÉS MAURICIO, \"Gröbner basis methods for path algebras\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.64 p.249 - 577 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ VEGA, ESTEBAN DANIELA, RAMÍREZ FLORES, ANA DAVID, ROJAS NAVARRO, ESTEBAN CLAUDIA, GÓMEZ REYES, ALEJANDRA ALEJANDRO, JIMÉNEZ LÓPEZ, CAMILA JAVIER, \"Gröbner basis methods for path algebras\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.76 p.143 - 786 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO MUÑOZ, PATRICIA JULIANA, ROJAS NAVARRO, ESTEBAN CLAUDIA, AGUILAR MEDINA, DAVID CAMILA, RODRÍGUEZ TORRES, DIEGO JUAN, \"Hopf algebras associated to quivers\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.69 p.368 - 633 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS NAVARRO, ESTEBAN CLAUDIA, ESPINOSA TORRES, MARÍA DAVID, CASTRO PÉREZ, MAURICIO MÓNICA, MOLINA GARCÍA, ALEJANDRO ANA, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.10 p.415 - 664 ,2013, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 6,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

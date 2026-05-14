@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010046",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010046",
+  "nombre": "TORRES TORRES, FELIPE ISABELLA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL NORTE Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "anio_inicio": "2011",
+      "anio_fin": "2011"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EXTERNADO DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo CASTRO ESPINOSA, ESTEBAN CLAUDIA, TORRES TORRES, FELIPE ISABELLA, \"Magnetic ordering in frustrated lattices\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.22 p.82 - 576 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ VEGA, ESTEBAN DANIELA, TORRES TORRES, FELIPE ISABELLA, CASTILLO ALVAREZ, JULIANA JORGE, FLORES RAMÍREZ, RICARDO DIANA, \"Superconducting order parameters\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.47 p.289 - 571 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO DELGADO, JORGE LUCÍA, ROMERO MUÑOZ, PAULA RODRIGO, MUÑOZ DELGADO, DANIELA RODRIGO, TORRES TORRES, FELIPE ISABELLA, \"Superconducting order parameters\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.41 p.367 - 631 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo DELGADO GONZÁLEZ, DIEGO ALEJANDRO, TORRES TORRES, FELIPE ISABELLA, PARRA MORALES, FELIPE JUAN, CASTILLO GÓMEZ, ANDREA GUSTAVO, MORALES VALENCIA, ANDREA DIEGO, \"Superconducting order parameters\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.57 p.440 - 981 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ MOLINA, RODRIGO ESTEBAN, MEDINA MORALES, MAURICIO NATALIA, DELGADO GONZÁLEZ, DIEGO ALEJANDRO, TORRES TORRES, FELIPE ISABELLA, \"Quantum entanglement in photonic systems\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.33 p.321 - 688 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS RUIZ, MARÍA ANDREA, CASTILLO VARGAS, MAURICIO MAURICIO, DELGADO GONZÁLEZ, DIEGO ALEJANDRO, TORRES TORRES, FELIPE ISABELLA, \"Quantum entanglement in photonic systems\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.66 p.62 - 671 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS ALVAREZ, MARGARITA GUSTAVO, TORRES VARGAS, VALENTINA MÓNICA, PARRA SÁNCHEZ, ESTEBAN DIEGO, TORRES TORRES, FELIPE ISABELLA, RUIZ DÍAZ, PAULA FERNANDO, \"Magnetic ordering in frustrated lattices\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.65 p.421 - 554 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo DELGADO GONZÁLEZ, DIEGO ALEJANDRO, TORRES TORRES, FELIPE ISABELLA, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, RUIZ RIVERA, ALEJANDRO ALEJANDRA, \"Quantum entanglement in photonic systems\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.59 p.78 - 913 ,2011, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

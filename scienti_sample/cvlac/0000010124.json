@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010124",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010124",
+  "nombre": "CASTRO MEDINA, ALEJANDRA VALENTINA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Computacion",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
+      "anio_inicio": "2018",
+      "anio_fin": "2016"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "areas_actuacion": [
+    "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+    "Ciencias Naturales -- Ciencia de la Computación"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo TORRES VARGAS, VALENTINA MÓNICA, TORRES HERRERA, SEBASTIÁN ALEJANDRA, SÁNCHEZ PÉREZ, JULIANA CAMILA, PARRA PÉREZ, RICARDO DANIELA, CASTRO MEDINA, ALEJANDRA VALENTINA, \"Spectral methods for community detection\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.57 p.417 - 915 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO MEDINA, ALEJANDRA VALENTINA, \"Spectral methods for community detection\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.22 p.427 - 821 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo DELGADO GARCÍA, PABLO ANDREA, CASTRO MEDINA, ALEJANDRA VALENTINA, \"Graph neural networks for molecular property prediction\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.24 p.199 - 664 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO MEDINA, ALEJANDRA VALENTINA, HERRERA RUIZ, MÓNICA FELIPE, \"Convolutional architectures for image segmentation\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.78 p.95 - 942 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO MUÑOZ, PATRICIA JULIANA, CASTRO MEDINA, ALEJANDRA VALENTINA, ALVAREZ MARTÍNEZ, DAVID ANDRÉS, TORRES TORRES, JAVIER PABLO, \"Spectral methods for community detection\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.75 p.251 - 804 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO MEDINA, ALEJANDRA VALENTINA, \"Deep learning on citation networks\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.47 p.420 - 842 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO MEDINA, ALEJANDRA VALENTINA, AGUILAR PARRA, JORGE MARGARITA, AGUILAR MEDINA, DAVID CAMILA, \"Spectral methods for community detection\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.73 p.377 - 984 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO MEDINA, ALEJANDRA VALENTINA, ROJAS ALVAREZ, MARGARITA GUSTAVO, \"Convolutional architectures for image segmentation\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.50 p.325 - 609 ,2010, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

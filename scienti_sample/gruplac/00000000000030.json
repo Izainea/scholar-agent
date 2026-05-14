@@ -1,0 +1,61 @@
+{
+  "codigo_input": "COL0000030",
+  "nro_gruplac": "00000000000030",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000030",
+  "nombre": "Grupo de Fisica — INDUSTRIAL DE SANTANDER",
+  "fecha_formacion": "2013-08",
+  "departamento_ciudad": "MEDELLÍN",
+  "lider": "MARTÍNEZ ESPINOSA, VALENTINA FELIPE",
+  "pagina_web": "",
+  "email": "grupo.fisica@santander.edu.co",
+  "clasificacion": "A1",
+  "area_conocimiento": "Ciencias Naturales -- Ciencias Físicas -- Óptica",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD INDUSTRIAL DE SANTANDER"
+  ],
+  "plan_estrategico": "Promover la investigación en fisica, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "MARTÍNEZ ESPINOSA, VALENTINA FELIPE",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010143",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010143"
+    },
+    {
+      "nombre": "SÁNCHEZ ROJAS, DIEGO ISABELLA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010144",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010144"
+    },
+    {
+      "nombre": "HERRERA DÍAZ, ANDREA NATALIA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010145",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010145"
+    }
+  ],
+  "total_integrantes": 3,
+  "ids_cvlac": [
+    "0000010143",
+    "0000010144",
+    "0000010145"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

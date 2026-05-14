@@ -1,0 +1,52 @@
+{
+  "codigo_input": "COL0000029",
+  "nro_gruplac": "00000000000029",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000029",
+  "nombre": "Grupo de Combinatoria — NACIONAL DE COLOMBIA",
+  "fecha_formacion": "2009-05",
+  "departamento_ciudad": "MEDELLÍN",
+  "lider": "TORRES RODRÍGUEZ, DANIELA CAROLINA",
+  "pagina_web": "",
+  "email": "grupo.combinatoria@colombia.edu.co",
+  "clasificacion": "A1",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Combinatoria",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD NACIONAL DE COLOMBIA"
+  ],
+  "plan_estrategico": "Promover la investigación en combinatoria, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "TORRES RODRÍGUEZ, DANIELA CAROLINA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010141",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010141"
+    },
+    {
+      "nombre": "GONZÁLEZ AGUILAR, JULIANA PABLO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010142",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010142"
+    }
+  ],
+  "total_integrantes": 2,
+  "ids_cvlac": [
+    "0000010141",
+    "0000010142"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

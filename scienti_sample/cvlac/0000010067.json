@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010067",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010067",
+  "nombre": "RIVERA PÉREZ, EDUARDO MARÍA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado PONTIFICIA UNIVERSIDAD JAVERIANA Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2018",
+      "anio_fin": "2010"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo RIVERA PÉREZ, EDUARDO MARÍA, MARTÍNEZ ESPINOSA, VALENTINA FELIPE, ROMERO MORALES, DANIELA VALENTINA, GONZÁLEZ MARTÍNEZ, ANDRÉS CAMILA, \"Generating functions for integer partitions\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.58 p.402 - 975 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo OSPINA PARRA, FERNANDO DIEGO, RAMÍREZ ESPINOSA, ANDRÉS OSCAR, CRUZ GONZÁLEZ, ISABELLA RODRIGO, ORTEGA VARGAS, ESTEBAN JORGE, RIVERA PÉREZ, EDUARDO MARÍA, \"Graph colorings and chromatic polynomials\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.68 p.167 - 652 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RIVERA PÉREZ, EDUARDO MARÍA, \"Tableaux and the RSK correspondence\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.10 p.386 - 855 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo HERRERA RODRÍGUEZ, PABLO CAROLINA, VEGA GÓMEZ, MARGARITA OSCAR, SÁNCHEZ ROJAS, DIEGO ISABELLA, RIVERA PÉREZ, EDUARDO MARÍA, \"Symmetric functions and Schur polynomials\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.54 p.82 - 685 ,2011, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

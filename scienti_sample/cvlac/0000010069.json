@@ -1,0 +1,125 @@
+{
+  "cod_rh": "0000010069",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010069",
+  "nombre": "HERRERA RODRÍGUEZ, PABLO CAROLINA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL NORTE Humanidades",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL NORTE",
+      "anio_inicio": "1997",
+      "anio_fin": "2000"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL VALLE"
+  ],
+  "areas_actuacion": [
+    "Humanidades -- Filosofía -- Filosofía de la Ciencia",
+    "Humanidades -- Historia -- Historia de las Ciencias"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Filosofía de la ciencia",
+    "Historia de las matemáticas",
+    "Lógica simbólica",
+    "Epistemología contemporánea"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 2,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo HERRERA RODRÍGUEZ, PABLO CAROLINA, MOLINA HERRERA, PATRICIA SEBASTIÁN, \"On the foundations of category theory\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.19 p.126 - 597 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo REYES MORALES, DANIELA ALEJANDRO, TORRES GARCÍA, JORGE CAROLINA, HERRERA RODRÍGUEZ, PABLO CAROLINA, GARCÍA REYES, MAURICIO DANIELA, MUÑOZ TORRES, JULIANA MIGUEL, \"Wittgenstein and mathematical practice\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.25 p.197 - 624 ,2023, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 2,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

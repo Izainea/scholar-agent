@@ -1,0 +1,44 @@
+server {
+    listen ${NGINX_PORT};
+    server_name _;
+    root /usr/share/nginx/html;
+    index index.html;
+
+    # Gzip text assets
+    gzip on;
+    gzip_types text/plain text/css text/javascript application/javascript application/json image/svg+xml;
+    gzip_min_length 1024;
+
+    # Static assets — long-lived cache (Vite emits hashed filenames)
+    location /assets/ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+        try_files $uri =404;
+    }
+
+    # API proxy → FastAPI backend.
+    # BACKEND_URL is the upstream (eg. http://backend:8000 for compose,
+    # https://<your-backend>.up.railway.app for Railway).
+    location /api/ {
+        proxy_pass ${BACKEND_URL}/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        # SSE / streaming friendly settings — disable buffering and
+        # extend timeouts so the agent's chat stream stays alive.
+        proxy_http_version 1.1;
+        proxy_set_header Connection "";
+        proxy_buffering off;
+        proxy_cache off;
+        proxy_read_timeout 1h;
+        proxy_send_timeout 1h;
+        chunked_transfer_encoding on;
+    }
+
+    # SPA routing: any unknown path serves index.html so React Router takes over.
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

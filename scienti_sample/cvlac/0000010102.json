@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010102",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010102",
+  "nombre": "TORRES ROJAS, JORGE CAMILA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DE ANTIOQUIA Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL VALLE",
+      "anio_inicio": "2014",
+      "anio_fin": "2001"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo TORRES ROJAS, JORGE CAMILA, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.23 p.386 - 771 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES ROJAS, JORGE CAMILA, \"Tilting modules and t-structures\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.48 p.498 - 796 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES ROJAS, JORGE CAMILA, JIMÉNEZ MARTÍNEZ, VALENTINA MARÍA, CRUZ ORTEGA, EDUARDO CAROLINA, \"Gröbner basis methods for path algebras\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.11 p.41 - 790 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES ROJAS, JORGE CAMILA, ESPINOSA VARGAS, JAVIER CLAUDIA, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.32 p.282 - 735 ,2020, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

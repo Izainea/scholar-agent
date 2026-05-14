@@ -1,0 +1,61 @@
+{
+  "codigo_input": "COL0000024",
+  "nro_gruplac": "00000000000024",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000024",
+  "nombre": "Grupo de Computacion — NACIONAL DE COLOMBIA",
+  "fecha_formacion": "1996-10",
+  "departamento_ciudad": "CALI",
+  "lider": "REYES RAMÍREZ, SOFÍA ANDRÉS",
+  "pagina_web": "",
+  "email": "grupo.computacion@colombia.edu.co",
+  "clasificacion": "A",
+  "area_conocimiento": "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD NACIONAL DE COLOMBIA"
+  ],
+  "plan_estrategico": "Promover la investigación en computacion, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "integrantes": [
+    {
+      "nombre": "REYES RAMÍREZ, SOFÍA ANDRÉS",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010123",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010123"
+    },
+    {
+      "nombre": "CASTRO MEDINA, ALEJANDRA VALENTINA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010124",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010124"
+    },
+    {
+      "nombre": "AGUILAR PARRA, JORGE MARGARITA",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010125",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010125"
+    }
+  ],
+  "total_integrantes": 3,
+  "ids_cvlac": [
+    "0000010123",
+    "0000010124",
+    "0000010125"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

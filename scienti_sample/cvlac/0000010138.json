@@ -1,0 +1,126 @@
+{
+  "cod_rh": "0000010138",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010138",
+  "nombre": "HERRERA RUIZ, MÓNICA FELIPE",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado PONTIFICIA UNIVERSIDAD JAVERIANA Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE ANTIOQUIA",
+      "anio_inicio": "2008",
+      "anio_fin": "2000"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL VALLE"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 2,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo PÉREZ CASTRO, ESTEBAN CLAUDIA, JIMÉNEZ MORENO, LUCÍA DAVID, HERRERA RUIZ, MÓNICA FELIPE, \"Tilting modules and t-structures\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.50 p.100 - 812 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo HERRERA RUIZ, MÓNICA FELIPE, ESPINOSA VARGAS, JAVIER CLAUDIA, NAVARRO CASTRO, DIANA MARÍA, CASTRO OSPINA, PABLO DIANA, \"Gröbner basis methods for path algebras\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.19 p.466 - 941 ,2024, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 2,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

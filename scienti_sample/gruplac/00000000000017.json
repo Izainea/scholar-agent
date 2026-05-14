@@ -1,0 +1,79 @@
+{
+  "codigo_input": "COL0000017",
+  "nro_gruplac": "00000000000017",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000017",
+  "nombre": "Grupo de Fisica — EAFIT",
+  "fecha_formacion": "2014-01",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "MUÑOZ OSPINA, PAULA SOFÍA",
+  "pagina_web": "",
+  "email": "grupo.fisica@eafit.edu.co",
+  "clasificacion": "",
+  "area_conocimiento": "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "plan_estrategico": "Promover la investigación en fisica, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "MUÑOZ OSPINA, PAULA SOFÍA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010097",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010097"
+    },
+    {
+      "nombre": "CASTILLO VARGAS, MAURICIO MAURICIO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010098",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010098"
+    },
+    {
+      "nombre": "GARCÍA ALVAREZ, VALENTINA MAURICIO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010099",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010099"
+    },
+    {
+      "nombre": "RAMÍREZ FLORES, ANA DAVID",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010100",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010100"
+    },
+    {
+      "nombre": "ALVAREZ MARTÍNEZ, DAVID ANDRÉS",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010101",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010101"
+    }
+  ],
+  "total_integrantes": 5,
+  "ids_cvlac": [
+    "0000010097",
+    "0000010098",
+    "0000010099",
+    "0000010100",
+    "0000010101"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

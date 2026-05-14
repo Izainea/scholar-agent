@@ -1,0 +1,126 @@
+{
+  "cod_rh": "0000010145",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010145",
+  "nombre": "HERRERA DÍAZ, ANDREA NATALIA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD EAFIT",
+      "anio_inicio": "2010",
+      "anio_fin": "2018"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD NACIONAL DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 3,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo HERRERA DÍAZ, ANDREA NATALIA, MORALES CASTILLO, DANIELA MARÍA, MUÑOZ HERRERA, CAMILA OSCAR, ORTEGA TORRES, MARGARITA ANA, MEDINA GÓMEZ, CARLOS LUCÍA, \"Topological insulators and edge states\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.20 p.97 - 769 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS GARCÍA, EDUARDO MIGUEL, FLORES ESPINOSA, MARGARITA RICARDO, HERRERA DÍAZ, ANDREA NATALIA, \"Topological insulators and edge states\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.15 p.272 - 612 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo HERRERA DÍAZ, ANDREA NATALIA, RAMÍREZ FLORES, ANDREA PATRICIA, ROJAS GARCÍA, EDUARDO MIGUEL, ROJAS REYES, MAURICIO DIANA, CASTRO PÉREZ, MAURICIO MÓNICA, \"Topological insulators and edge states\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.71 p.247 - 557 ,2012, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 3,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

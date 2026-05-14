@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010085",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010085",
+  "nombre": "CASTILLO DELGADO, JORGE LUCÍA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EAFIT Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+      "anio_inicio": "2010",
+      "anio_fin": "2019"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD NACIONAL DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 5,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo CASTILLO DELGADO, JORGE LUCÍA, CRUZ ORTEGA, EDUARDO CAROLINA, \"Graph colorings and chromatic polynomials\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.68 p.4 - 851 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ESPINOSA TORRES, MARÍA DAVID, ROJAS ALVAREZ, MARGARITA GUSTAVO, CASTILLO DELGADO, JORGE LUCÍA, \"Tableaux and the RSK correspondence\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.41 p.284 - 885 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO DELGADO, JORGE LUCÍA, \"Posets and lattice paths\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.54 p.223 - 678 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO JIMÉNEZ, ANDRÉS MAURICIO, RODRÍGUEZ MORENO, DIANA CAROLINA, VEGA SÁNCHEZ, MIGUEL CLAUDIA, CASTILLO DELGADO, JORGE LUCÍA, \"Symmetric functions and Schur polynomials\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.44 p.341 - 709 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ALVAREZ MOLINA, ANA ESTEBAN, CASTILLO DELGADO, JORGE LUCÍA, MUÑOZ OSPINA, PAULA SOFÍA, LÓPEZ ALVAREZ, JULIANA RICARDO, ORTEGA VARGAS, ESTEBAN JORGE, \"Spanning trees in random graphs\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.35 p.372 - 547 ,2024, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 5,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

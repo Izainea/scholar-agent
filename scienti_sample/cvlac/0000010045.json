@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010045",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010045",
+  "nombre": "MUÑOZ DELGADO, DANIELA RODRIGO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "anio_inicio": "2011",
+      "anio_fin": "2013"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MUÑOZ DELGADO, DANIELA RODRIGO, GÓMEZ REYES, ALEJANDRA ALEJANDRO, GONZÁLEZ AGUILAR, JULIANA PABLO, ESPINOSA TORRES, MARÍA DAVID, MORALES CASTILLO, DANIELA MARÍA, \"Quantum entanglement in photonic systems\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.44 p.317 - 777 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, MUÑOZ DELGADO, DANIELA RODRIGO, ESPINOSA TORRES, MARÍA DAVID, \"Topological insulators and edge states\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.33 p.291 - 857 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES TORRES, FELIPE ISABELLA, MUÑOZ DELGADO, DANIELA RODRIGO, CASTILLO GÓMEZ, ANDREA GUSTAVO, \"Magnetic ordering in frustrated lattices\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.59 p.256 - 780 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ESPINOSA TORRES, MARÍA DAVID, MUÑOZ DELGADO, DANIELA RODRIGO, MARTÍNEZ ESPINOSA, VALENTINA FELIPE, HERRERA DÍAZ, ANDREA NATALIA, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, \"Quantum entanglement in photonic systems\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.21 p.15 - 956 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MUÑOZ DELGADO, DANIELA RODRIGO, TORRES VARGAS, VALENTINA MÓNICA, \"Superconducting order parameters\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.50 p.79 - 982 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, MUÑOZ DELGADO, DANIELA RODRIGO, FLORES ESPINOSA, MARGARITA RICARDO, MUÑOZ HERRERA, CAMILA OSCAR, ORTEGA VARGAS, ESTEBAN JORGE, \"Topological insulators and edge states\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.42 p.430 - 507 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MORALES CASTILLO, DANIELA MARÍA, CASTILLO GÓMEZ, ANDREA GUSTAVO, MENDOZA VALENCIA, JULIANA BEATRIZ, ROJAS GARCÍA, EDUARDO MIGUEL, MUÑOZ DELGADO, DANIELA RODRIGO, \"Quantum entanglement in photonic systems\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.13 p.295 - 600 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA DELGADO, PAULA FERNANDO, CASTILLO ALVAREZ, JULIANA JORGE, MUÑOZ DELGADO, DANIELA RODRIGO, \"Magnetic ordering in frustrated lattices\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.27 p.434 - 508 ,2015, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

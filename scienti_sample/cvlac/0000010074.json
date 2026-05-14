@@ -1,0 +1,132 @@
+{
+  "cod_rh": "0000010074",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010074",
+  "nombre": "REYES MORALES, DANIELA ALEJANDRO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL ROSARIO Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "1998",
+      "anio_fin": "2011"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MENDOZA MENDOZA, LUCÍA RICARDO, NAVARRO JIMÉNEZ, ANDRÉS MAURICIO, REYES CRUZ, MÓNICA JULIANA, REYES MORALES, DANIELA ALEJANDRO, \"Quivers of tame representation type\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.51 p.278 - 910 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo REYES MORALES, DANIELA ALEJANDRO, RAMÍREZ SÁNCHEZ, DIEGO JORGE, OSPINA PARRA, FERNANDO DIEGO, TORRES VARGAS, VALENTINA MÓNICA, \"Hopf algebras associated to quivers\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.33 p.436 - 619 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo REYES MORALES, DANIELA ALEJANDRO, \"Mutation of derived equivalences\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.29 p.286 - 979 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS MOLINA, NATALIA ALEJANDRA, ROJAS RUIZ, MARÍA ANDREA, MEDINA GÓMEZ, CARLOS LUCÍA, REYES MORALES, DANIELA ALEJANDRO, \"On Brauer configuration algebras and their representations\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.80 p.144 - 949 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo DÍAZ JIMÉNEZ, LUCÍA MÓNICA, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, MOLINA HERRERA, PATRICIA SEBASTIÁN, REYES MORALES, DANIELA ALEJANDRO, \"Hopf algebras associated to quivers\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.32 p.300 - 827 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo REYES MORALES, DANIELA ALEJANDRO, \"Quivers of tame representation type\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.63 p.73 - 629 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RUIZ RUIZ, GUSTAVO RICARDO, GONZÁLEZ AGUILAR, JULIANA PABLO, REYES MORALES, DANIELA ALEJANDRO, REYES MENDOZA, CLAUDIA PAULA, \"Hopf algebras associated to quivers\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.15 p.235 - 777 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo REYES MORALES, DANIELA ALEJANDRO, \"Gröbner basis methods for path algebras\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.50 p.243 - 731 ,2014, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

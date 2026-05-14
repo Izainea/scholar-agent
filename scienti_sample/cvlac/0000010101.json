@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010101",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010101",
+  "nombre": "ALVAREZ MARTÍNEZ, DAVID ANDRÉS",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+      "anio_inicio": "2008",
+      "anio_fin": "2010"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo ALVAREZ MARTÍNEZ, DAVID ANDRÉS, ESPINOSA TORRES, MARÍA DAVID, VEGA SÁNCHEZ, MIGUEL CLAUDIA, \"Quantum entanglement in photonic systems\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.68 p.437 - 854 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO ESPINOSA, ESTEBAN CLAUDIA, ALVAREZ MARTÍNEZ, DAVID ANDRÉS, DÍAZ MORENO, NATALIA ANDRÉS, PARRA PÉREZ, RICARDO DANIELA, \"Topological insulators and edge states\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.79 p.12 - 753 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ALVAREZ MARTÍNEZ, DAVID ANDRÉS, GÓMEZ REYES, ALEJANDRA ALEJANDRO, \"Magnetic ordering in frustrated lattices\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.20 p.282 - 868 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RODRÍGUEZ ESPINOSA, FELIPE SEBASTIÁN, TORRES ROJAS, JORGE CAMILA, ESPINOSA TORRES, MARÍA DAVID, ROJAS GARCÍA, EDUARDO MIGUEL, ALVAREZ MARTÍNEZ, DAVID ANDRÉS, \"Topological insulators and edge states\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.25 p.155 - 804 ,2013, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

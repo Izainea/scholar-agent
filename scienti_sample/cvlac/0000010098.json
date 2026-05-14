@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010098",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010098",
+  "nombre": "CASTILLO VARGAS, MAURICIO MAURICIO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL NORTE",
+      "anio_inicio": "1999",
+      "anio_fin": "2014"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL NORTE"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo CASTILLO VARGAS, MAURICIO MAURICIO, \"Magnetic ordering in frustrated lattices\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.29 p.440 - 515 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO VARGAS, MAURICIO MAURICIO, \"Topological insulators and edge states\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.73 p.267 - 700 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO VARGAS, MAURICIO MAURICIO, PARRA PÉREZ, RICARDO DANIELA, \"Magnetic ordering in frustrated lattices\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.73 p.19 - 907 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO VARGAS, MAURICIO MAURICIO, RAMÍREZ ESPINOSA, ANDRÉS OSCAR, MUÑOZ GARCÍA, ANDREA CARLOS, REYES CRUZ, MÓNICA JULIANA, \"Topological insulators and edge states\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.14 p.194 - 534 ,2017, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

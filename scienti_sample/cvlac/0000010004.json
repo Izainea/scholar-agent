@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010004",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010004",
+  "nombre": "HERRERA ALVAREZ, JAVIER FERNANDO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD INDUSTRIAL DE SANTANDER Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2018",
+      "anio_fin": "2004"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL NORTE"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MUÑOZ HERRERA, CAMILA OSCAR, REYES MORALES, DANIELA ALEJANDRO, ROJAS ALVAREZ, MARGARITA GUSTAVO, HERRERA ALVAREZ, JAVIER FERNANDO, ROMERO PARRA, ISABELLA ALEJANDRO, \"Hopf algebras associated to quivers\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.11 p.369 - 722 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES ESPINOSA, MARGARITA RICARDO, ALVAREZ MARTÍNEZ, DAVID ANDRÉS, HERRERA ALVAREZ, JAVIER FERNANDO, \"Quivers of tame representation type\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.70 p.402 - 568 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA GÓMEZ, CARLOS LUCÍA, HERRERA ALVAREZ, JAVIER FERNANDO, TORRES RODRÍGUEZ, DANIELA CAROLINA, MOLINA GARCÍA, ALEJANDRO ANA, \"Quivers of tame representation type\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.33 p.95 - 877 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo HERRERA RUIZ, MÓNICA FELIPE, HERRERA ALVAREZ, JAVIER FERNANDO, TORRES VEGA, MARÍA CARLOS, MENDOZA ESPINOSA, OSCAR MAURICIO, \"Path algebras over finite quivers\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.68 p.386 - 769 ,2010, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

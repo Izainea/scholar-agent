@@ -1,0 +1,126 @@
+{
+  "cod_rh": "0000010064",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010064",
+  "nombre": "AGUILAR RAMÍREZ, DIEGO PAULA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DE LOS ANDES Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DEL ROSARIO",
+      "anio_inicio": "1999",
+      "anio_fin": "2006"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DEL ROSARIO"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 3,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo AGUILAR RAMÍREZ, DIEGO PAULA, MORALES CASTILLO, DANIELA MARÍA, ALVAREZ MARTÍNEZ, DAVID ANDRÉS, NAVARRO ALVAREZ, EDUARDO BEATRIZ, \"Graph colorings and chromatic polynomials\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.29 p.393 - 643 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PÉREZ CASTRO, ESTEBAN CLAUDIA, TORRES TORRES, FELIPE ISABELLA, AGUILAR RAMÍREZ, DIEGO PAULA, JIMÉNEZ MORENO, LUCÍA DAVID, \"Symmetric functions and Schur polynomials\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.78 p.12 - 709 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo AGUILAR MOLINA, PABLO ANDRÉS, PÉREZ CASTRO, ESTEBAN CLAUDIA, AGUILAR RAMÍREZ, DIEGO PAULA, \"Generating functions for integer partitions\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.70 p.389 - 637 ,2010, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 3,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

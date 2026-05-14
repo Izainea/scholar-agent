@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010065",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010065",
+  "nombre": "MOLINA GARCÍA, ALEJANDRO ANA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": true,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD NACIONAL DE COLOMBIA Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+      "anio_inicio": "2008",
+      "anio_fin": "2021"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo CASTRO OSPINA, PABLO DIANA, MOLINA GARCÍA, ALEJANDRO ANA, \"Symmetric functions and Schur polynomials\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.26 p.96 - 904 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PARRA JIMÉNEZ, CLAUDIA BEATRIZ, CASTRO GÓMEZ, OSCAR CAMILA, FLORES ESPINOSA, MARGARITA RICARDO, MOLINA GARCÍA, ALEJANDRO ANA, NAVARRO PARRA, RODRIGO CLAUDIA, \"Graph colorings and chromatic polynomials\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.19 p.499 - 812 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MOLINA GARCÍA, ALEJANDRO ANA, \"Posets and lattice paths\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.41 p.202 - 674 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MOLINA GARCÍA, ALEJANDRO ANA, \"Graph colorings and chromatic polynomials\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.23 p.176 - 761 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MOLINA GARCÍA, ALEJANDRO ANA, MORALES CASTILLO, DANIELA MARÍA, MEDINA DELGADO, PAULA FERNANDO, FLORES ESPINOSA, MARGARITA RICARDO, PARRA PÉREZ, RICARDO DANIELA, \"Symmetric functions and Schur polynomials\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.16 p.356 - 632 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MOLINA GARCÍA, ALEJANDRO ANA, RODRÍGUEZ MORENO, DIANA CAROLINA, ESPINOSA REYES, ISABELLA GUSTAVO, TORRES VARGAS, VALENTINA MÓNICA, \"Symmetric functions and Schur polynomials\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.50 p.495 - 938 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MEDINA OSPINA, CARLOS CAROLINA, ROJAS NAVARRO, ESTEBAN CLAUDIA, MOLINA GARCÍA, ALEJANDRO ANA, \"Symmetric functions and Schur polynomials\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.13 p.445 - 619 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo NAVARRO ALVAREZ, EDUARDO BEATRIZ, MOLINA GARCÍA, ALEJANDRO ANA, ROMERO PARRA, ISABELLA ALEJANDRO, MORALES LÓPEZ, CARLOS RICARDO, \"Spanning trees in random graphs\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.19 p.213 - 761 ,2017, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

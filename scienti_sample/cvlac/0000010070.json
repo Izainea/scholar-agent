@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010070",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010070",
+  "nombre": "CRUZ DELGADO, PAULA BEATRIZ",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Asociado",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DE LOS ANDES Humanidades",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2009",
+      "anio_fin": "2004"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EXTERNADO DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Humanidades -- Filosofía -- Filosofía de la Ciencia",
+    "Humanidades -- Historia -- Historia de las Ciencias"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Filosofía de la ciencia",
+    "Historia de las matemáticas",
+    "Lógica simbólica",
+    "Epistemología contemporánea"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo FLORES AGUILAR, ALEJANDRO SEBASTIÁN, ROJAS MOLINA, NATALIA ALEJANDRA, MORALES VALENCIA, ANDREA DIEGO, CRUZ DELGADO, PAULA BEATRIZ, MUÑOZ OSPINA, PAULA SOFÍA, \"Lakatos and proofs in 19th-century geometry\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.66 p.157 - 814 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ DELGADO, PAULA BEATRIZ, \"Lakatos and proofs in 19th-century geometry\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.46 p.177 - 620 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROJAS ALVAREZ, MARGARITA GUSTAVO, CRUZ DELGADO, PAULA BEATRIZ, MENDOZA MENDOZA, LUCÍA RICARDO, \"The role of analogy in mathematical discovery\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.76 p.361 - 583 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MUÑOZ TORRES, JULIANA MIGUEL, TORRES ROJAS, JORGE CAMILA, CRUZ DELGADO, PAULA BEATRIZ, RAMÍREZ NAVARRO, PABLO ANA, \"The role of analogy in mathematical discovery\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.22 p.441 - 804 ,2014, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTILLO MUÑOZ, PATRICIA JULIANA, FLORES RAMÍREZ, RICARDO DIANA, NAVARRO PARRA, RODRIGO CLAUDIA, CRUZ DELGADO, PAULA BEATRIZ, \"The role of analogy in mathematical discovery\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.21 p.38 - 928 ,2023, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo FLORES RAMÍREZ, RICARDO DIANA, HERRERA RODRÍGUEZ, PABLO CAROLINA, CRUZ DELGADO, PAULA BEATRIZ, MARTÍNEZ RIVERA, PATRICIA BEATRIZ, TORRES GARCÍA, JORGE CAROLINA, \"On the foundations of category theory\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.14 p.215 - 859 ,2021, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ DELGADO, PAULA BEATRIZ, NAVARRO HERRERA, RODRIGO PATRICIA, RIVERA MOLINA, ANA MARÍA, MEDINA DELGADO, PAULA FERNANDO, \"On the foundations of category theory\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.66 p.216 - 869 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ DELGADO, PAULA BEATRIZ, MOLINA HERRERA, PATRICIA SEBASTIÁN, \"On the foundations of category theory\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.73 p.222 - 841 ,2014, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

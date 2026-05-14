@@ -1,0 +1,62 @@
+{
+  "codigo_input": "COL0000016",
+  "nro_gruplac": "00000000000016",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000016",
+  "nombre": "Grupo de Algebra — DE LOS ANDES",
+  "fecha_formacion": "1996-08",
+  "departamento_ciudad": "MEDELLÍN",
+  "lider": "AGUILAR VEGA, LUCÍA JUAN",
+  "pagina_web": "",
+  "email": "grupo.algebra@andes.edu.co",
+  "clasificacion": "",
+  "area_conocimiento": "Ciencias Naturales -- Matemáticas -- Álgebra",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DE LOS ANDES"
+  ],
+  "plan_estrategico": "Promover la investigación en algebra, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "integrantes": [
+    {
+      "nombre": "AGUILAR VEGA, LUCÍA JUAN",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010094",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010094"
+    },
+    {
+      "nombre": "RUIZ RUIZ, GUSTAVO RICARDO",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010095",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010095"
+    },
+    {
+      "nombre": "TORRES RIVERA, CAMILA MARGARITA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010096",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010096"
+    }
+  ],
+  "total_integrantes": 3,
+  "ids_cvlac": [
+    "0000010094",
+    "0000010095",
+    "0000010096"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

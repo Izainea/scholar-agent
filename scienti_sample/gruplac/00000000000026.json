@@ -1,0 +1,70 @@
+{
+  "codigo_input": "COL0000026",
+  "nro_gruplac": "00000000000026",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000026",
+  "nombre": "Grupo de Fisica — EAFIT",
+  "fecha_formacion": "2008-04",
+  "departamento_ciudad": "BARRANQUILLA",
+  "lider": "REYES MENDOZA, CLAUDIA PAULA",
+  "pagina_web": "",
+  "email": "grupo.fisica@eafit.edu.co",
+  "clasificacion": "",
+  "area_conocimiento": "Ciencias Naturales -- Ciencias Físicas -- Óptica",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD EAFIT"
+  ],
+  "plan_estrategico": "Promover la investigación en fisica, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "integrantes": [
+    {
+      "nombre": "REYES MENDOZA, CLAUDIA PAULA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010129",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010129"
+    },
+    {
+      "nombre": "JIMÉNEZ LÓPEZ, CAMILA JAVIER",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010130",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010130"
+    },
+    {
+      "nombre": "LÓPEZ MOLINA, CARLOS DIEGO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010131",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010131"
+    },
+    {
+      "nombre": "MUÑOZ DELGADO, ALEJANDRO MAURICIO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "10",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010132",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010132"
+    }
+  ],
+  "total_integrantes": 4,
+  "ids_cvlac": [
+    "0000010129",
+    "0000010130",
+    "0000010131",
+    "0000010132"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

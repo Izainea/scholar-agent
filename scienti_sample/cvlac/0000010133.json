@@ -1,0 +1,127 @@
+{
+  "cod_rh": "0000010133",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010133",
+  "nombre": "MORALES LÓPEZ, CARLOS RICARDO",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DEL NORTE Combinatoria",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+      "anio_inicio": "2011",
+      "anio_fin": "2021"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "PONTIFICIA UNIVERSIDAD JAVERIANA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Combinatoria",
+    "Ciencias Naturales -- Matemáticas -- Teoría de Grafos"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Combinatoria algebraica",
+    "Teoría de grafos",
+    "Particiones de enteros",
+    "Polinomios simétricos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 4,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ FLORES, ANA DAVID, MORALES LÓPEZ, CARLOS RICARDO, GONZÁLEZ MORALES, ALEJANDRA BEATRIZ, ROMERO MENDOZA, MÓNICA LUCÍA, \"Posets and lattice paths\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.71 p.420 - 972 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo DELGADO GONZÁLEZ, DIEGO ALEJANDRO, CRUZ MOLINA, RODRIGO ESTEBAN, HERRERA DÍAZ, ANDREA NATALIA, MORALES LÓPEZ, CARLOS RICARDO, AGUILAR PARRA, JORGE MARGARITA, \"Tableaux and the RSK correspondence\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.72 p.456 - 904 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MORALES LÓPEZ, CARLOS RICARDO, CASTRO GÓMEZ, OSCAR CAMILA, \"Spanning trees in random graphs\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.58 p.150 - 914 ,2019, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo SÁNCHEZ PÉREZ, JULIANA CAMILA, NAVARRO ALVAREZ, EDUARDO BEATRIZ, MORALES LÓPEZ, CARLOS RICARDO, \"Symmetric functions and Schur polynomials\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.70 p.205 - 517 ,2012, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 4,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

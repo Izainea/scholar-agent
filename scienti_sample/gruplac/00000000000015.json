@@ -1,0 +1,70 @@
+{
+  "codigo_input": "COL0000015",
+  "nro_gruplac": "00000000000015",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000015",
+  "nombre": "Grupo de Biologia — EXTERNADO DE COLOMBIA",
+  "fecha_formacion": "2011-07",
+  "departamento_ciudad": "CALI",
+  "lider": "NAVARRO ORTEGA, PAULA FELIPE",
+  "pagina_web": "",
+  "email": "grupo.biologia@colombia.edu.co",
+  "clasificacion": "A",
+  "area_conocimiento": "Ciencias Naturales -- Ciencias Biológicas -- Ecología",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD EXTERNADO DE COLOMBIA"
+  ],
+  "plan_estrategico": "Promover la investigación en biologia, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Ecología de comunidades",
+    "Biodiversidad neotropical",
+    "Conservación de especies amenazadas",
+    "Insectos sociales"
+  ],
+  "integrantes": [
+    {
+      "nombre": "NAVARRO ORTEGA, PAULA FELIPE",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010090",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010090"
+    },
+    {
+      "nombre": "MEDINA GÓMEZ, CARLOS LUCÍA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010091",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010091"
+    },
+    {
+      "nombre": "OSPINA PARRA, FERNANDO DIEGO",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "40",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010092",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010092"
+    },
+    {
+      "nombre": "TORRES VEGA, MARÍA CARLOS",
+      "vinculacion": "Coinvestigador",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010093",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010093"
+    }
+  ],
+  "total_integrantes": 4,
+  "ids_cvlac": [
+    "0000010090",
+    "0000010091",
+    "0000010092",
+    "0000010093"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

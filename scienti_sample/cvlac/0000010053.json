@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010053",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010053",
+  "nombre": "MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Femenino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Doctorado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD DE ANTIOQUIA Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2006",
+      "anio_fin": "2000"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD EXTERNADO DE COLOMBIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 8,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, \"Quantum entanglement in photonic systems\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.14 p.64 - 592 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ORTEGA TORRES, MARGARITA ANA, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, \"Quantum entanglement in photonic systems\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.36 p.349 - 783 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, \"Magnetic ordering in frustrated lattices\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.15 p.359 - 943 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROMERO MORALES, DANIELA VALENTINA, REYES RAMÍREZ, SOFÍA ANDRÉS, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, TORRES VARGAS, VALENTINA MÓNICA, \"Magnetic ordering in frustrated lattices\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.11 p.167 - 683 ,2015, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, JIMÉNEZ MARTÍNEZ, VALENTINA MARÍA, NAVARRO HERRERA, RODRIGO PATRICIA, REYES RAMÍREZ, SOFÍA ANDRÉS, \"Topological insulators and edge states\" . En: Colombia Communications in Algebra ISSN: 0210-1859 ed: Editorial v.11 p.105 - 800 ,2020, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo JIMÉNEZ LÓPEZ, CAMILA JAVIER, ESPINOSA REYES, ISABELLA GUSTAVO, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, LÓPEZ ALVAREZ, JULIANA RICARDO, FLORES AGUILAR, ALEJANDRO SEBASTIÁN, \"Superconducting order parameters\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.67 p.294 - 872 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo RAMÍREZ ESPINOSA, ANDRÉS OSCAR, TORRES TORRES, FELIPE ISABELLA, TORRES VARGAS, VALENTINA MÓNICA, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, ESPINOSA TORRES, MARÍA DAVID, \"Superconducting order parameters\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.42 p.113 - 706 ,2012, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, \"Magnetic ordering in frustrated lattices\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.21 p.429 - 612 ,2020, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 8,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

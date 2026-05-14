@@ -1,0 +1,52 @@
+{
+  "codigo_input": "COL0000011",
+  "nro_gruplac": "00000000000011",
+  "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000000011",
+  "nombre": "Grupo de Computacion — DE ANTIOQUIA",
+  "fecha_formacion": "2001-11",
+  "departamento_ciudad": "BUCARAMANGA",
+  "lider": "SÁNCHEZ CRUZ, PAULA MÓNICA",
+  "pagina_web": "",
+  "email": "grupo.computacion@antioquia.edu.co",
+  "clasificacion": "A1",
+  "area_conocimiento": "Ingeniería -- Ciencia de la Computación -- Inteligencia Artificial",
+  "programa_nacional": "Ciencia, Tecnología e Innovación",
+  "certificado": "Sí",
+  "instituciones": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "plan_estrategico": "Promover la investigación en computacion, formar nuevos investigadores a nivel doctoral y posdoctoral, difundir resultados en revistas indexadas.",
+  "lineas_investigacion": [
+    "Aprendizaje automático",
+    "Grafos y redes complejas",
+    "Computación científica",
+    "Visión por computador"
+  ],
+  "integrantes": [
+    {
+      "nombre": "SÁNCHEZ CRUZ, PAULA MÓNICA",
+      "vinculacion": "Investigador Principal",
+      "horas_dedicacion": "20",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010076",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010076"
+    },
+    {
+      "nombre": "NAVARRO CASTRO, DIANA MARÍA",
+      "vinculacion": "Estudiante de doctorado",
+      "horas_dedicacion": "5",
+      "periodo": "2020-Actual",
+      "cod_rh": "0000010077",
+      "url_cvlac": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010077"
+    }
+  ],
+  "total_integrantes": 2,
+  "ids_cvlac": [
+    "0000010076",
+    "0000010077"
+  ],
+  "formacion_extension": {},
+  "produccion": {},
+  "total_productos": 0,
+  "scrape_date": "2026-05-14"
+}

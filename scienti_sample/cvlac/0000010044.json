@@ -1,0 +1,128 @@
+{
+  "cod_rh": "0000010044",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010044",
+  "nombre": "ORTEGA VARGAS, ESTEBAN JORGE",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Senior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Pregrado",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EXTERNADO DE COLOMBIA Fisica",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD DE LOS ANDES",
+      "anio_inicio": "2016",
+      "anio_fin": "2015"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD DE ANTIOQUIA"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Ciencias Físicas -- Física de la Materia Condensada",
+    "Ciencias Naturales -- Ciencias Físicas -- Óptica"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Materia condensada",
+    "Física de altas energías",
+    "Óptica cuántica",
+    "Materiales magnéticos"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 5,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo ORTEGA VARGAS, ESTEBAN JORGE, \"Topological insulators and edge states\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.57 p.183 - 515 ,2016, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ORTEGA VARGAS, ESTEBAN JORGE, \"Topological insulators and edge states\" . En: Colombia Journal of Algebra ISSN: 0210-1859 ed: Editorial v.51 p.2 - 944 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo TORRES GARCÍA, JORGE CAROLINA, ORTEGA VARGAS, ESTEBAN JORGE, MARTÍNEZ JIMÉNEZ, ALEJANDRA NATALIA, ROMERO MENDOZA, MÓNICA LUCÍA, MUÑOZ DELGADO, DANIELA RODRIGO, \"Quantum entanglement in photonic systems\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.20 p.86 - 575 ,2013, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ORTEGA VARGAS, ESTEBAN JORGE, ALVAREZ MOLINA, ANA ESTEBAN, ROJAS REYES, MAURICIO DIANA, HERRERA RUIZ, MÓNICA FELIPE, \"Superconducting order parameters\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.37 p.228 - 529 ,2024, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CASTRO PÉREZ, MAURICIO MÓNICA, ORTEGA VARGAS, ESTEBAN JORGE, TORRES GARCÍA, JORGE CAROLINA, \"Quantum entanglement in photonic systems\" . En: Colombia Linear Algebra and its Applications ISSN: 0210-1859 ed: Editorial v.48 p.210 - 706 ,2019, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 5,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}

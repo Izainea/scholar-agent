@@ -1,0 +1,131 @@
+{
+  "cod_rh": "0000010121",
+  "url": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000010121",
+  "nombre": "PARRA PÉREZ, RICARDO DANIELA",
+  "nombre_citaciones": "",
+  "nacionalidad": "Colombiana",
+  "sexo": "Masculino",
+  "categoria_minciencias": "Junior",
+  "par_evaluador_reconocido": false,
+  "redes": {},
+  "nivel_maximo": "Maestría",
+  "formacion_academica": [
+    {
+      "raw": "Doctorado UNIVERSIDAD EAFIT Algebra",
+      "nivel": "Doctorado",
+      "institucion": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "anio_inicio": "2013",
+      "anio_fin": "2001"
+    }
+  ],
+  "formacion_complementaria": [],
+  "estancias_posdoctorales": [],
+  "experiencia": [
+    "UNIVERSIDAD INDUSTRIAL DE SANTANDER"
+  ],
+  "areas_actuacion": [
+    "Ciencias Naturales -- Matemáticas -- Matemáticas Puras",
+    "Ciencias Naturales -- Matemáticas -- Álgebra"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    },
+    {
+      "idioma": "Inglés",
+      "habla": "Bien",
+      "escribe": "Bien",
+      "lee": "Bien",
+      "entiende": "Bien"
+    }
+  ],
+  "lineas_investigacion": [
+    "Teoría de representaciones de álgebras",
+    "Álgebras de configuración de Brauer",
+    "Quivers y álgebras de caminos",
+    "Categorías derivadas",
+    "Álgebras de Hopf"
+  ],
+  "reconocimientos": [],
+  "asesorias": [],
+  "cursos_corta_duracion_dictados": [],
+  "trabajos_dirigidos": [],
+  "jurado_comites_evaluacion": [],
+  "participacion_comites": [],
+  "par_evaluador_detalle": [],
+  "ediciones_revisiones": [],
+  "eventos_cientificos": [],
+  "produccion": {
+    "articulos": {
+      "total": 7,
+      "items": [
+        "Producción bibliográfica - Artículo - Completo VEGA GÓMEZ, MARGARITA OSCAR, TORRES FLORES, MIGUEL JUAN, PARRA PÉREZ, RICARDO DANIELA, \"Cluster algebras and Auslander-Reiten theory\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.42 p.229 - 541 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PARRA PÉREZ, RICARDO DANIELA, CASTILLO VARGAS, MAURICIO MAURICIO, NAVARRO CASTRO, DIANA MARÍA, \"On Brauer configuration algebras and their representations\" . En: Colombia Discrete Mathematics ISSN: 0210-1859 ed: Editorial v.55 p.150 - 807 ,2017, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo ROMERO TORRES, DIANA SEBASTIÁN, CASTRO OSPINA, PABLO DIANA, PARRA PÉREZ, RICARDO DANIELA, \"Gröbner basis methods for path algebras\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.70 p.465 - 874 ,2011, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo CRUZ VALENCIA, MÓNICA DIEGO, FLORES DELGADO, PAULA ALEJANDRO, PARRA MORALES, FELIPE JUAN, MORALES FLORES, VALENTINA JULIANA, PARRA PÉREZ, RICARDO DANIELA, \"On Brauer configuration algebras and their representations\" . En: Colombia Revista Colombiana de Matemáticas ISSN: 0210-1859 ed: Editorial v.29 p.104 - 806 ,2018, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PARRA PÉREZ, RICARDO DANIELA, ROJAS RUIZ, MARÍA ANDREA, CASTRO OSPINA, PABLO DIANA, RUIZ DÍAZ, PAULA FERNANDO, CASTILLO VARGAS, MAURICIO MAURICIO, \"Mutation of derived equivalences\" . En: Colombia Advances in Mathematics ISSN: 0210-1859 ed: Editorial v.68 p.394 - 523 ,2022, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo REYES RAMÍREZ, SOFÍA ANDRÉS, PARRA PÉREZ, RICARDO DANIELA, GARCÍA REYES, MAURICIO DANIELA, AGUILAR PARRA, JORGE MARGARITA, \"Tilting modules and t-structures\" . En: Colombia Mathematics ISSN: 0210-1859 ed: Editorial v.51 p.488 - 612 ,2010, Palabras: investigación, álgebra,",
+        "Producción bibliográfica - Artículo - Completo PARRA PÉREZ, RICARDO DANIELA, \"Path algebras over finite quivers\" . En: Colombia European Journal of Combinatorics ISSN: 0210-1859 ed: Editorial v.50 p.234 - 827 ,2010, Palabras: investigación, álgebra,"
+      ]
+    },
+    "libros": {
+      "total": 0,
+      "items": []
+    },
+    "capitulos_libro": {
+      "total": 0,
+      "items": []
+    },
+    "notas_cientificas": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_biblio": {
+      "total": 0,
+      "items": []
+    },
+    "software": {
+      "total": 0,
+      "items": []
+    },
+    "patentes": {
+      "total": 0,
+      "items": []
+    },
+    "innovacion_proceso": {
+      "total": 0,
+      "items": []
+    },
+    "demas_trabajos": {
+      "total": 0,
+      "items": []
+    },
+    "textos_no_cientificos": {
+      "total": 0,
+      "items": []
+    },
+    "otra_prod_bibliografica": {
+      "total": 0,
+      "items": []
+    },
+    "informes_tecnicos": {
+      "total": 0,
+      "items": []
+    },
+    "informes_investigacion": {
+      "total": 0,
+      "items": []
+    },
+    "consultorias": {
+      "total": 0,
+      "items": []
+    }
+  },
+  "total_productos": 7,
+  "proyectos": [],
+  "scrape_date": "2026-05-14"
+}
