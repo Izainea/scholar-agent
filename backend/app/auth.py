@@ -1,10 +1,10 @@
 """HTTP Basic authentication for the Scholar Agent API.
 
-A single shared credential (APP_USER / APP_PASSWORD) gates the whole
-API. /health and the OpenAPI docs stay open so deploy platforms can
-probe liveness and contributors can browse the schema.
+A small dictionary of shared users (APP_USERS) gates the whole API.
+/health and the OpenAPI docs stay open so deploy platforms can probe
+liveness and contributors can browse the schema.
 
-Auth is disabled (no-op) when either env var is empty — handy in local
+Auth is disabled (no-op) when APP_USERS is empty — handy in local
 development.
 """
 
@@ -58,9 +58,13 @@ async def require_basic_auth(
             headers={"WWW-Authenticate": "Basic"},
         )
 
-    user_ok = secrets.compare_digest(credentials.username, config.APP_USER)
-    pass_ok = secrets.compare_digest(credentials.password, config.APP_PASSWORD)
-    if not (user_ok and pass_ok):
+    expected_password = config.APP_USERS.get(credentials.username)
+    if expected_password is None or not secrets.compare_digest(
+        credentials.password, expected_password
+    ):
+        # Always do a constant-time comparison so an attacker can't tell
+        # "unknown user" from "wrong password" via timing.
+        secrets.compare_digest(credentials.password, "")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid credentials",

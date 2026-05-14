@@ -45,12 +45,35 @@ ANTHROPIC_API_KEY = (
 CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-5")
 
 # ── App auth (HTTP Basic) ────────────────────────────────
-# A single shared credential gates the API. Leave both empty to
-# disable auth (useful in local dev). In Railway, set APP_USER and
-# APP_PASSWORD as service variables.
-APP_USER = os.getenv("APP_USER", "")
-APP_PASSWORD = os.getenv("APP_PASSWORD", "")
-AUTH_ENABLED = bool(APP_USER and APP_PASSWORD)
+# Multi-user shared credentials gate the API. Two formats supported:
+#
+#   APP_USERS="alice:s3cret,bob:hunter2"   ← multi-user (recommended)
+#   APP_USER="alice"  APP_PASSWORD="s3cret"  ← legacy single-user
+#
+# Leave everything empty to disable auth (useful in local dev).
+def _parse_users(raw: str) -> dict[str, str]:
+    out: dict[str, str] = {}
+    for pair in raw.split(","):
+        pair = pair.strip()
+        if not pair or ":" not in pair:
+            continue
+        user, _, password = pair.partition(":")
+        user = user.strip()
+        password = password.strip()
+        if user and password:
+            out[user] = password
+    return out
+
+
+APP_USERS: dict[str, str] = _parse_users(os.getenv("APP_USERS", ""))
+
+# Legacy single-user fallback.
+_legacy_user = os.getenv("APP_USER", "").strip()
+_legacy_password = os.getenv("APP_PASSWORD", "").strip()
+if _legacy_user and _legacy_password and _legacy_user not in APP_USERS:
+    APP_USERS[_legacy_user] = _legacy_password
+
+AUTH_ENABLED = bool(APP_USERS)
 
 # ── OpenAlex polite pool ─────────────────────────────────
 OPENALEX_EMAIL = os.getenv("OPENALEX_EMAIL", "scholar-agent@example.org")
