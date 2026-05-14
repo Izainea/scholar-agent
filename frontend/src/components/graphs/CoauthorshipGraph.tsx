@@ -51,8 +51,18 @@ export function CoauthorshipGraph({ data, loading, height = 560 }: Props) {
 
   useEffect(() => {
     if (!fgRef.current || graphData.nodes.length === 0) return;
-    fgRef.current.d3Force("charge")?.strength(-120);
-    fgRef.current.d3Force("link")?.distance(50);
+    fgRef.current
+      .d3Force("charge")
+      ?.strength((n: any) => -80 - nodeRadius(n) * 6)
+      .distanceMax(500);
+    fgRef.current.d3Force("link")?.distance(40);
+    import("d3-force").then((d3) => {
+      fgRef.current?.d3Force(
+        "collide",
+        d3.forceCollide((n: any) => nodeRadius(n) + 2),
+      );
+    });
+    fgRef.current.d3ReheatSimulation();
   }, [graphData]);
 
   if (loading || !data) {
@@ -103,11 +113,11 @@ export function CoauthorshipGraph({ data, loading, height = 560 }: Props) {
             height={size.h}
             backgroundColor="#ffffff"
             nodeLabel={(n: any) => n.label}
-            nodeVal={(n: any) => 1 + n.size * 0.4}
-            nodeRelSize={4}
+            nodeVal={(n: any) => nodeRadius(n)}
+            nodeRelSize={1}
             nodeColor={() => "#10b981"}
             nodeCanvasObject={(node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
-              const r = Math.max(2, 1 + node.size * 0.4);
+              const r = nodeRadius(node);
               ctx.beginPath();
               ctx.arc(node.x!, node.y!, r, 0, 2 * Math.PI);
               ctx.fillStyle = "#10b981";
@@ -128,13 +138,19 @@ export function CoauthorshipGraph({ data, loading, height = 560 }: Props) {
             nodeCanvasObjectMode={() => "replace"}
             linkColor={() => "rgba(100,116,139,0.3)"}
             linkWidth={0.6}
-            cooldownTicks={120}
-            warmupTicks={20}
+            cooldownTicks={200}
+            warmupTicks={60}
+            onEngineStop={() => fgRef.current?.zoomToFit(400, 40)}
           />
         </Suspense>
       </div>
     </div>
   );
+}
+
+function nodeRadius(n: { size?: number }): number {
+  const s = Math.max(0, n.size ?? 0);
+  return 3 + Math.log1p(s) * 2;
 }
 
 function truncate(s: string, n: number): string {

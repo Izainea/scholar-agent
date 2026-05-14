@@ -77,12 +77,26 @@ export function QuiverGraph({ data, loading, height = 620 }: Props) {
     return { nodes, links };
   }, [data]);
 
-  // Once data is in, give the simulation a friendly seed and then let it run.
+  // Tune the d3-force simulation so nodes spread out evenly across the
+  // canvas instead of clumping in the middle. Repulsion scales with the
+  // node radius so big polygons push others further away. Centering and
+  // collision are added so node circles never overlap.
   useEffect(() => {
     if (!fgRef.current || graphData.nodes.length === 0) return;
-    // Stronger repulsion for clearer clusters
-    fgRef.current.d3Force("charge")?.strength(-180);
-    fgRef.current.d3Force("link")?.distance(60);
+    fgRef.current
+      .d3Force("charge")
+      ?.strength((n: any) => -120 - nodeRadius(n) * 8)
+      .distanceMax(600);
+    fgRef.current.d3Force("link")?.distance((l: any) => 50 + (l.weight ?? 1) * 3);
+    // Collision force prevents node overlap. Available on react-force-graph
+    // when 'd3-force' is imported, which it is via the lib.
+    import("d3-force").then((d3) => {
+      fgRef.current?.d3Force(
+        "collide",
+        d3.forceCollide((n: any) => nodeRadius(n) + 2),
+      );
+    });
+    fgRef.current.d3ReheatSimulation();
   }, [graphData]);
 
   if (loading || !data) {
@@ -162,11 +176,11 @@ export function QuiverGraph({ data, loading, height = 620 }: Props) {
                 ${n.authors.length ? `<div style="opacity:0.6;margin-top:2px;font-size:11px">${escapeHtml(n.authors.join(", "))}</div>` : ""}
               </div>`
             }
-            nodeVal={(n: any) => 2 + n.size * 0.6}
-            nodeRelSize={4}
+            nodeVal={(n: any) => nodeRadius(n)}
+            nodeRelSize={1}
             nodeColor={(n: any) => colorForSize(n.size)}
             nodeCanvasObject={(node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
-              const r = Math.max(2, 2 + node.size * 0.6);
+              const r = nodeRadius(node);
               ctx.beginPath();
               ctx.arc(node.x!, node.y!, r, 0, 2 * Math.PI);
               ctx.fillStyle = colorForSize(node.size);
@@ -205,8 +219,9 @@ export function QuiverGraph({ data, loading, height = 620 }: Props) {
                 containerRef.current.style.cursor = n ? "pointer" : "default";
               }
             }}
-            cooldownTicks={120}
-            warmupTicks={20}
+            cooldownTicks={200}
+            warmupTicks={60}
+            onEngineStop={() => fgRef.current?.zoomToFit(400, 40)}
           />
         </Suspense>
       </div>
@@ -228,6 +243,16 @@ export function QuiverGraph({ data, loading, height = 620 }: Props) {
       )}
     </div>
   );
+}
+
+/**
+ * Logarithmic radius: a polygon with 30 refs is only ~2× bigger than
+ * one with 5 refs, instead of 6× under linear scaling. Keeps the big
+ * papers visible without obscuring the rest of the graph.
+ */
+function nodeRadius(n: { size?: number }): number {
+  const s = Math.max(0, n.size ?? 0);
+  return 3 + Math.log1p(s) * 2.5;
 }
 
 function colorForSize(size: number): string {
