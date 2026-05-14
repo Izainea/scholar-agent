@@ -1,0 +1,10 @@
+# Force LF line endings on shell scripts and Dockerfiles so they run
+# correctly inside Linux containers, regardless of the OS the contributor
+# is using.
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+nginx.conf.template text eol=lf
+
+# Default for everything else: let Git decide.
+* text=auto
