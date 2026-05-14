@@ -2,6 +2,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
   BookMarked,
   GitCompareArrows,
+  LogOut,
   MessageSquare,
   Network,
   Plus,
@@ -16,6 +17,7 @@ import { Separator } from "@/components/ui/separator";
 import { useAuthors, useHealth, useRemoveAuthor } from "@/lib/hooks";
 import { useAppStore } from "@/lib/store";
 import { cn } from "@/lib/utils";
+import { clearBasicAuth } from "@/lib/api";
 import { AddAuthorDialog } from "@/components/AddAuthorDialog";
 
 const NAV_LINKS = [
@@ -164,6 +166,19 @@ export function Sidebar() {
             {health?.scienti_data_available ? "disponible" : "ausente"}
           </span>
         </div>
+        {health?.auth_enabled && (
+          <button
+            type="button"
+            onClick={() => {
+              clearBasicAuth();
+              window.dispatchEvent(new CustomEvent("scholar-agent:auth-required"));
+            }}
+            className="mt-1 flex w-full items-center justify-center gap-1 rounded border border-input bg-background px-2 py-1 text-[10px] text-muted-foreground hover:bg-accent"
+          >
+            <LogOut className="h-3 w-3" />
+            Cerrar sesión
+          </button>
+        )}
       </div>
 
       <AddAuthorDialog open={showAdd} onOpenChange={setShowAdd} />

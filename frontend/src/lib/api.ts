@@ -32,6 +32,53 @@ export const api = axios.create({
   headers: { "Content-Type": "application/json" },
 });
 
+// ── HTTP Basic auth credentials ──────────────────────────
+// Stored in localStorage as a base64 'user:password' token. The login
+// modal writes this; every request reads it. The backend gates all
+// non-public endpoints behind the matching APP_USER / APP_PASSWORD.
+
+const AUTH_STORAGE_KEY = "scholar-agent.basic-auth";
+
+export function getBasicAuthToken(): string | null {
+  try {
+    return localStorage.getItem(AUTH_STORAGE_KEY);
+  } catch {
+    return null;
+  }
+}
+
+export function setBasicAuthCredentials(user: string, password: string): void {
+  const token = btoa(`${user}:${password}`);
+  localStorage.setItem(AUTH_STORAGE_KEY, token);
+}
+
+export function clearBasicAuth(): void {
+  localStorage.removeItem(AUTH_STORAGE_KEY);
+}
+
+api.interceptors.request.use((cfg) => {
+  const token = getBasicAuthToken();
+  if (token) {
+    cfg.headers = cfg.headers ?? {};
+    (cfg.headers as Record<string, string>).Authorization = `Basic ${token}`;
+  }
+  return cfg;
+});
+
+// On 401, drop the stored token so the login modal pops up again.
+api.interceptors.response.use(
+  (r) => r,
+  (err) => {
+    if (err?.response?.status === 401) {
+      clearBasicAuth();
+      // Bubble up so the React Query layer surfaces the error and the
+      // <RequireAuth> wrapper re-renders the login modal.
+      window.dispatchEvent(new CustomEvent("scholar-agent:auth-required"));
+    }
+    return Promise.reject(err);
+  },
+);
+
 // ── Endpoints ────────────────────────────────────────────
 
 export const fetchHealth = () => api.get<Health>("/health").then((r) => r.data);
@@ -146,11 +193,24 @@ export interface ChatEvent {
  * error, done).
  */
 export async function* streamChat(message: string, history: unknown[] = []): AsyncGenerator<ChatEvent> {
+  const headers: Record<string, string> = {
+    "Content-Type": "application/json",
+    Accept: "text/event-stream",
+  };
+  const token = getBasicAuthToken();
+  if (token) headers.Authorization = `Basic ${token}`;
+
   const response = await fetch(`${baseURL}/agent/chat`, {
     method: "POST",
-    headers: { "Content-Type": "application/json", Accept: "text/event-stream" },
+    headers,
     body: JSON.stringify({ message, history }),
   });
+
+  if (response.status === 401) {
+    clearBasicAuth();
+    window.dispatchEvent(new CustomEvent("scholar-agent:auth-required"));
+    throw new Error("Sesión expirada — vuelve a iniciar sesión");
+  }
 
   if (!response.ok || !response.body) {
     throw new Error(`Chat request failed: ${response.status} ${response.statusText}`);

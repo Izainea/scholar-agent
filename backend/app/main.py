@@ -2,10 +2,11 @@
 
 from __future__ import annotations
 
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from . import config
+from .auth import require_basic_auth
 from .routers import agent, authors, brauer, scienti
 
 app = FastAPI(
@@ -22,10 +23,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(authors.router)
-app.include_router(brauer.router)
-app.include_router(agent.router)
-app.include_router(scienti.router)
+# All routers below sit behind HTTP Basic auth. /health and the docs
+# stay open (see auth._is_public).
+_auth = [Depends(require_basic_auth)]
+
+app.include_router(authors.router, dependencies=_auth)
+app.include_router(brauer.router, dependencies=_auth)
+app.include_router(agent.router, dependencies=_auth)
+app.include_router(scienti.router, dependencies=_auth)
 
 
 @app.get("/health")
@@ -35,4 +40,5 @@ def health():
         "anthropic_configured": bool(config.ANTHROPIC_API_KEY),
         "scienti_data_available": (config.SCIENTI_DATA_DIR / "cvlac").exists(),
         "data_dir": str(config.DATA_DIR),
+        "auth_enabled": config.AUTH_ENABLED,
     }

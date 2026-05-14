@@ -6,6 +6,7 @@ export interface Health {
   anthropic_configured: boolean;
   scienti_data_available: boolean;
   data_dir: string;
+  auth_enabled?: boolean;
 }
 
 export interface Author {

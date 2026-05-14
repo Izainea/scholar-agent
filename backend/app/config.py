@@ -44,6 +44,14 @@ ANTHROPIC_API_KEY = (
 # ── Anthropic ────────────────────────────────────────────
 CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-5")
 
+# ── App auth (HTTP Basic) ────────────────────────────────
+# A single shared credential gates the API. Leave both empty to
+# disable auth (useful in local dev). In Railway, set APP_USER and
+# APP_PASSWORD as service variables.
+APP_USER = os.getenv("APP_USER", "")
+APP_PASSWORD = os.getenv("APP_PASSWORD", "")
+AUTH_ENABLED = bool(APP_USER and APP_PASSWORD)
+
 # ── OpenAlex polite pool ─────────────────────────────────
 OPENALEX_EMAIL = os.getenv("OPENALEX_EMAIL", "scholar-agent@example.org")
 
