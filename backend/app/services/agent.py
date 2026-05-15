@@ -257,6 +257,35 @@ def _sse(event: str, data: Any) -> str:
     return f"event: {event}\ndata: {payload}\n\n"
 
 
+def _serialize_block(block: Any) -> dict | None:
+    """Convert an Anthropic content block into the *wire* format that
+    can be sent back in a follow-up `messages.create` call.
+
+    The SDK's `model_dump()` includes extra fields like `parsed_output`
+    that Anthropic rejects with a 400 if echoed back. We only keep the
+    fields documented as accepted on input.
+    """
+    t = getattr(block, "type", None)
+    if t == "text":
+        text = getattr(block, "text", "")
+        if not text:
+            return None
+        return {"type": "text", "text": text}
+    if t == "tool_use":
+        return {
+            "type": "tool_use",
+            "id": block.id,
+            "name": block.name,
+            "input": block.input,
+        }
+    if t == "thinking":
+        # Skip thinking blocks — they cannot be replayed and are not
+        # required for the conversation.
+        return None
+    # Unknown block type: drop it rather than risk a 400.
+    return None
+
+
 async def stream_chat(
     user_query: str,
     history: list[dict] | None = None,
@@ -323,7 +352,10 @@ async def stream_chat(
             if not tool_uses:
                 history.append({
                     "role": "assistant",
-                    "content": [b.model_dump() for b in final_message.content],
+                    "content": [
+                        b for b in (_serialize_block(c) for c in final_message.content)
+                        if b is not None
+                    ],
                 })
                 yield _sse("final", {"history": history})
                 yield _sse("done", "")
@@ -332,7 +364,10 @@ async def stream_chat(
             # Execute tools and continue the loop
             history.append({
                 "role": "assistant",
-                "content": [b.model_dump() for b in final_message.content],
+                "content": [
+                    b for b in (_serialize_block(c) for c in final_message.content)
+                    if b is not None
+                ],
             })
             tool_results = []
             for tu in tool_uses:
