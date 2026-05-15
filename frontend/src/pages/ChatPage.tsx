@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import MarkdownIt from "markdown-it";
-import mdKatex from "@vscode/markdown-it-katex";
+import * as mdKatexNs from "@vscode/markdown-it-katex";
 import { Loader2, Send, Wrench } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -206,6 +206,21 @@ export function ChatPage() {
 // react-markdown because it is far more permissive with malformed
 // input — it does its best to render whatever it sees instead of
 // failing silently.
+// Unwrap whatever shape the bundler produced (CJS default export,
+// ESM namespace, etc.) until we hit something callable.
+function _resolveKatexPlugin(): unknown {
+  let cur: unknown = mdKatexNs as unknown;
+  for (let i = 0; i < 4; i++) {
+    if (typeof cur === "function") return cur;
+    if (cur && typeof cur === "object" && "default" in cur) {
+      cur = (cur as { default: unknown }).default;
+    } else {
+      break;
+    }
+  }
+  return cur;
+}
+
 function createRenderer(): MarkdownIt {
   const md = new MarkdownIt({
     html: false, // never trust HTML in LLM output
@@ -213,7 +228,21 @@ function createRenderer(): MarkdownIt {
     breaks: false, // GFM-style line breaks make narrow tables worse
     typographer: true,
   });
-  md.use(mdKatex, { throwOnError: false, errorColor: "#cc0000" });
+  const katexPlugin = _resolveKatexPlugin();
+  if (typeof katexPlugin === "function") {
+    try {
+      // markdown-it.use signature: use(plugin, ...args)
+      md.use(katexPlugin as never, { throwOnError: false, errorColor: "#cc0000" });
+    } catch (e) {
+      // If the plugin still throws (mismatched API), log and continue
+      // without LaTeX. The chat keeps working, just without rendered formulas.
+      // eslint-disable-next-line no-console
+      console.warn("KaTeX plugin failed to load:", e);
+    }
+  } else {
+    // eslint-disable-next-line no-console
+    console.warn("KaTeX plugin did not resolve to a callable; skipping.");
+  }
   return md;
 }
 
