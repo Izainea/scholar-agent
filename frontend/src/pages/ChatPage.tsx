@@ -71,6 +71,20 @@ export function ChatPage() {
             }
             return copy;
           });
+        } else if (ev.event === "replace") {
+          // Backend sent a sanitised version of the streamed text.
+          // Use it as the canonical content so ReactMarkdown parses cleanly.
+          const finalText = typeof ev.data === "string" ? ev.data : "";
+          if (finalText) {
+            setMessages((m) => {
+              const copy = [...m];
+              const last = copy[copy.length - 1];
+              if (last && last.role === "assistant") {
+                copy[copy.length - 1] = { ...last, content: finalText };
+              }
+              return copy;
+            });
+          }
         } else if (ev.event === "tool") {
           const { name, input } = ev.data as { name: string; input: Record<string, unknown> };
           setMessages((m) => {

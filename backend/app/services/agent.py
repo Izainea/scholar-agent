@@ -271,6 +271,100 @@ def _sse(event: str, data: Any) -> str:
     return f"event: {event}\ndata: {payload}\n\n"
 
 
+import re as _re
+
+
+# Match a Markdown table separator row that has at least two pipes
+# (e.g. `|---|---|`). Used to detect tables glued to prose.
+_TABLE_SEP_RE = _re.compile(r"\|[\s:\-]*\-[\s:\-]*\|(?:[\s:\-]*\-[\s:\-]*\|)+")
+
+
+def _sanitize_markdown(text: str) -> str:
+    """Make Markdown the LLM emitted survive the GFM parser.
+
+    Claude often writes a table as a single line and forgets to close
+    a `**` pair, which makes everything after that point render bold.
+    Two fixes:
+
+    1. When we find a separator row (`|---|---|`) on a line that also
+       carries header / data cells, rebuild the table:
+       - count the columns in the separator
+       - re-flow the surrounding `| ... |` content into rows of that
+         exact width, each on its own line
+       - put a blank line before and after the resulting table.
+    2. Drop a trailing unbalanced `**` (odd count → unclosed pair).
+    """
+    if not text:
+        return text
+
+    s = text
+
+    # 1. Detect lines that contain a separator row jammed with cells.
+    lines = s.split("\n")
+    rebuilt: list[str] = []
+    for line in lines:
+        sep_match = _TABLE_SEP_RE.search(line)
+        if not sep_match:
+            rebuilt.append(line)
+            continue
+
+        # Count separator columns by counting `|` minus 1.
+        sep = sep_match.group(0)
+        n_cols = sep.count("|") - 1
+        if n_cols < 2:
+            rebuilt.append(line)
+            continue
+
+        # Tokenise the WHOLE original line by `|`, skipping the separator
+        # tokens (they look like `---` after stripping).
+        before = line[: sep_match.start()]
+        after = line[sep_match.end():]
+        # Cells from `before` (header) and `after` (data rows), in order.
+        raw_cells: list[str] = []
+        for chunk in (before, after):
+            # Split on `|`, drop empty strings caused by leading/trailing pipes.
+            for cell in chunk.split("|"):
+                cell = cell.strip()
+                if not cell:
+                    continue
+                # Skip cells that ARE separator tokens (just dashes).
+                if _re.fullmatch(r":?-+:?", cell):
+                    continue
+                raw_cells.append(cell)
+
+        if len(raw_cells) < n_cols:
+            # Not enough cells to even form a header; bail.
+            rebuilt.append(line)
+            continue
+
+        # Build the table: first n_cols cells = header, the rest split
+        # into rows of n_cols cells. Discard a final partial row.
+        header = raw_cells[:n_cols]
+        rest = raw_cells[n_cols:]
+        n_full_rows = len(rest) // n_cols
+        body_rows = [rest[i * n_cols : (i + 1) * n_cols] for i in range(n_full_rows)]
+
+        rebuilt.append("")  # blank line before table
+        rebuilt.append("| " + " | ".join(header) + " |")
+        rebuilt.append("|" + "|".join(["---"] * n_cols) + "|")
+        for row in body_rows:
+            rebuilt.append("| " + " | ".join(row) + " |")
+        rebuilt.append("")  # blank line after table
+
+    s = "\n".join(rebuilt)
+
+    # 2. Drop a trailing unbalanced `**`. An odd count of `**` means one
+    # pair is open and would bold the rest of the document.
+    if s.count("**") % 2 == 1:
+        idx = s.rfind("**")
+        s = s[:idx] + s[idx + 2:]
+
+    # Collapse 3+ blank lines into 2.
+    s = _re.sub(r"\n{3,}", "\n\n", s)
+
+    return s
+
+
 def _serialize_block(block: Any) -> dict | None:
     """Convert an Anthropic content block into the *wire* format that
     can be sent back in a follow-up `messages.create` call.
@@ -366,6 +460,12 @@ async def stream_chat(
             tool_uses = [b for b in final_message.content if b.type == "tool_use"]
 
             if not tool_uses:
+                # Sanitise the streamed text and ship the cleaned version
+                # so the client can render Markdown without surprises.
+                full_text = "".join(full_text_parts)
+                cleaned = _sanitize_markdown(full_text)
+                if cleaned != full_text:
+                    yield _sse("replace", cleaned)
                 history.append({
                     "role": "assistant",
                     "content": [
