@@ -36,93 +36,68 @@ Grupos de investigación (GrupLAC) e investigadores (CvLAC) con sus líneas, ár
 - **omega(m) = mu(m) * val(m)**: peso de m
 - **vértice univalente**: val(m) = 1 (referencia especializada)
 
-## Reglas de formato (críticas — el render falla si las ignoras)
+## Formato de la respuesta (CRÍTICO)
 
-El frontend usa Markdown estándar (GFM). El parser es **estricto** con
-los saltos de línea: si pegas una tabla a un párrafo, o si dos bloques
-distintos comparten línea, el render produce basura (texto pegado,
-negritas sueltas, palabras hyphenadas).
+Tu respuesta se muestra como **texto plano**. NO uses Markdown, NO uses
+LaTeX. Cualquier sintaxis especial (`**bold**`, `## headings`, tablas con
+`|`, `$...$`) aparecerá como caracteres literales y se verá horrible.
 
-### Prohibiciones absolutas
+Escribe en **prosa natural** y usa saltos de línea para estructurar:
 
-- **No uses LaTeX**: nada de `$...$`, `\\delta`, `\\mathcal`, `\\dim`.
-  Usa Unicode plano: `δ_B`, `H(B)`, `ρ(B)`, `dim Λ_M`, `Γ₀`, `Γ₁`,
-  `ω(m)`, `μ(m)`, `val(m)`.
-- **No uses tablas Markdown** (`| col | col |`). Son frágiles cuando
-  el modelo olvida los saltos de línea. Usa **listas de viñetas** en
-  su lugar.
-- **No mezcles bloques en una línea**. Si un párrafo termina y empieza
-  una lista, hay que poner una línea totalmente vacía entre ellos.
+- Una línea por idea / dato cuando enumeres
+- Líneas en blanco entre secciones
+- Sangrías o guiones simples (-) si quieres bullets visuales
+- Usa Unicode plano para los símbolos: δ_B, H(B), ρ(B), dim Λ_M, Γ₀, Γ₁,
+  ω(m), μ(m), val(m)
 
-### Cómo estructurar SIEMPRE una respuesta
+### Plantilla recomendada
 
-Plantilla mínima:
+Empieza con una frase de una línea que enuncie la idea principal.
 
-```
-## Resumen — Nombre del autor
+Luego una sección con los datos crudos, una métrica por línea:
 
-Una frase introductoria de una línea con la idea principal.
+  δ_B = 4226
+  H(B) = 10.65 bits
+  ρ(B) = 0.98
+  dim Λ_M = 10851
+  Papers (Γ₁): 162
+  Referencias (Γ₀): 1820
+  Univalentes: 1423 (78%)
+  Loops: 1423
 
-**Métricas:**
-
-- δ_B = 4226
-- H(B) = 10.65 bits
-- ρ(B) = 0.98
-- dim Λ_M = 10851
-- Papers (Γ₁): 162
-- Referencias (Γ₀): 1820
-- Univalentes: 1423 (78%)
-- Loops: 1423
-
-**Interpretación:** una o dos frases que digan qué significan los
-números (alto/bajo, concentrado/disperso, comparable a X).
-```
-
-Cada `##`, párrafo, `**Métricas:**`, lista y `**Interpretación:**`
-DEBE ir separado del siguiente bloque por **una línea totalmente
-vacía**.
-
-### Énfasis
-
-- `**negrita**` rodeada de espacios. **Mal:** `Reiten**8.12 bits**`.
-  **Bien:** `Reiten: **8.12 bits**`.
-- Nunca empiezas una línea con `**` pegado a número o letra de la
-  línea anterior.
+Cierra con una interpretación breve (1-2 frases): qué significan los
+números, si son altos/bajos, comparables a qué.
 
 ### Reglas operacionales
 
-- **Brevedad**: máximo 2 párrafos cortos + 1 lista. Nada de prosa
-  larga.
-- **Idioma**: responde en el mismo idioma de la pregunta.
-- **Herramientas primero**: SIEMPRE llama las herramientas antes de
-  citar números. Nunca inventes.
-- **Interpreta**: después de los números, una o dos frases que
-  expliquen qué significan en términos bibliométricos.
+- Brevedad: 2-3 párrafos cortos. Nada de prosa larga.
+- Idioma: el mismo que la pregunta.
+- Llama herramientas antes de citar números. Nunca inventes.
+- Interpreta los datos, no los repitas.
 
 ### Ejemplo de respuesta correcta para "Resume Ringel"
 
-## Resumen — Claus Michael Ringel
+Resumen — Claus Michael Ringel
 
 Ringel muestra una de las obras más voluminosas y diversificadas del
-ecosistema: 162 papers que citan a 1820 referencias distintas, con
-una entropía de Brauer cerca del máximo teórico.
+ecosistema: 162 papers citan a 1820 referencias distintas, con entropía
+de Brauer cerca del máximo teórico.
 
-**Métricas:**
+Métricas:
+  δ_B        = 4226
+  H(B)       = 10.65 bits
+  ρ(B)       = 0.98
+  dim Λ_M    = 10851
+  Papers     = 162
+  Refs       = 1820
+  Univ.      = 1423 (78%)
+  Loops      = 1423
 
-- δ_B = 4226
-- H(B) = 10.65 bits
-- ρ(B) = 0.98
-- dim Λ_M = 10851
-- Papers (Γ₁): 162
-- Referencias (Γ₀): 1820
-- Univalentes: 1423 (78%)
-- Loops: 1423
-
-**Interpretación:** ρ ≈ 1 indica distribución de pesos casi uniforme,
-sin dependencia de pocas fuentes; el 78% univalentes confirma
-amplitud temática. El núcleo multivalente (397 refs) aporta δ_B^core
-= 1380, concentrado en sus contribuciones fundacionales (species-K,
-álgebras mansas, formas cuadráticas integrales).
+Interpretación: ρ ≈ 1 indica distribución de pesos casi uniforme, sin
+dependencia de pocas fuentes. El 78% univalentes confirma amplitud
+temática. El núcleo multivalente (397 refs) aporta δ_B^core = 1380,
+concentrado en sus contribuciones fundacionales (species-K, álgebras
+mansas, formas cuadráticas integrales).
 """
 
 
@@ -280,49 +255,6 @@ def _sse(event: str, data: Any) -> str:
     return f"event: {event}\ndata: {payload}\n\n"
 
 
-import re as _re
-
-
-def _normalise_markdown(text: str) -> str:
-    """Make sure the markdown we send to the client parses cleanly.
-
-    Claude occasionally forgets blank lines between blocks, which makes
-    ReactMarkdown render the headings glued to the next paragraph or
-    treat tables as prose. This pass:
-
-    1. Adds a blank line after every heading.
-    2. Adds a blank line before/after bulleted lists.
-    3. Inserts a space between `**bold**` and the next alphanumeric.
-    4. Forces tables to start on their own line.
-    """
-    if not text:
-        return text
-
-    s = text
-
-    # 1) Heading on its own line: "## Title\nbody" or "## Titlebody" → fix.
-    s = _re.sub(r"(^|\n)(#{1,6}\s+[^\n]+)", lambda m: f"{m.group(1)}\n{m.group(2)}", s)
-    # Ensure the heading is followed by a blank line.
-    s = _re.sub(r"(^|\n)(#{1,6}\s+[^\n]+)(\n)(?!\n)", r"\1\2\n\n", s)
-
-    # 2) A bullet/numbered item glued to the previous line.
-    s = _re.sub(r"([^\n])\n(- |\* |\d+\. )", r"\1\n\n\2", s)
-    # Blank line after the last item of a list when prose follows.
-    s = _re.sub(r"(\n(?:- |\* |\d+\. )[^\n]+)\n([^\s\-*\d])", r"\1\n\n\2", s)
-
-    # 3) `**bold**Word` → `**bold** Word` (only when bold immediately
-    # ends and the next char is letter/number).
-    s = _re.sub(r"\*\*([^*\n]+?)\*\*(?=[0-9A-Za-zÁÉÍÓÚáéíóúÑñ])", r"**\1** ", s)
-
-    # 4) A pipe-table that starts inline — push to a new paragraph.
-    s = _re.sub(r"([^\n|])\s+(\|[^\n]+\|)", r"\1\n\n\2", s)
-
-    # Collapse runs of 3+ newlines to exactly 2.
-    s = _re.sub(r"\n{3,}", "\n\n", s)
-
-    return s
-
-
 def _serialize_block(block: Any) -> dict | None:
     """Convert an Anthropic content block into the *wire* format that
     can be sent back in a follow-up `messages.create` call.
@@ -416,13 +348,6 @@ async def stream_chat(
             tool_uses = [b for b in final_message.content if b.type == "tool_use"]
 
             if not tool_uses:
-                # Final, complete text → re-send the cleaned-up Markdown
-                # so the client can replace its streaming buffer with a
-                # version that ReactMarkdown can parse correctly.
-                full_text = "".join(full_text_parts)
-                cleaned = _normalise_markdown(full_text)
-                if cleaned != full_text:
-                    yield _sse("replace", cleaned)
                 history.append({
                     "role": "assistant",
                     "content": [

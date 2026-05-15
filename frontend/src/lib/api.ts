@@ -180,7 +180,6 @@ export const fetchScientiBrauer = (limit = 80, minAuthors = 2) =>
 export type ChatEventName =
   | "meta"
   | "delta"
-  | "replace"
   | "tool"
   | "result"
   | "final"

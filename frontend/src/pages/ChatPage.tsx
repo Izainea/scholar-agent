@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import { Loader2, Send, Wrench } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -66,19 +64,6 @@ export function ChatPage() {
             const last = copy[copy.length - 1];
             if (last && last.role === "assistant") {
               copy[copy.length - 1] = { ...last, content: last.content + chunk };
-            }
-            return copy;
-          });
-        } else if (ev.event === "replace") {
-          // Backend sent a cleaned-up Markdown version of the streamed
-          // text. Use it as the canonical content for this turn so the
-          // final render parses cleanly.
-          const finalText = typeof ev.data === "string" ? ev.data : "";
-          setMessages((m) => {
-            const copy = [...m];
-            const last = copy[copy.length - 1];
-            if (last && last.role === "assistant" && finalText) {
-              copy[copy.length - 1] = { ...last, content: finalText };
             }
             return copy;
           });
@@ -235,41 +220,24 @@ function MessageBubble({ message }: { message: Message }) {
             : "bg-card",
         )}
       >
-        <CardContent
-          className={cn(
-            "px-4 py-3",
-            message.role === "user"
-              ? "prose prose-sm prose-invert max-w-none"
-              : "prose prose-sm max-w-none",
-            // Tighten the default spacing a bit so tables and lists feel
-            // at home inside a chat bubble.
-            "prose-headings:mb-2 prose-headings:mt-3 prose-headings:font-semibold",
-            "prose-p:my-2 prose-li:my-0.5",
-            "prose-table:my-2 prose-th:bg-muted prose-th:px-2 prose-th:py-1 prose-td:px-2 prose-td:py-1",
-            "prose-code:rounded prose-code:bg-muted prose-code:px-1 prose-code:py-0.5 prose-code:text-[0.85em] prose-code:before:content-none prose-code:after:content-none",
-          )}
-        >
+        <CardContent className="px-4 py-3">
           {message.content === "" && message.pending ? (
             <div className="flex items-center gap-2 text-xs opacity-70">
               <Loader2 className="h-3 w-3 animate-spin" />
               Pensando…
             </div>
-          ) : message.pending ? (
-            // While streaming, show the raw text in a monospace block.
-            // Parsing markdown on every token produces visual artefacts
-            // (broken tables, dangling **, hyphenated words) because the
-            // parser sees incomplete syntax. We only switch to the rich
-            // markdown render once the stream closes.
-            <div className="space-y-1">
-              <pre className="whitespace-pre-wrap break-words font-mono text-[12.5px] leading-snug">
-                {message.content}
-                <span className="ml-0.5 inline-block h-3 w-1.5 translate-y-0.5 animate-pulse bg-current opacity-60" />
-              </pre>
-            </div>
           ) : (
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {message.content || "*(sin respuesta)*"}
-            </ReactMarkdown>
+            // Plain-text rendering with preserved line breaks. We do NOT
+            // parse Markdown — every attempt to do so collided with the
+            // LLM's tendency to glue blocks together and produced visual
+            // artefacts (broken tables, hyphenated words, dangling **).
+            // Plain text is boring but predictable.
+            <div className="whitespace-pre-wrap break-words text-sm leading-relaxed">
+              {message.content || "(sin respuesta)"}
+              {message.pending && (
+                <span className="ml-0.5 inline-block h-3 w-1.5 translate-y-0.5 animate-pulse bg-current opacity-60" />
+              )}
+            </div>
           )}
         </CardContent>
       </Card>
