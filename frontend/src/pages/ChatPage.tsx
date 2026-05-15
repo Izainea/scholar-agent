@@ -1,8 +1,6 @@
-import { useEffect, useRef, useState } from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import remarkMath from "remark-math";
-import rehypeKatex from "rehype-katex";
+import { useEffect, useMemo, useRef, useState } from "react";
+import MarkdownIt from "markdown-it";
+import mdKatex from "@vscode/markdown-it-katex";
 import { Loader2, Send, Wrench } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -203,7 +201,39 @@ export function ChatPage() {
   );
 }
 
+// Lazy-initialised markdown-it instance with KaTeX support. We use
+// markdown-it (the engine Typora and many web editors use) instead of
+// react-markdown because it is far more permissive with malformed
+// input — it does its best to render whatever it sees instead of
+// failing silently.
+function createRenderer(): MarkdownIt {
+  const md = new MarkdownIt({
+    html: false, // never trust HTML in LLM output
+    linkify: true,
+    breaks: false, // GFM-style line breaks make narrow tables worse
+    typographer: true,
+  });
+  md.use(mdKatex, { throwOnError: false, errorColor: "#cc0000" });
+  return md;
+}
+
 function MessageBubble({ message }: { message: Message }) {
+  const md = useMemo(createRenderer, []);
+  const rendered = useMemo(() => {
+    if (message.pending || !message.content) return "";
+    try {
+      return md.render(message.content);
+    } catch {
+      // markdown-it almost never throws, but if it does, fall back
+      // to escaped plain text rather than losing the message.
+      const safe = message.content
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      return `<pre>${safe}</pre>`;
+    }
+  }, [md, message.content, message.pending]);
+
   return (
     <div
       className={cn(
@@ -268,12 +298,14 @@ function MessageBubble({ message }: { message: Message }) {
               <span className="ml-0.5 inline-block h-3 w-1.5 translate-y-0.5 animate-pulse bg-current opacity-60" />
             </div>
           ) : (
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm, remarkMath]}
-              rehypePlugins={[rehypeKatex]}
-            >
-              {message.content || "*(sin respuesta)*"}
-            </ReactMarkdown>
+            <div
+              className="text-sm leading-relaxed"
+              // markdown-it sanitises HTML by default (we pass html:false);
+              // the rendered string is therefore safe to inject.
+              dangerouslySetInnerHTML={{
+                __html: rendered || "<em>(sin respuesta)</em>",
+              }}
+            />
           )}
         </CardContent>
       </Card>
