@@ -1,4 +1,8 @@
 import { useEffect, useRef, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 import { Loader2, Send, Wrench } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -220,24 +224,42 @@ function MessageBubble({ message }: { message: Message }) {
             : "bg-card",
         )}
       >
-        <CardContent className="px-4 py-3">
+        <CardContent
+          className={cn(
+            "px-4 py-3",
+            // Tight prose tuned for chat bubbles. Reuses @tailwindcss/typography.
+            !message.pending && message.role === "assistant" && [
+              "prose prose-sm max-w-none",
+              "prose-headings:mt-3 prose-headings:mb-1 prose-headings:font-semibold",
+              "prose-p:my-2 prose-li:my-0.5",
+              "prose-table:my-2 prose-table:text-xs",
+              "prose-th:bg-muted prose-th:px-2 prose-th:py-1 prose-th:text-left",
+              "prose-td:px-2 prose-td:py-1 prose-td:align-top",
+              "prose-code:rounded prose-code:bg-muted prose-code:px-1 prose-code:py-0.5 prose-code:text-[0.85em] prose-code:before:content-none prose-code:after:content-none",
+              "prose-hr:my-3",
+            ],
+          )}
+        >
           {message.content === "" && message.pending ? (
             <div className="flex items-center gap-2 text-xs opacity-70">
               <Loader2 className="h-3 w-3 animate-spin" />
               Pensando…
             </div>
-          ) : (
-            // Plain-text rendering with preserved line breaks. We do NOT
-            // parse Markdown — every attempt to do so collided with the
-            // LLM's tendency to glue blocks together and produced visual
-            // artefacts (broken tables, hyphenated words, dangling **).
-            // Plain text is boring but predictable.
+          ) : message.pending ? (
+            // While the stream is open we show plain text only. Markdown
+            // is parsed once, after the stream closes — that way an
+            // half-written table doesn't render as garbage mid-flight.
             <div className="whitespace-pre-wrap break-words text-sm leading-relaxed">
-              {message.content || "(sin respuesta)"}
-              {message.pending && (
-                <span className="ml-0.5 inline-block h-3 w-1.5 translate-y-0.5 animate-pulse bg-current opacity-60" />
-              )}
+              {message.content}
+              <span className="ml-0.5 inline-block h-3 w-1.5 translate-y-0.5 animate-pulse bg-current opacity-60" />
             </div>
+          ) : (
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm, remarkMath]}
+              rehypePlugins={[rehypeKatex]}
+            >
+              {message.content || "*(sin respuesta)*"}
+            </ReactMarkdown>
           )}
         </CardContent>
       </Card>
