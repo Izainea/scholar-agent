@@ -1,9 +1,9 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
   BookMarked,
+  BookOpen,
   GitCompareArrows,
   LogOut,
-  MessageSquare,
   Network,
   Plus,
   Sparkles,
@@ -21,7 +21,7 @@ import { clearBasicAuth } from "@/lib/api";
 import { AddAuthorDialog } from "@/components/AddAuthorDialog";
 
 const NAV_LINKS = [
-  { to: "/chat", label: "Chat", icon: MessageSquare },
+  { to: "/docs", label: "Inicio", icon: BookOpen },
   { to: "/brauer", label: "Brauer", icon: BookMarked },
   { to: "/compare", label: "Comparar", icon: GitCompareArrows },
   { to: "/scienti", label: "Scienti", icon: Network },

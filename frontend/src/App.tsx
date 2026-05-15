@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { RequireAuth } from "@/components/RequireAuth";
 import { Sidebar } from "@/components/Sidebar";
-import { ChatPage } from "@/pages/ChatPage";
+import { DocsPage } from "@/pages/DocsPage";
 import { BrauerPage } from "@/pages/BrauerPage";
 import { ComparePage } from "@/pages/ComparePage";
 import { ScientiPage } from "@/pages/ScientiPage";
@@ -13,13 +13,15 @@ function App() {
         <Sidebar />
         <main className="flex-1 overflow-y-auto">
           <Routes>
-            <Route path="/" element={<Navigate to="/chat" replace />} />
-            <Route path="/chat" element={<ChatPage />} />
+            <Route path="/" element={<Navigate to="/docs" replace />} />
+            <Route path="/docs" element={<DocsPage />} />
+            {/* Legacy /chat URL → redirect to /docs. */}
+            <Route path="/chat" element={<Navigate to="/docs" replace />} />
             <Route path="/brauer" element={<BrauerPage />} />
             <Route path="/brauer/:authorKey" element={<BrauerPage />} />
             <Route path="/compare" element={<ComparePage />} />
             <Route path="/scienti" element={<ScientiPage />} />
-            <Route path="*" element={<Navigate to="/chat" replace />} />
+            <Route path="*" element={<Navigate to="/docs" replace />} />
           </Routes>
         </main>
       </div>
