@@ -316,7 +316,9 @@ async def stream_chat(
       - `done`     terminal sentinel
     """
     history = list(history or [])
-    system = SYSTEM_PROMPT.format(authors_info=_build_authors_info())
+    # Use plain .replace() (not .format()) so curly braces in the prompt's
+    # LaTeX examples (e.g. \\mathcal{B}) aren't interpreted as placeholders.
+    system = SYSTEM_PROMPT.replace("{authors_info}", _build_authors_info())
     tools = _build_tools()
 
     history.append({"role": "user", "content": user_query})
