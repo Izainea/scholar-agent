@@ -241,6 +241,18 @@ function MessageBubble({ message }: { message: Message }) {
               <Loader2 className="h-3 w-3 animate-spin" />
               Pensando…
             </div>
+          ) : message.pending ? (
+            // While streaming, show the raw text in a monospace block.
+            // Parsing markdown on every token produces visual artefacts
+            // (broken tables, dangling **, hyphenated words) because the
+            // parser sees incomplete syntax. We only switch to the rich
+            // markdown render once the stream closes.
+            <div className="space-y-1">
+              <pre className="whitespace-pre-wrap break-words font-mono text-[12.5px] leading-snug">
+                {message.content}
+                <span className="ml-0.5 inline-block h-3 w-1.5 translate-y-0.5 animate-pulse bg-current opacity-60" />
+              </pre>
+            </div>
           ) : (
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
               {message.content || "*(sin respuesta)*"}
