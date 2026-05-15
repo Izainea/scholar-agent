@@ -217,11 +217,21 @@ function createRenderer(): MarkdownIt {
   const katexPlugin = _resolveKatexPlugin();
   if (typeof katexPlugin === "function") {
     try {
-      // markdown-it.use signature: use(plugin, ...args)
-      md.use(katexPlugin as never, { throwOnError: false, errorColor: "#cc0000" });
+      md.use(katexPlugin as never, {
+        // Stricter parsing: only $...$ and $$...$$ act as math delimiters.
+        // Disable "bare" markup (\\begin{equation}...) and HTML-embedded
+        // math, which is what was causing arbitrary text to be reinterpreted
+        // as LaTeX macros (e.g. \tmspace, 3mu) when the LLM happened to
+        // include sequences that looked like KaTeX internals.
+        throwOnError: false,
+        errorColor: "#cc0000",
+        enableBareBlocks: false,
+        enableMathBlockInHtml: false,
+        enableMathInlineInHtml: false,
+        enableFencedBlocks: false,
+        strict: false, // don't bail on unknown LaTeX commands
+      });
     } catch (e) {
-      // If the plugin still throws (mismatched API), log and continue
-      // without LaTeX. The chat keeps working, just without rendered formulas.
       // eslint-disable-next-line no-console
       console.warn("KaTeX plugin failed to load:", e);
     }
