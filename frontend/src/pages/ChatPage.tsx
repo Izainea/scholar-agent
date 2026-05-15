@@ -11,32 +11,6 @@ import { useAuthors } from "@/lib/hooks";
 import { streamChat } from "@/lib/api";
 import { cn } from "@/lib/utils";
 
-/**
- * Insert missing blank lines so ReactMarkdown can parse blocks that
- * the LLM jammed together. This is a forgiving post-processor that
- * runs once on the final stream output (not on each token):
- *
- *  - `## Title<text>` → blank line after the heading
- *  - `text|...|...` (table row glued to prose) → blank line before the row
- *  - `**bold**word`  → space between the bold and the next word
- */
-function normaliseMarkdown(raw: string): string {
-  let s = raw;
-  // Force a blank line after any heading marker that has glued content.
-  s = s.replace(/(^|\n)(#{1,6} [^\n]+?)([^\n#])/g, (_m, p1, head, next) =>
-    `${p1}${head}\n\n${next}`,
-  );
-  // Closing ** immediately followed by alphanumeric → add a space.
-  s = s.replace(/\*\*([^\s*][^*]*?)\*\*([0-9A-Za-zÁÉÍÓÚáéíóúÑñ])/g, "**$1** $2");
-  // A `|` that starts a "table row" inline with text → break the line.
-  s = s.replace(/([^\n|])\s*\|(\s*[-\w].*?\|)/g, (_m, before, rest) =>
-    `${before}\n\n|${rest}`,
-  );
-  // Two consecutive `**foo**` (bold) should be separated by a space.
-  s = s.replace(/\*\*([^*]+)\*\*\*\*([^*]+)\*\*/g, "**$1** **$2**");
-  return s;
-}
-
 interface ToolCall {
   name: string;
   input: Record<string, unknown>;
@@ -92,6 +66,19 @@ export function ChatPage() {
             const last = copy[copy.length - 1];
             if (last && last.role === "assistant") {
               copy[copy.length - 1] = { ...last, content: last.content + chunk };
+            }
+            return copy;
+          });
+        } else if (ev.event === "replace") {
+          // Backend sent a cleaned-up Markdown version of the streamed
+          // text. Use it as the canonical content for this turn so the
+          // final render parses cleanly.
+          const finalText = typeof ev.data === "string" ? ev.data : "";
+          setMessages((m) => {
+            const copy = [...m];
+            const last = copy[copy.length - 1];
+            if (last && last.role === "assistant" && finalText) {
+              copy[copy.length - 1] = { ...last, content: finalText };
             }
             return copy;
           });
@@ -281,9 +268,7 @@ function MessageBubble({ message }: { message: Message }) {
             </div>
           ) : (
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {message.content
-                ? normaliseMarkdown(message.content)
-                : "*(sin respuesta)*"}
+              {message.content || "*(sin respuesta)*"}
             </ReactMarkdown>
           )}
         </CardContent>

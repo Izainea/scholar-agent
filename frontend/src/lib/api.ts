@@ -177,7 +177,15 @@ export const fetchScientiBrauer = (limit = 80, minAuthors = 2) =>
 
 // ── Chat (SSE) ───────────────────────────────────────────
 
-export type ChatEventName = "meta" | "delta" | "tool" | "result" | "final" | "error" | "done";
+export type ChatEventName =
+  | "meta"
+  | "delta"
+  | "replace"
+  | "tool"
+  | "result"
+  | "final"
+  | "error"
+  | "done";
 
 export interface ChatEvent {
   event: ChatEventName;

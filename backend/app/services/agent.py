@@ -280,6 +280,49 @@ def _sse(event: str, data: Any) -> str:
     return f"event: {event}\ndata: {payload}\n\n"
 
 
+import re as _re
+
+
+def _normalise_markdown(text: str) -> str:
+    """Make sure the markdown we send to the client parses cleanly.
+
+    Claude occasionally forgets blank lines between blocks, which makes
+    ReactMarkdown render the headings glued to the next paragraph or
+    treat tables as prose. This pass:
+
+    1. Adds a blank line after every heading.
+    2. Adds a blank line before/after bulleted lists.
+    3. Inserts a space between `**bold**` and the next alphanumeric.
+    4. Forces tables to start on their own line.
+    """
+    if not text:
+        return text
+
+    s = text
+
+    # 1) Heading on its own line: "## Title\nbody" or "## Titlebody" → fix.
+    s = _re.sub(r"(^|\n)(#{1,6}\s+[^\n]+)", lambda m: f"{m.group(1)}\n{m.group(2)}", s)
+    # Ensure the heading is followed by a blank line.
+    s = _re.sub(r"(^|\n)(#{1,6}\s+[^\n]+)(\n)(?!\n)", r"\1\2\n\n", s)
+
+    # 2) A bullet/numbered item glued to the previous line.
+    s = _re.sub(r"([^\n])\n(- |\* |\d+\. )", r"\1\n\n\2", s)
+    # Blank line after the last item of a list when prose follows.
+    s = _re.sub(r"(\n(?:- |\* |\d+\. )[^\n]+)\n([^\s\-*\d])", r"\1\n\n\2", s)
+
+    # 3) `**bold**Word` → `**bold** Word` (only when bold immediately
+    # ends and the next char is letter/number).
+    s = _re.sub(r"\*\*([^*\n]+?)\*\*(?=[0-9A-Za-zÁÉÍÓÚáéíóúÑñ])", r"**\1** ", s)
+
+    # 4) A pipe-table that starts inline — push to a new paragraph.
+    s = _re.sub(r"([^\n|])\s+(\|[^\n]+\|)", r"\1\n\n\2", s)
+
+    # Collapse runs of 3+ newlines to exactly 2.
+    s = _re.sub(r"\n{3,}", "\n\n", s)
+
+    return s
+
+
 def _serialize_block(block: Any) -> dict | None:
     """Convert an Anthropic content block into the *wire* format that
     can be sent back in a follow-up `messages.create` call.
@@ -373,6 +416,13 @@ async def stream_chat(
             tool_uses = [b for b in final_message.content if b.type == "tool_use"]
 
             if not tool_uses:
+                # Final, complete text → re-send the cleaned-up Markdown
+                # so the client can replace its streaming buffer with a
+                # version that ReactMarkdown can parse correctly.
+                full_text = "".join(full_text_parts)
+                cleaned = _normalise_markdown(full_text)
+                if cleaned != full_text:
+                    yield _sse("replace", cleaned)
                 history.append({
                     "role": "assistant",
                     "content": [
