@@ -45,24 +45,33 @@ export function WeightTreemap({ data, loading, height = 520 }: Props) {
     };
     (it.class === "univalent" ? univ : mult).push(node);
   }
-  if (data.rest.count > 0) {
-    univ.push({
-      name: `Otras (${data.rest.count} refs)`,
-      size: data.rest.omega_sum,
-      className: "univalent",
-    });
-  }
+  // Only show the explicit top-N items; the long-tail bucket
+  // ('Otras') dominates the canvas and hides the actual variation,
+  // so we omit it. The header still reports the aggregate weight
+  // and reference count of the tail for context.
 
   const treeData: TreeNode[] = [
     { name: "univalentes", size: 0, children: univ },
     { name: "multivalentes", size: 0, children: mult },
   ];
 
+  const restPct = data.delta_B
+    ? Math.round((100 * data.rest.omega_sum) / data.delta_B)
+    : 0;
+
   return (
     <div>
       <div className="mb-2 text-xs text-muted-foreground">
         δ_B = {data.delta_B} · H(B) = {data.entropy_H_B} bits · top{" "}
         {data.items.length} pesos mostrados
+        {data.rest.count > 0 && (
+          <>
+            {" · "}
+            <span title={`Suma de pesos de las ${data.rest.count} referencias fuera del top: ${data.rest.omega_sum} (${restPct}% de δ_B)`}>
+              cola de {data.rest.count} refs (≈{restPct}% δ_B) no graficada
+            </span>
+          </>
+        )}
       </div>
       <ResponsiveContainer width="100%" height={height}>
         <Treemap

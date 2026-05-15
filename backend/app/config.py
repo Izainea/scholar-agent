@@ -35,15 +35,6 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 # ── Load .env from project root if present ───────────────
 load_dotenv(PROJECT_ROOT / ".env")
 
-ANTHROPIC_API_KEY = (
-    os.getenv("ANTHROPIC_API_KEY")
-    or os.getenv("claude_api")
-    or ""
-)
-
-# ── Anthropic ────────────────────────────────────────────
-CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-5")
-
 # ── App auth (HTTP Basic) ────────────────────────────────
 # Multi-user shared credentials gate the API. Two formats supported:
 #

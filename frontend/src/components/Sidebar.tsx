@@ -155,12 +155,6 @@ export function Sidebar() {
       {/* Footer status */}
       <div className="border-t px-3 py-2 text-[10px] text-muted-foreground space-y-0.5">
         <div className="flex items-center justify-between">
-          <span>Anthropic</span>
-          <span className={health?.anthropic_configured ? "text-green-600" : "text-amber-600"}>
-            {health?.anthropic_configured ? "configurada" : "sin clave"}
-          </span>
-        </div>
-        <div className="flex items-center justify-between">
           <span>Scienti data</span>
           <span className={health?.scienti_data_available ? "text-green-600" : "text-amber-600"}>
             {health?.scienti_data_available ? "disponible" : "ausente"}

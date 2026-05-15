@@ -22,7 +22,6 @@ WORKDIR /app
 RUN pip install --no-cache-dir \
         "fastapi>=0.115" \
         "uvicorn[standard]>=0.32" \
-        "anthropic>=0.86" \
         "pyalex>=0.21" \
         "python-dotenv>=1.0" \
         "httpx>=0.27" \
